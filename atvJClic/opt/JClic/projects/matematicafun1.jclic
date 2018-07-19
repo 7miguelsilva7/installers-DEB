@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="Sem_nome" version="0.1.3" type="library">
+ <settings>
+  <title>Fundamental I - Matemática</title>
+  <revision description="created" date="10/31/13" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Atividades Educativas</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Atividades Educativas</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x97B8C7">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x97B8C7" border="true" />
+   </settings>
+   <menuElement icon="/opt/JClic/icons/jclic.png" path="disciplinasfun1.jclic" />
+   <menuElement caption="Escrever Números" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_escrevernumeros.jclic.zip" />
+   <menuElement caption="Formas Geométricas I" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricasPre.jclic.zip" />
+   <menuElement caption="Formas Geométricas II" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricas.jclic.zip" />
+   <menuElement caption="Frações" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematicafracoes.jclic.zip" />
+   <menuElement caption="Igual | Diferente" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_igualdiferente.jclic.zip" />
+   <menuElement caption="Maior | Igual | Menor" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_menorigualmaior.jclic.zip" />
+   <menuElement caption="Medida de Capacidade" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_medida_de_capacidade.jclic.zip" />
+   <menuElement caption="Números" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/Matematica_Numeros.jclic.zip" />
+   <menuElement caption="Ordenar Números" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_OrdenarNum.jclic.zip" />
+   <menuElement caption="Par | Impar" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/parimpar.jclic.zip" />
+   <menuElement caption="Poliedros" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_poliedroscorposredondos.jclic.zip" />
+   <menuElement caption="Planif. de Sólidos Geom." icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/planificacao_de_solidos_geometricos.jclic.zip" />
+   <menuElement caption="Sequência" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_sequencia.jclic.zip" description="" />
+   <menuElement caption="Somando Frutas" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_somandofrutas.jclic.zip" />
+   <menuElement caption="Somando I" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_somando1.jclic.zip" />
+   <menuElement caption="Somando II" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_somando2.jclic.zip" />
+   <menuElement caption="Tabuada" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_tabuada.jclic.zip" />
+   <menuElement caption="U | D | C" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_udc.jclic.zip" />
+   <menuElement caption="Unidade de Medida" icon="/opt/JClic/icons/matematica24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_unidade_de_medida.jclic.zip" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="disciplinas.jclic" file="disciplinas.jclic" />
+  <media name="/opt/atvjclic/icons/portugues32.png" file="/opt/atvjclic/icons/portugues32.png" />
+  <media name="/opt/JClic/icons/jclic.png" file="/opt/JClic/icons/jclic.png" />
+  <media name="/opt/JClic/icons/matematica24.png" file="/opt/JClic/icons/matematica24.png" />
+  <media name="/opt/JClic/icons/portugues24.png" file="/opt/JClic/icons/portugues24.png" />
+  <media name="jclic.png" file="jclic.png" />
+  <media name="portugues24.png" file="portugues24.png" />
+  <media name="portugues32.png" file="portugues32.png" />
+  <media name="voltarmenu.png" file="voltarmenu.png" />
+ </mediaBag>
+</JClicProject>
+

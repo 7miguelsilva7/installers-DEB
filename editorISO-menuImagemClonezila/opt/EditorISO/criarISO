@@ -1,0 +1,13 @@
+#!/bin/bash 
+DATA=`date +%d-%m-%Y`
+
+cd ~/EditorISO/ISO
+sudo mkisofs -r -V "Ubuntu-Live-Custom" -b isolinux/isolinux.bin -c isolinux/boot.cat -cache-inodes -J -l -no-emul-boot -boot-load-size 4 -boot-info-table -o ~/EditorISO-$DATA.iso .
+
+umount -l /tmp/ISO
+rm -r /tmp/ISO
+umount -l ~/EditorISO/ISO
+rm -r ~/EditorISO/
+
+zenity --info --text="ISO Editada com sucesso, sua iso foi salva na pasta pessoal."
+

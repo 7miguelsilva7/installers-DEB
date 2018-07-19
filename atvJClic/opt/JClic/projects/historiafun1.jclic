@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="Sem_nome" version="0.1.3" type="library">
+ <settings>
+  <title>Fundamental I - História</title>
+  <revision description="created" date="10/31/13" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Atividades Educativas</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Atividades Educativas</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x97B8C7">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x97B8C7" border="true" />
+   </settings>
+   <menuElement icon="/opt/JClic/icons/jclic.png" path="disciplinasfun1.jclic" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="disciplinas.jclic" file="disciplinas.jclic" />
+  <media name="/opt/atvjclic/icons/portugues32.png" file="/opt/atvjclic/icons/portugues32.png" />
+  <media name="/opt/JClic/icons/jclic.png" file="/opt/JClic/icons/jclic.png" />
+  <media name="jclic.png" file="jclic.png" />
+  <media name="portugues24.png" file="portugues24.png" />
+  <media name="portugues32.png" file="portugues32.png" />
+  <media name="voltarmenu.png" file="voltarmenu.png" />
+ </mediaBag>
+</JClicProject>
+

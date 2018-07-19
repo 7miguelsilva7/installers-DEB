@@ -1,0 +1,16 @@
+#!/bin/bash
+if [ "$(id -u)" != "0" ]; then
+echo
+echo "Voce deve executar este script como root!"
+echo
+
+else
+
+cp -rv /tmp/dock-on.sh.desktop ~/.config/autostart/
+sudo chmod -R 777 /opt/alternatePanel/
+sudo chmod -R 777 /opt/img/
+gconftool-2 --set "/desktop/gnome/session/required_components/panel" --type string "removePanelGnome";
+
+#xterm -e sudo /etc/init.d/gdm restart
+
+fi

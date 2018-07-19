@@ -1,0 +1,27 @@
+#!/bin/bash
+
+mkdir ~/Distro	
+mkdir ~/Distro/extract-cd
+rsync --exclude=/casper/filesystem.squashfs -a /tmp/livecd/ ~/Distro/extract-cd
+
+mkdir ~/Distro/squashfs
+mkdir ~/Distro/custom
+sudo modprobe squashfs
+sudo mount -t squashfs -o loop /tmp/livecd/casper/filesystem.squashfs ~/Distro/squashfs/
+sudo cp -a ~/Distro/squashfs/* ~/Distro/custom 
+
+sudo cp /etc/resolv.conf /etc/hosts ~/Distro/custom/etc/
+sudo cp /opt/customizando/finalizar /opt/customizando/script ~/Distro/custom/
+	
+	clear
+ 	echo -e "\e[101m|  EXECUTE OS SEGUINTEs COMANDOS:   |\e[0m"
+	
+	echo -e "\e[105m  ./script   \e[0m"
+
+sudo chroot ~/Distro/custom
+
+
+
+
+
+

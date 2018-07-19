@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="Sem_nome" version="0.1.3" type="library">
+ <settings>
+  <title>Inicio</title>
+  <revision description="created" date="10/31/13" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Atividades Educativas</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Atividades Educativas</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x97B8C7">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x97B8C7" border="true" />
+   </settings>
+   <menuElement caption="Ensino Fundamental I" icon="/home/user/JClic/icons/estudantefun.png" path="disciplinasfun1.jclic" />
+   <menuElement caption="Ensino Fundamental II" icon="/home/user/JClic/icons/estudantefun2.png" path="disciplinasfun2.jclic" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="/home/user/atvjclic/icons/estudantefun.png" file="/home/user/atvjclic/icons/estudantefun.png" />
+  <media name="/home/user/atvjclic/icons/estudantefun2.png" file="/home/user/atvjclic/icons/estudantefun2.png" />
+  <media name="/home/user/atvjclic/icons/jclic.png" file="/home/user/atvjclic/icons/jclic.png" />
+  <media name="/home/user/atvjclic/icons/portugues32.png" file="/home/user/atvjclic/icons/portugues32.png" />
+  <media name="/home/user/Download/escola-icon.png" file="/home/user/Download/escola-icon.png" />
+  <media name="/home/user/JClic/icons/estudantefun.png" file="/home/user/JClic/icons/estudantefun.png" />
+  <media name="/home/user/JClic/icons/estudantefun2.png" file="/home/user/JClic/icons/estudantefun2.png" />
+  <media name="estudante.png" file="estudante.png" />
+ </mediaBag>
+</JClicProject>
+

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Conf MAC Hostname
+Comment=Configurar MAC e Hostname
+Icon=/usr/share/applications/img/preferencessystem.png
+Exec=/opt/conf_rede/menu
+Terminal=false
+Type=Application
+Categories=Application;System;
+StartupNotify=true
+Name[pt_BR]=Conf MAC Hostname

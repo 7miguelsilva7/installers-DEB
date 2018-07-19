@@ -1,0 +1,11 @@
+
+[Desktop Entry]
+Type=Application
+Exec=/opt/alternatePanel/dock-on.sh
+Hidden=false
+NoDisplay=false
+X-GNOME-Autostart-enabled=true
+Name[pt_BR]=cairo-dock
+Name=cairo-dock
+Comment[pt_BR]=
+Comment=

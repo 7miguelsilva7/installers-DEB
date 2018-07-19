@@ -1,0 +1,4356 @@
+<html>
+
+<head>
+<title>BusqueAqui</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> 
+</head>
+
+<body>
+<center>
+     <form method="GET">
+     <p align="center">
+
+     </font><font face="Verdana, Arial, Helvetica, sans-serif"><br>
+     <font size="2">
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/pt_BR/sdk.js#xfbml=1&version=v2.9";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+     <input type="text" placeholder="Digite sua pergunta" autofocus name="query" size="16" style="font-size: 11 pt; color: #000000; font-family: Verdana; font-variant: small-; border: 1 solid #000000">
+     </font></font> <font face="Verdana, Arial, Helvetica, sans-serif" size="2"> 
+     <input  type="submit" value="Buscar"  style="font-size: 8 pt; color: #000000; font-family: Verdana; font-variant: small-caps; border: 1 solid #000000">
+     </font> 
+     </form>
+</center>     
+</table>
+<table width="100%">
+    <tr> 
+     <td height="0" bgcolor="#C0C0C0" width="100%"></td>
+    </tr>
+  </table>
+</div>
+</center>
+<center>
+<div align="center" style="width: 100%; height: 100%"> 
+  <table width="90%">
+    <tr> 
+      <!--<td width="100%"><font size="3" face="Verdana, Arial, Helvetica, sans-serif">-->
+      <td width="80%" style="font-size: 14px; color: #000000; font-family: Verdana; font-variant: small-; border: 1 solid #000000">
+        
+<script language="">
+
+function removeAcento (text)
+{       
+    text = text.toLowerCase ();                                                         
+    text = text.replace(new RegExp('[ÁÀÂÃ]','gi'), 'a');
+    text = text.replace(new RegExp('[ÉÈÊ]','gi'), 'e');
+    text = text.replace(new RegExp('[ÍÌÎ]','gi'), 'i');
+    text = text.replace(new RegExp('[ÓÒÔÕ]','gi'), 'o');
+    text = text.replace(new RegExp('[ÚÙÛ]','gi'), 'u');
+    text = text.replace(new RegExp('[Ç]','gi'), 'c');
+
+    return text;                 
+}
+
+function kw_list ()
+{
+this.keywords = new Array ();
+
+this.num_words = 0;
+
+this.query = "";
+
+this.original_query = "";
+
+this.query_length = 0;
+
+this.possible_points = 0;
+
+this.multiple = points_title + points_keywords + points_description;
+
+this.get_words = get_query;
+
+this.no_query = no_query_found;
+}
+function get_query ()
+{
+this.query = top.location.search.substring (top.location.search.indexOf ('=') + 1);
+
+while ((the_plus = (this.query.indexOf ("+", 0))) != -1)
+
+{
+
+this.query_length = this.query.length;
+
+this.query = this.query.substring (0, the_plus) + " " + this.query.substring (the_plus + 1);
+
+}
+
+this.original_query = decodeURI(this.query);
+
+this.query = removeAcento(this.original_query);
+
+this.query_length = this.query.length;  
+
+if (this.query != "")
+
+{
+
+var query_pointer = 0;
+
+var end_word = 0;
+
+var at_end = 0;
+
+while ((this.num_words <= (max_keywords - 1)) && (! at_end))
+
+{
+
+end_word = this.query.indexOf (" ", query_pointer);
+
+if (end_word == query_pointer)
+
+query_pointer++;
+
+else
+
+{
+
+if (end_word >= (this.query_length - 1))
+
+at_end = 1;
+
+if (end_word != -1)
+
+this.keywords[this.num_words] = removeAcento(this.query.substring (query_pointer, end_word));
+
+else
+
+{
+
+this.keywords[this.num_words] = this.query.substring (query_pointer, this.query_length);
+
+at_end = 1;
+
+}
+
+this.num_words++;
+
+if (query_pointer != -1)
+
+query_pointer = end_word + 1;
+
+if (query_pointer > (this.query_length - 1))
+
+at_end = 1;
+
+}
+
+}
+
+if (this.num_words == 0)
+
+return (0);
+
+else
+
+{
+
+this.possible_points = this.multiple * this.num_words;
+
+return (1);
+
+}
+
+}
+
+else
+
+return (0);
+
+}
+
+
+
+function no_query_found ()
+
+{
+
+document.writeln ('<link rel="stylesheet" href="gp.css">');
+
+document.writeln ('<CENTER><P>Pesquisa em branco.</P></CENTER>');
+
+}
+
+function entry (url, title, keywords, description)
+
+{
+
+this.url = url;
+
+this.title = title;
+
+this.keywords = keywords;
+
+this.description = description;
+
+this.points = 0;
+
+this.search_entry = find_keyword;
+
+this.print_entry = print_result;
+
+}
+
+function find_keyword (the_word)
+
+{
+
+var the_title = removeAcento(this.title);
+
+var the_keywords = removeAcento(this.keywords);
+
+var the_description = removeAcento(this.description);
+
+if ((the_title.indexOf (the_word)) != -1)
+
+this.points += points_title;
+
+if ((the_keywords.indexOf (the_word)) != -1)
+
+this.points += points_keywords;
+
+if ((the_description.indexOf (the_word)) != -1)
+
+this.points += points_description;
+
+}
+
+
+function print_result (possible_points)
+
+{
+
+document.writeln ('<CENTER><P>' + this.title + '' + this.description + '</P></CENTER>');
+
+}
+
+
+
+function no_entry_printed (the_query)
+
+{
+
+document.writeln ('<link rel="stylesheet" href="gp.css">');
+
+document.writeln ("<CENTER><P> Não há ocorrências para <U><B>" + the_query + "</B></U>.</P></CENTER>"); 
+
+}
+
+
+
+function print_intro (the_query)
+
+{
+
+document.writeln ("<CENTER><P>Pesquisando por <U><B>" + the_query + "</B></U>:</P></CENTER>"); 
+
+}
+
+function begin_search ()
+
+{
+
+var key_list = new kw_list;
+
+var entry_printed = 0;
+
+if (! key_list.get_words ())
+
+key_list.no_query ();
+
+else
+
+{
+
+var counter = 0;
+
+var counter2 = 0;
+
+for (counter = 0; counter < entry_num; counter++)
+
+for (counter2 = 0; counter2 <= (key_list.num_words - 1); counter2++)
+
+the_entries[counter].search_entry (key_list.keywords[counter2]);
+
+for (counter = key_list.possible_points; counter > 0; counter--)
+
+{                                                                        
+
+for (counter2 = 0; counter2 < entry_num; counter2++)
+
+{
+
+if (counter == the_entries[counter2].points)
+
+{
+
+if (entry_printed != 1)
+
+{
+
+entry_printed = 1;
+
+print_intro (key_list.original_query);
+
+}
+
+the_entries[counter2].print_entry (key_list.possible_points);
+
+}
+
+}
+
+}
+
+if (! entry_printed)
+
+no_entry_printed (key_list.original_query);
+
+}
+
+}
+
+the_entries = new Array ();
+
+//aqui vai as entradas para a pesquisa
+
+
+the_entries[0]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_Alfabeto.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_Alfabeto.jclic.zip' target='_blank'>Alfabeto - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_Alfabeto.jclic.zip</i></br>Ouvir, associar e organizar as letras do alfabeto");
+
+
+
+
+
+
+
+
+
+the_entries[1]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_AlfabetoFiguras.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_AlfabetoFiguras.jclic.zip' target='_blank'>Alfabeto 2 - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_AlfabetoFiguras.jclic.zip</i></br>Associar letra do alfabeto com figuras e suas letras iniciais");
+
+
+
+
+
+
+
+
+
+the_entries[2]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_aprendendosilabas.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_aprendendosilabas.jclic.zip' target='_blank'>Sílabas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_aprendendosilabas.jclic.zip</i></br>Ouvir e associar as sílabas, ba, be, bi ...");
+
+
+
+
+
+
+
+
+
+the_entries[3]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_vogais.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_vogais.jclic.zip' target='_blank'>Vogais - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_vogais.jclic.zip</i></br>Ouvir e associar as vogais, encontrar as vogais em pequenos textos, identificar a vogal inicial em palavras, diferenciar vogais de números ");
+
+
+
+
+
+
+
+
+
+the_entries[4]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricasPre.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricasPre.jclic.zip' target='_blank'>Formas Geométricas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_formas_geometricasPre.jclic.zip</i></br>Ouvir, associar as principais formas geométricas -  quadrado, triângulo, retângulo, círculo");
+
+
+
+
+
+
+
+
+
+the_entries[5]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/Matematica_Numeros.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/Matematica_Numeros.jclic.zip' target='_blank'>Números de 0-9 - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/Matematica_Numeros.jclic.zip</i></br>Ouvir, associar números, diferenciar números de letras, associar números a quantidade de objetos equivalentes");
+
+
+
+
+
+
+
+
+
+the_entries[6]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_somandofrutas.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_somandofrutas.jclic.zip' target='_blank'>Somar Frutas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_somandofrutas.jclic.zip</i></br>Somar as quantidades de frutas apresentadas e identificar o número equivalente");
+
+
+
+
+
+
+
+
+
+the_entries[7]	=	new	entry (	"/opt/atvjclic/fundamental1/ciencias/ciencias_ConhecendoAnimais.jclic.zip","<a href='/opt/atvjclic/fundamental1/ciencias/ciencias_ConhecendoAnimais.jclic.zip' target='_blank'>Conhecer animais - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/ciencias/ciencias_ConhecendoAnimais.jclic.zip</i></br>Montar quebra cabeça de animais e ouvir seus nomes");
+
+
+
+
+
+
+
+
+
+the_entries[8]	=	new	entry (	"/opt/atvjclic/fundamental1/ciencias/ciencias_montandofrutas.jclic.zip","<a href='/opt/atvjclic/fundamental1/ciencias/ciencias_montandofrutas.jclic.zip' target='_blank'>Montar frutas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/ciencias/ciencias_montandofrutas.jclic.zip</i></br>Montar quebra cabeça de frutas e ouvir seus nomes");
+
+
+
+
+
+
+
+
+
+the_entries[9]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_adjetivos.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_adjetivos.jclic.zip' target='_blank'>Adjetivos - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_adjetivos.jclic.zip</i></br>Identificar adjetivos em texto");
+
+
+
+
+
+
+
+
+
+the_entries[10]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_AnimaisNomes.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_AnimaisNomes.jclic.zip' target='_blank'>Animais e nomes - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_AnimaisNomes.jclic.zip</i></br>Associar nomes de animais às suas figuras, escrever nomes de animais corretamente");
+
+
+
+
+
+
+
+
+
+the_entries[11]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_artigo_def_indef.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_artigo_def_indef.jclic.zip' target='_blank'>Artigos Definido e Indefinido - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_artigo_def_indef.jclic.zip</i></br>Identificar artigos em texto, classificar os tipos de artigos em definidos ou indefinidos, usar artigos correto antes de palavras");
+
+
+
+
+
+
+
+
+
+the_entries[12]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_DigitarAlfabeto.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_DigitarAlfabeto.jclic.zip' target='_blank'>Alfabeto - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_DigitarAlfabeto.jclic.zip</i></br>Ouvir, associar e digitar a letra ouvida do alfabeto");
+
+
+
+
+
+
+
+
+
+the_entries[13]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_nomes_comuns_proprios.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_nomes_comuns_proprios.jclic.zip' target='_blank'>Substantivos - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_nomes_comuns_proprios.jclic.zip</i></br>comuns, próprios, primitivos, derivados e coletivosClassificar as palavras em comuns e próprias, escrever o primitivo das palavras derivadas apresentadas, associar os coletivos corretamente");
+
+
+
+
+
+
+
+
+
+the_entries[14]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_cantigas.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_cantigas.jclic.zip' target='_blank'>Cantigas populares - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_cantigas.jclic.zip</i></br>Ordenar corretamente as palavras das cantigas apresentadas e escrever as palavras que faltam ");
+
+
+
+
+
+
+
+
+
+the_entries[15]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_ClassficacaoQnSilabas.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_ClassficacaoQnSilabas.jclic.zip' target='_blank'>Classificação de sílabas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_ClassficacaoQnSilabas.jclic.zip</i></br>Classificação de palavras quanto ao número de sílabas");
+
+
+
+
+
+
+
+
+
+the_entries[16]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_ditado.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_ditado.jclic.zip' target='_blank'>Ditado - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_ditado.jclic.zip</i></br>Escrever o nome das figuras apresentadas, ou falados");
+
+
+
+
+
+
+
+
+
+the_entries[17]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_figurasletras.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_figurasletras.jclic.zip' target='_blank'>Figuras e Letras - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_figurasletras.jclic.zip</i></br>Escrever o nome das figuras apresentadas, arrastando as letras disponíveis");
+
+
+
+
+
+
+
+
+
+the_entries[18]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_figuranomes.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_figuranomes.jclic.zip' target='_blank'>Figuras e Nomes - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_figuranomes.jclic.zip</i></br>Associar nomes e figuras correspondentes");
+
+
+
+
+
+
+
+
+
+the_entries[19]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_FigurasIniciais.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_FigurasIniciais.jclic.zip' target='_blank'>Letra Inicial - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_FigurasIniciais.jclic.zip</i></br>Escrever a letra inicial das figuras apresentadas");
+
+
+
+
+
+
+
+
+
+the_entries[20]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_letras_cursivas.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_letras_cursivas.jclic.zip' target='_blank'>Letras Cursivas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_letras_cursivas.jclic.zip</i></br>Associar as letras tipo bastão com cursivas correspondente");
+
+
+
+
+
+
+
+
+
+the_entries[21]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_Masculino_Feminino.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_Masculino_Feminino.jclic.zip' target='_blank'>Masculino | Feminino - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_Masculino_Feminino.jclic.zip</i></br>Associar palavras masculinas as femininas, usar os artigos masculinos e femininos corretamente nas palavras apresentadas");
+
+
+
+
+
+
+
+
+
+the_entries[22]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_escritanomesanimais.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_escritanomesanimais.jclic.zip' target='_blank'>Nomes de Animais - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_escritanomesanimais.jclic.zip</i></br>Escrever corretamente os nomes dos animais apresentados");
+
+
+
+
+
+
+
+
+
+the_entries[23]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_pontuacao_PalavraCruzada.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_pontuacao_PalavraCruzada.jclic.zip' target='_blank'>Pontuação - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_pontuacao_PalavraCruzada.jclic.zip</i></br>Preencher cruzadinha de acordo com o uso de cada pontuação - dois pontos, reticências, vírgula, exclamação, ponto final, travessão, interrogação, parênteses");
+
+
+
+
+
+
+
+
+
+the_entries[24]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_s_ou_z.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_s_ou_z.jclic.zip' target='_blank'>S | Z - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_s_ou_z.jclic.zip</i></br>Preencher lacunas com as palavras escritas corretamente com S ou com Z");
+
+
+
+
+
+
+
+
+
+the_entries[25]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_SeparacaoSilabas.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_SeparacaoSilabas.jclic.zip' target='_blank'>Separar Sílabas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_SeparacaoSilabas.jclic.zip</i></br>Separar sílabas das palavras apresentadas");
+
+
+
+
+
+
+
+
+
+the_entries[26]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/Portugues_Figurassilabafinal.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/Portugues_Figurassilabafinal.jclic.zip' target='_blank'>Sílaba final - <b>Jclic</b></a>","silabas","</br><i>jclic /opt/atvjclic/fundamental1/portugues/Portugues_Figurassilabafinal.jclic.zip</i></br>Arrastar e associar corretamente a sílaba final das figuras apresentadas");
+
+
+
+
+
+
+
+
+
+the_entries[27]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_Figurassilabainicial.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_Figurassilabainicial.jclic.zip' target='_blank'>Sílaba Inicial - <b>Jclic</b></a>","silabas","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_Figurassilabainicial.jclic.zip</i></br>Arrastar e associar corretamente a sílaba inicial das figuras apresentadas");
+
+
+
+
+
+
+
+
+
+the_entries[28]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/portugues_sinonimos_antonimos.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/portugues_sinonimos_antonimos.jclic.zip' target='_blank'>Sinônimo | Antônimo - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/portugues_sinonimos_antonimos.jclic.zip</i></br>Preencher cruzadinha com os antônimos das palavras apresentadas, associar palavras sinônimas");
+
+
+
+
+
+
+
+
+
+the_entries[29]	=	new	entry (	"/opt/atvjclic/fundamental1/portugues/OrtografiaDivertida.jclic.zip","<a href='/opt/atvjclic/fundamental1/portugues/OrtografiaDivertida.jclic.zip' target='_blank'>Ortografia Divertida - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/portugues/OrtografiaDivertida.jclic.zip</i></br>Ortografia de palavras escritas com X, Ch, M, P");
+
+
+
+
+
+
+
+
+
+the_entries[30]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_medida_de_capacidade.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_medida_de_capacidade.jclic.zip' target='_blank'>Capacidade  - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_medida_de_capacidade.jclic.zip</i></br>associar valores em Lt com ML, dividir jarra de líquido em quantidades pedidas");
+
+
+
+
+
+
+
+
+
+the_entries[31]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_escrevernumeros.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_escrevernumeros.jclic.zip' target='_blank'>Escrita de Números - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_escrevernumeros.jclic.zip</i></br>Escrever numerais cardinais apresentados");
+
+
+
+
+
+
+
+
+
+the_entries[32]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricas.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricas.jclic.zip' target='_blank'>Formas Geométricas - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_formas_geometricas.jclic.zip</i></br>Associar formas geométricas aos seus nomes - Retângulo, hexágono, quadrado, trapézio, pentágono, triângulo, paralelogramo, círculo, losango");
+
+
+
+
+
+
+
+
+
+the_entries[33]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_igualdiferente.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_igualdiferente.jclic.zip' target='_blank'>Igual | Diferente - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_igualdiferente.jclic.zip</i></br>Classificar as figuras apresentadas, usando os símbolos de igual ou diferente");
+
+
+
+
+
+
+
+
+
+the_entries[34]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_menorigualmaior.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_menorigualmaior.jclic.zip' target='_blank'>Menor | Igual | Maior - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_menorigualmaior.jclic.zip</i></br>Classificar as figuras apresentadas, usando os símbolos de Menor que, Igual ou Maior que");
+
+
+
+
+
+
+
+
+
+the_entries[35]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_OrdenarNum.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_OrdenarNum.jclic.zip' target='_blank'>Ordenar Numeros - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_OrdenarNum.jclic.zip</i></br>Associar o número ordinal com sua descrição, por em ordem os números ordinais apresentados, ordenar números cardinais apresentados em ordem crescente, e em ordem decrescente");
+
+
+
+
+
+
+
+
+
+the_entries[36]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_poliedroscorposredondos.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_poliedroscorposredondos.jclic.zip' target='_blank'>Poliedros - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_poliedroscorposredondos.jclic.zip</i></br>Explanação de figuras planas e não planas e seus nomes, identificar figura intrusa em determinado grupo, classificar as figuras como planas e não planas");
+
+
+
+
+
+
+
+
+
+the_entries[37]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_sequencia.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_sequencia.jclic.zip' target='_blank'>Sequência Numérica - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_sequencia.jclic.zip</i></br>Completar a sequência de números apresentados");
+
+
+
+
+
+
+
+
+
+the_entries[38]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_somando1.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_somando1.jclic.zip' target='_blank'>Somar - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_somando1.jclic.zip</i></br>Soma de dois algarismos");
+
+
+
+
+
+
+
+
+
+the_entries[39]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_somando2.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_somando2.jclic.zip' target='_blank'>Soma 2 - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_somando2.jclic.zip</i></br>Soma de dezenas");
+
+
+
+
+
+
+
+
+
+the_entries[40]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_tabuada.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_tabuada.jclic.zip' target='_blank'>Tabuadas - <b>Jclic</b></a>","somar, diminuir, menos, multiplicar, dividir, Tabuada de adição, subtração, multiplicação e divisão, quatro operações","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_tabuada.jclic.zip</i></br>Resolver tabuada, podendo trabalhar uma tabela específica ou todas as quatro operações");
+
+
+
+
+
+
+
+
+
+the_entries[41]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_udc.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_udc.jclic.zip' target='_blank'>U | D | C - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_udc.jclic.zip</i></br>Contar e responder a quantidade de blocos apresentados em Unidades e Dezenas");
+
+
+
+
+
+
+
+
+
+the_entries[42]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematicafracoes.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematicafracoes.jclic.zip' target='_blank'>Frações - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematicafracoes.jclic.zip</i></br>associar gráficos e frações por extenso, frações, Escrever frações pedidas  ");
+
+
+
+
+
+
+
+
+
+the_entries[43]	=	new	entry (	"/opt/atvjclic/fundamental1/matematica/matematica_unidade_de_medida.jclic.zip","<a href='/opt/atvjclic/fundamental1/matematica/matematica_unidade_de_medida.jclic.zip' target='_blank'>Unidade, dezena, centena - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/matematica/matematica_unidade_de_medida.jclic.zip</i></br>Associar os números aos termos – unidade, dezena, centena");
+
+
+
+
+
+
+
+
+
+the_entries[44]	=	new	entry (	"/opt/atvjclic/fundamental1/geografia/geografia_mapas.jclic.zip","<a href='/opt/atvjclic/fundamental1/geografia/geografia_mapas.jclic.zip' target='_blank'>Estados e Capitais - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/geografia/geografia_mapas.jclic.zip</i></br>Explanação do mapa do Brasil e suas capitais, apresentação dos governantes Prefeito, governador e Presidente, Quebra cabeça do mapa do Brasil, associação dos estados e suas siglas ");
+
+
+
+
+
+
+
+
+
+the_entries[45]	=	new	entry (	"/opt/atvjclic/fundamental1/Interdisciplinar/regraslaboratorio.jclic.zip","<a href='/opt/atvjclic/fundamental1/Interdisciplinar/regraslaboratorio.jclic.zip' target='_blank'>Regras de uso Laborátório - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/Interdisciplinar/regraslaboratorio.jclic.zip</i></br>Dicas de como se comportar no laboratório de informática");
+
+
+
+
+
+
+
+
+
+the_entries[46]	=	new	entry (	"/opt/atvjclic/fundamental1/ciencias/Ciencias_aparelho_digestivo.jclic.zip","<a href='/opt/atvjclic/fundamental1/ciencias/Ciencias_aparelho_digestivo.jclic.zip' target='_blank'>Aparelho Digestivo - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/ciencias/Ciencias_aparelho_digestivo.jclic.zip</i></br>Explanação do aparelho digestivo, Exploração com descrição das partes do aparelho digestivo, associar descrição com as partes do aparelho digestivo, escrever os nomes das partes do aparelho digestivo");
+
+
+
+
+
+
+
+
+
+the_entries[47]	=	new	entry (	"/opt/atvjclic/fundamental1/ciencias/ciencias_celula_animal.jclic.zip","<a href='/opt/atvjclic/fundamental1/ciencias/ciencias_celula_animal.jclic.zip' target='_blank'>Célula - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/ciencias/ciencias_celula_animal.jclic.zip</i></br>Explanação das partes da célula - núcleo, membrana, citoplasma, tipos de células - nervosa, muscular, da pele, óssea, identificar partes da célula, quebra cabeça com os tipos de células, associar os nomes aos tipos de células corretamente, escrever os nomes dos tipos de células de acordo com as figuras apresentadas");
+
+
+
+
+
+
+
+
+
+the_entries[48]	=	new	entry (	"/opt/atvjclic/fundamental1/ciencias/ciencias_sentidos.jclic.zip","<a href='/opt/atvjclic/fundamental1/ciencias/ciencias_sentidos.jclic.zip' target='_blank'>Sentidos - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/ciencias/ciencias_sentidos.jclic.zip</i></br>Ouvir músicas e identificar o sentido a que se refere - visão, olfato, audição, tato, paladar");
+
+
+
+
+
+
+
+
+
+the_entries[49]	=	new	entry (	"/opt/atvjclic/fundamental1/ciencias/ciencias_animais.jclic.zip","<a href='/opt/atvjclic/fundamental1/ciencias/ciencias_animais.jclic.zip' target='_blank'>Tipos de Animais - <b>Jclic</b></a>","","</br><i>jclic /opt/atvjclic/fundamental1/ciencias/ciencias_animais.jclic.zip</i></br>Classificar os animais apresentados como -  úteis, silvestres, nocivos, domésticos");
+
+
+
+
+
+
+
+
+
+the_entries[50]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/alfabetoDeSabao_0006.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/alfabetoDeSabao_0006.swf' target='_blank'>Alfabeto de Sabão - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/alfabetoDeSabao_0006.swf</i></br>Atividade trabalha as vogais e o alfabeto com áudio");
+
+
+
+
+
+
+
+
+
+the_entries[51]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/abcdario.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/abcdario.swf' target='_blank'>Abcdário - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/abcdario.swf</i></br>Identificar desenhos pelas iniciais do alfabeto");
+
+
+
+
+
+
+
+
+
+the_entries[52]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/134_aprendendo_a_ler.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/134_aprendendo_a_ler.swf' target='_blank'>Aprendendo a Ler I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/134_aprendendo_a_ler.swf</i></br>Associação de desenhos e vogais   ");
+
+
+
+
+
+
+
+
+
+the_entries[53]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/jogodasfrases.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/jogodasfrases.swf' target='_blank'>Aprendendo a Ler II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/jogodasfrases.swf</i></br>Identificação de vogais e alfabeto    ");
+
+
+
+
+
+
+
+
+
+the_entries[54]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/laboratorioSilabas_0002.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/laboratorioSilabas_0002.swf' target='_blank'>Aprendendo as Sílabas - <b>EdujogatiFX</b></a>","silabas","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/laboratorioSilabas_0002.swf</i></br>Sílabas das vogais com áudio   ");
+
+
+
+
+
+
+
+
+
+the_entries[55]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/540_alfabeto.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/540_alfabeto.swf' target='_blank'>Aprendendo o alfabeto - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/540_alfabeto.swf</i></br>Organizar o alfabeto");
+
+
+
+
+
+
+
+
+
+the_entries[56]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/jogodosbichos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/jogodosbichos.swf' target='_blank'>Jogos dos Bichos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/jogodosbichos.swf</i></br>Montar Quebra-cabeça de animais com seus nomes");
+
+
+
+
+
+
+
+
+
+the_entries[57]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/liga_objetos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel1/liga_objetos.swf' target='_blank'>Liga Objetos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel1/liga_objetos.swf</i></br>Associação das letras iniciais dos objetos com os mesmos");
+
+
+
+
+
+
+
+
+
+the_entries[58]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/360_associacao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/360_associacao.swf' target='_blank'>Associação - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel2/360_associacao.swf</i></br>Associar os objetos e seus respectivos nomes");
+
+
+
+
+
+
+
+
+
+the_entries[59]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/arie_pc_portugues.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/arie_pc_portugues.swf' target='_blank'>Brincando com Ariê - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel2/arie_pc_portugues.swf</i></br>Pintura, Quebra-cabeça com objetos, Separar frutas, associação de objetos e seus respectivos nomes  ");
+
+
+
+
+
+
+
+
+
+the_entries[60]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/359_figura_letras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/359_figura_letras.swf' target='_blank'>Figuras e Letras - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel2/359_figura_letras.swf</i></br>Nomear os objetos apresentados letra a letra");
+
+
+
+
+
+
+
+
+
+the_entries[61]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/358_figura_nome.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/358_figura_nome.swf' target='_blank'>Figuras e Nomes - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel2/358_figura_nome.swf</i></br>Associação de objetos com seus respectivos nomes");
+
+
+
+
+
+
+
+
+
+the_entries[62]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/361_memo_fig.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/361_memo_fig.swf' target='_blank'>Jogo da Memória - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel2/361_memo_fig.swf</i></br>Jogo de memória de animais e seus nomes");
+
+
+
+
+
+
+
+
+
+the_entries[63]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/533_jogodosanimais.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/533_jogodosanimais.swf' target='_blank'>Jogo dos Animais I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel2/533_jogodosanimais.swf</i></br>Associação de animais com seus respectivos nomes, escrever nomes dos animais");
+
+
+
+
+
+
+
+
+
+the_entries[64]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/534_animaissilabas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel2/534_animaissilabas.swf' target='_blank'>Jogo dos Animais II - <b>EdujogatiFX</b></a>","silabas","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel2/534_animaissilabas.swf</i></br>Completar os nomes dos animais com as sílabas que faltam");
+
+
+
+
+
+
+
+
+
+the_entries[65]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/palavras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/palavras.swf' target='_blank'>Acerte as Palavras - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/palavras.swf</i></br>Tipo jogo da forca, com 4 categorias, sendo flores, frutas, animais e cores");
+
+
+
+
+
+
+
+
+
+the_entries[66]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/caca_letras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/caca_letras.swf' target='_blank'>Caça Letras - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/caca_letras.swf</i></br>É exibido uma palavra e o usuário deve encontrar as letras da mesma");
+
+
+
+
+
+
+
+
+
+the_entries[67]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/cantigaseparlendas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/cantigaseparlendas.swf' target='_blank'>Cantigas e Parlendas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/cantigaseparlendas.swf</i></br>Completar as cantigas e parlendas com as palavras que faltam");
+
+
+
+
+
+
+
+
+
+the_entries[68]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/casa.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/casa.swf' target='_blank'>Casa - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/casa.swf</i></br>completar com palavras que faltam da música La casa de Vinicius de Morais");
+
+
+
+
+
+
+
+
+
+the_entries[69]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/jogo_das_cantigas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/jogo_das_cantigas.swf' target='_blank'>Jogos das Cantigas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/jogo_das_cantigas.swf</i></br>Completar cantigas com as palavras que faltam");
+
+
+
+
+
+
+
+
+
+the_entries[70]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/jogodasrimas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/jogodasrimas.swf' target='_blank'>Jogo das Rimas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/jogodasrimas.swf</i></br>Completar cantigas com palavras de acordo com as rimas");
+
+
+
+
+
+
+
+
+
+the_entries[71]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/102_jogo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/102_jogo.swf' target='_blank'>Complete a Palavra - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/102_jogo.swf</i></br>Escrever o nome da fruta de aparece");
+
+
+
+
+
+
+
+
+
+the_entries[72]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/222_pa_letras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/222_pa_letras.swf' target='_blank'>Jogo das Letras - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/222_pa_letras.swf</i></br>Completar palavras com a letra que falta");
+
+
+
+
+
+
+
+
+
+the_entries[73]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/labirinto.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/labirinto.swf' target='_blank'>Labirinto das Letras - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/labirinto.swf</i></br>Procurar letras em labirinto, fugindo do inimigo");
+
+
+
+
+
+
+
+
+
+the_entries[74]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/Caça palavras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel3/Ca%c3%a7a%20palavras.swf' target='_blank'>Caça Palavras - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel3/Caça palavras.swf</i></br>encontrar nomes dos discípulos de Jesus, além de aprender um pouco sobre cada um");
+
+
+
+
+
+
+
+
+
+the_entries[75]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0100_forca.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0100_forca.swf' target='_blank'>Jogo da Forca I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0100_forca.swf</i></br>Adivinhar palavras");
+
+
+
+
+
+
+
+
+
+the_entries[76]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/forca.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/forca.swf' target='_blank'>Jogo da Forca II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/forca.swf</i></br>Adivinhar palavras");
+
+
+
+
+
+
+
+
+
+the_entries[77]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/formula_ditado.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/formula_ditado.swf' target='_blank'>Fórmula Ditado - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/formula_ditado.swf</i></br>Ditado de palavras");
+
+
+
+
+
+
+
+
+
+the_entries[78]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0098_n3_aprender04.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0098_n3_aprender04.swf' target='_blank'>Palavras e Significados I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0098_n3_aprender04.swf</i></br>Escolher o significado de palavras entre alternativas");
+
+
+
+
+
+
+
+
+
+the_entries[79]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0099_n3_aprender_03.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0099_n3_aprender_03.swf' target='_blank'>Palavras e Significados II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/0099_n3_aprender_03.swf</i></br>Encontrar o significado das palavras");
+
+
+
+
+
+
+
+
+
+the_entries[80]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/gamefmu.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/gamefmu.swf' target='_blank'>Reforma Ortográfica - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/gamefmu.swf</i></br>Perguntas que abordam a nova reforma ortográfica");
+
+
+
+
+
+
+
+
+
+the_entries[81]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/443_rodaroda.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/443_rodaroda.swf' target='_blank'>Roda a Roda - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/443_rodaroda.swf</i></br>Adivinhar palavras pelas dicas");
+
+
+
+
+
+
+
+
+
+the_entries[82]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/210_soletrando1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Portugues/nivel4/210_soletrando1.swf' target='_blank'>Soletrando - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Portugues/nivel4/210_soletrando1.swf</i></br>Ditado de palavras");
+
+
+
+
+
+
+
+
+
+the_entries[83]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2384_adicao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2384_adicao.swf' target='_blank'>Adição I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2384_adicao.swf</i></br>Somando maçãs de 1-10");
+
+
+
+
+
+
+
+
+
+the_entries[84]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2385_adicao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2385_adicao.swf' target='_blank'>Adição II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2385_adicao.swf</i></br>Soma e leitura do conto O Patinho Feio");
+
+
+
+
+
+
+
+
+
+the_entries[85]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/121_n1_aprendendoacontar.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/121_n1_aprendendoacontar.swf' target='_blank'>Aprendendo a Contar I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/121_n1_aprendendoacontar.swf</i></br>Clicar nas borboletas e ouvir a quantidade das mesmas de 1-10");
+
+
+
+
+
+
+
+
+
+the_entries[86]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/122_n1_aprendendoacontar.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/122_n1_aprendendoacontar.swf' target='_blank'>Aprendendo a Contar II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/122_n1_aprendendoacontar.swf</i></br>Adicionar ou remover lagostas de 1 - 30");
+
+
+
+
+
+
+
+
+
+the_entries[87]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/281_contandoosblocos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/281_contandoosblocos.swf' target='_blank'>Aprendendo a Contar III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/281_contandoosblocos.swf</i></br>Contar caixas num caminhão de 1-10");
+
+
+
+
+
+
+
+
+
+the_entries[88]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/282_contandoos2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/282_contandoos2.swf' target='_blank'>Aprendendo a Contar IV - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/282_contandoos2.swf</i></br>Contar blocos de 10-20, contar rãs até 50, contar bolas até100");
+
+
+
+
+
+
+
+
+
+the_entries[89]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/518_contandoimagens.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/518_contandoimagens.swf' target='_blank'>Aprendendo a Contar V - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/518_contandoimagens.swf</i></br>Contar Desenhos de 1-10");
+
+
+
+
+
+
+
+
+
+the_entries[90]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/253_Formas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/253_Formas.swf' target='_blank'>Formas Geométricas I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/253_Formas.swf</i></br>Encaixar formas geométricas -  pentagrama, estrela, triângulo, hexagrama, losango, círculo ");
+
+
+
+
+
+
+
+
+
+the_entries[91]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/254_Formas1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/254_Formas1.swf' target='_blank'>Formas Geométricas II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/254_Formas1.swf</i></br>Formar, o Desenho desenho pedido, com as formas geométricas -  triângulo, quadrado, retângulo e círculo");
+
+
+
+
+
+
+
+
+
+the_entries[92]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/255_Formas2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/255_Formas2.swf' target='_blank'>Formas Geométricas III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/255_Formas2.swf</i></br>Formar, o Desenho desenho pedido, com as formas geométricas -  ");
+
+
+
+
+
+
+
+
+
+the_entries[93]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/470_fgeometricas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/470_fgeometricas.swf' target='_blank'>Figuras Geométricas I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/470_fgeometricas.swf</i></br>Pintar as figuras geométricas com as cores pedidas. Quadrado, retângulo, triângulo e círculo ");
+
+
+
+
+
+
+
+
+
+the_entries[94]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/471_fgeometricas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/471_fgeometricas.swf' target='_blank'>Figuras Geométricas II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/471_fgeometricas.swf</i></br>Associar figuras Geométricas. Retângulo, triângulo e círculo");
+
+
+
+
+
+
+
+
+
+the_entries[95]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/472_fgeometricas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/472_fgeometricas.swf' target='_blank'>Figuras Geométricas III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/472_fgeometricas.swf</i></br>Encontrar, associar, e desenhar as formas geométricas pedidas. Quadrado, retângulo, triângulo e círculo");
+
+
+
+
+
+
+
+
+
+the_entries[96]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia00.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia00.swf' target='_blank'>Sequência - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia00.swf</i></br>ordenar números de 1-20");
+
+
+
+
+
+
+
+
+
+the_entries[97]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2385_subtracao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2385_subtracao.swf' target='_blank'>Subtração - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/2385_subtracao.swf</i></br>subtração com maçãs de 1-10");
+
+
+
+
+
+
+
+
+
+the_entries[98]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/Montar blocos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel1/Montar%20blocos.swf' target='_blank'>Montar blocos mosaio - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel1/Montar blocos.swf</i></br>Montar figuras com mosaico apresentado");
+
+
+
+
+
+
+
+
+
+the_entries[99]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao000.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao000.swf' target='_blank'>Adição I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao000.swf</i></br>Adicionar valores de 1-9 até alcançar o resultado pedido");
+
+
+
+
+
+
+
+
+
+the_entries[100]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao00.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao00.swf' target='_blank'>Adição II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao00.swf</i></br>Adição com resultados até 20, até 99, 999, até 9999");
+
+
+
+
+
+
+
+
+
+the_entries[101]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao01.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao01.swf' target='_blank'>Adição III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao01.swf</i></br>Adição com resultados até 99, até 999, até 9999");
+
+
+
+
+
+
+
+
+
+the_entries[102]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao02.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao02.swf' target='_blank'>Adição IV - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/adicao02.swf</i></br>Adição com resultados até 12. adição para equilibrar balança ");
+
+
+
+
+
+
+
+
+
+the_entries[103]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/arredondamento-nearest.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/arredondamento-nearest.swf' target='_blank'>Arredondamento - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/arredondamento-nearest.swf</i></br>Arredondar valor para dezena mais próxima, até 10, 100 ou 1000");
+
+
+
+
+
+
+
+
+
+the_entries[104]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/capacidade.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/capacidade.swf' target='_blank'>Capacidade - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/capacidade.swf</i></br>Jogo dos recipientes, qual cabe mais e qual cabe menos ");
+
+
+
+
+
+
+
+
+
+the_entries[105]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contagem_2em2_5em5_10em10.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contagem_2em2_5em5_10em10.swf' target='_blank'>Contagem em 2 | 5 | 10 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contagem_2em2_5em5_10em10.swf</i></br>Contagem de 2 em 2 até 50, de 5 em 5 até 100, de 10 em 10 até 100");
+
+
+
+
+
+
+
+
+
+the_entries[106]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contagemd_100-em-100.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contagemd_100-em-100.swf' target='_blank'>Contagem em 100 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contagemd_100-em-100.swf</i></br>contagem de 100 em 100, digitando números que faltam");
+
+
+
+
+
+
+
+
+
+the_entries[107]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contandoblocosEspaciais.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contandoblocosEspaciais.swf' target='_blank'>Contando os Blocos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/contandoblocosEspaciais.swf</i></br>Contando blocos, trabalhando com dezenas e unidades");
+
+
+
+
+
+
+
+
+
+the_entries[108]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/numero_sinais-todos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/numero_sinais-todos.swf' target='_blank'>Equivalência | Igualdade - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/numero_sinais-todos.swf</i></br>Verificar a equivalência e igualdade dos números apresentados, maior que, menor que");
+
+
+
+
+
+
+
+
+
+the_entries[109]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/ordenar.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/ordenar.swf' target='_blank'>Ordenar - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/ordenar.swf</i></br>Ordenar números de 1-10");
+
+
+
+
+
+
+
+
+
+the_entries[110]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia0.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia0.swf' target='_blank'>Sequência I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia0.swf</i></br>Completar sequência de números de 1-20");
+
+
+
+
+
+
+
+
+
+the_entries[111]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia1.swf' target='_blank'>Sequência II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/sequencia1.swf</i></br>Completar sequência de números de 0-99");
+
+
+
+
+
+
+
+
+
+the_entries[112]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/subtracao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/subtracao.swf' target='_blank'>Subtração I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/subtracao.swf</i></br>Subtração contando borboletas, até 10");
+
+
+
+
+
+
+
+
+
+the_entries[113]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/subtracao_02.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/subtracao_02.swf' target='_blank'>Subtração II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/subtracao_02.swf</i></br>Subtração até 20, até 99, até 999, até 9999");
+
+
+
+
+
+
+
+
+
+the_entries[114]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/valorposicional.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/valorposicional.swf' target='_blank'>Valor Posicional I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/valorposicional.swf</i></br>Centenas, Dezenas, Unidades -  escrever a quantidade de desenhos");
+
+
+
+
+
+
+
+
+
+the_entries[115]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/valorposicional2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel2/valorposicional2.swf' target='_blank'>Valor Posicional II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel2/valorposicional2.swf</i></br>Centenas, Dezenas, Unidades; número posterior e anterior; Colocar números em ordem");
+
+
+
+
+
+
+
+
+
+the_entries[116]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/adicao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/adicao.swf' target='_blank'>Adição I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/adicao.swf</i></br>atingir o valor pedido, clicando nos números para serem adicionados");
+
+
+
+
+
+
+
+
+
+the_entries[117]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/area_iniciacao-ao-cm2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/area_iniciacao-ao-cm2.swf' target='_blank'>área | Iniciação - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/area_iniciacao-ao-cm2.swf</i></br>Medir área utilizando quadrado e grelha");
+
+
+
+
+
+
+
+
+
+the_entries[118]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/capacidade_litr.e.meio.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/capacidade_litr.e.meio.swf' target='_blank'>Capacidade - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/capacidade_litr.e.meio.swf</i></br>Encher recipientes, unidade de medida ML");
+
+
+
+
+
+
+
+
+
+the_entries[119]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/completandoNumeros_0012.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/completandoNumeros_0012.swf' target='_blank'>Completando os Números - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/completandoNumeros_0012.swf</i></br>Completar sequência numérica, em diversos níveis,  1 em 1, 2 em 2, 3 em 3, 5 em 5, 10 em 10");
+
+
+
+
+
+
+
+
+
+the_entries[120]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/conjunto_animais.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/conjunto_animais.swf' target='_blank'>Conjuntos I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/conjunto_animais.swf</i></br>Montar conjunto de animais");
+
+
+
+
+
+
+
+
+
+the_entries[121]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/conjuntos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/conjuntos.swf' target='_blank'>Conjuntos II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/conjuntos.swf</i></br>Explanação sobre conjuntos");
+
+
+
+
+
+
+
+
+
+the_entries[122]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/coordenadas_inicia-mesmo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/coordenadas_inicia-mesmo.swf' target='_blank'>Coordenadas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/coordenadas_inicia-mesmo.swf</i></br>Posição -  por cima, por baixo; posição em grelhas; Itinerários mapas e coordenadas");
+
+
+
+
+
+
+
+
+
+the_entries[123]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/graficos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/graficos.swf' target='_blank'>Gráficos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/graficos.swf</i></br>digitar os números dos gráficos de imagens, barras e blocos ");
+
+
+
+
+
+
+
+
+
+the_entries[124]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/localizacao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/localizacao.swf' target='_blank'>Localização - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/localizacao.swf</i></br>Localizar o animal utilizando eixo X e Y");
+
+
+
+
+
+
+
+
+
+the_entries[125]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/mapa.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/mapa.swf' target='_blank'>Mapa - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/mapa.swf</i></br>Localizar casas, igrejas, lojas andar por mapa da cidade");
+
+
+
+
+
+
+
+
+
+the_entries[126]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/multiplicacao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/multiplicacao.swf' target='_blank'>Multiplicação - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/multiplicacao.swf</i></br>Clicar nos quadrados com números até atingir os valores pedidos");
+
+
+
+
+
+
+
+
+
+the_entries[127]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/operacaoPascoa_005.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/operacaoPascoa_005.swf' target='_blank'>Operação Páscoa - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/operacaoPascoa_005.swf</i></br>Localizar ovo da páscoa por meio de soma ou subtração, usando conhecimento de linha e coluna ");
+
+
+
+
+
+
+
+
+
+the_entries[128]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/ordenar_numeros.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/ordenar_numeros.swf' target='_blank'>Ordenar Números - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/ordenar_numeros.swf</i></br>Ordenar números até 50");
+
+
+
+
+
+
+
+
+
+the_entries[129]	=	new	entry (	"/home/Edujog/homeatiFx/JogosEducativos/Matematica/nivel3/padroesdefigura.swf","<a href='/home/Edujog/homeatiFx/JogosEducativos/Matematica/nivel3/padroesdefigura.swf' target='_blank'>Padrões de Figura - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/Edujog/homeatiFx/JogosEducativos/Matematica/nivel3/padroesdefigura.swf</i></br>Sequência lógica");
+
+
+
+
+
+
+
+
+
+the_entries[130]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/pareseimpares0.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/pareseimpares0.swf' target='_blank'>Pares e ímpares - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/pareseimpares0.swf</i></br>Jogo de pular para pegar os números pedidos");
+
+
+
+
+
+
+
+
+
+the_entries[131]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/subtracao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/subtracao.swf' target='_blank'>Subtração - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/subtracao.swf</i></br>Clicar nos quadrados com números até atingir os valores pedidos");
+
+
+
+
+
+
+
+
+
+the_entries[132]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/tabuada_0010.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/tabuada_0010.swf' target='_blank'>Tabuada - <b>EdujogatiFX</b></a>","somar, diminuir, menos, multiplicar, dividir, Tabuada de adição, subtração, multiplicação e divisão, quatro operações","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/tabuada_0010.swf</i></br>Tabuada de adição, subtração, multiplicação e divisão");
+
+
+
+
+
+
+
+
+
+the_entries[133]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/tabuada-2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/tabuada-2.swf' target='_blank'>Tabuada | Labirinto - <b>EdujogatiFX</b></a>","somar, diminuir, menos, multiplicar, dividir, Tabuada de adição, subtração, multiplicação e divisão, quatro operações","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/tabuada-2.swf</i></br>Descobrir o caminho do gol passando pelas casas que contêm resultados de uma ou das duas tabuadas escolhidas pelo jogador");
+
+
+
+
+
+
+
+
+
+the_entries[134]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/Subtrair_e_pintar.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel3/Subtrair_e_pintar.swf' target='_blank'>Subtrair e pintar - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel3/Subtrair_e_pintar.swf</i></br>Encontrar cor adequada, por meio da subtração");
+
+
+
+
+
+
+
+
+
+the_entries[135]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/cartelas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/cartelas.swf' target='_blank'>Cartelas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/cartelas.swf</i></br>Formar valor pedido usando cartelas de números disponíveis");
+
+
+
+
+
+
+
+
+
+the_entries[136]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/decomposicao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/decomposicao.swf' target='_blank'>Decomposição - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/decomposicao.swf</i></br>Decompor  números apresentados. Até 9999");
+
+
+
+
+
+
+
+
+
+the_entries[137]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/equacoes_4operacoes_balanca.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/equacoes_4operacoes_balanca.swf' target='_blank'>Equações | Operações - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/equacoes_4operacoes_balanca.swf</i></br>Resolver equações; ordenar números");
+
+
+
+
+
+
+
+
+
+the_entries[138]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/fracoes4.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/fracoes4.swf' target='_blank'>Frações IV - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/fracoes4.swf</i></br>Relacionar figuras e símbolos com suas frações correspondentes, frações próprias, impróprias e equivalentes");
+
+
+
+
+
+
+
+
+
+the_entries[139]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/graficos1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/graficos1.swf' target='_blank'>Gráficos O - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/graficos1.swf</i></br>Gráfico de aves");
+
+
+
+
+
+
+
+
+
+the_entries[140]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/graficos1b.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/graficos1b.swf' target='_blank'>Gráficos II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/graficos1b.swf</i></br>Interpretar gráficos, além de trabalhar noção de colunas e linhas");
+
+
+
+
+
+
+
+
+
+the_entries[141]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/horas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/horas.swf' target='_blank'>Horas | Relógio - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/horas.swf</i></br>Acertar hora do relógio analógico pelo digital");
+
+
+
+
+
+
+
+
+
+the_entries[142]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/lernumeros grandes.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/lernumeros%20grandes.swf' target='_blank'>Ler Num Grande - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/lernumeros grandes.swf</i></br>Escrever, decompôr e ordenar números grandes");
+
+
+
+
+
+
+
+
+
+the_entries[143]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/material_dourado1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/material_dourado1.swf' target='_blank'>Material Dourado I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/material_dourado1.swf</i></br>Representar com material dourado o número pedido");
+
+
+
+
+
+
+
+
+
+the_entries[144]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/material_dourado2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/material_dourado2.swf' target='_blank'>Material Dourado II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/material_dourado2.swf</i></br>Sortear um número, adcioná-lo a outro número, e representar o resultado usando o material dourado");
+
+
+
+
+
+
+
+
+
+the_entries[145]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/poligonos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/poligonos.swf' target='_blank'>Polígonos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/poligonos.swf</i></br>Identificação e explanação de polígonos");
+
+
+
+
+
+
+
+
+
+the_entries[146]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/201_caixa.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel4/201_caixa.swf' target='_blank'>Caixa - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel4/201_caixa.swf</i></br>Jogar dados e somar os valores, escolhendo as casas que representam os mesmos, o objetivo é fechar o maior número de casas possível, trabalha Adição e Subtração com números até 50");
+
+
+
+
+
+
+
+
+
+the_entries[147]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/area_ha-km2-campos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/area_ha-km2-campos.swf' target='_blank'>Área I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/area_ha-km2-campos.swf</i></br>Calcular áreas de figuras, em cm2, Hectares e km");
+
+
+
+
+
+
+
+
+
+the_entries[148]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/area_selos.e.campos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/area_selos.e.campos.swf' target='_blank'>Área II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/area_selos.e.campos.swf</i></br>Calcular áreas, em cm2 e m2");
+
+
+
+
+
+
+
+
+
+the_entries[149]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/divisao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/divisao.swf' target='_blank'>Divisão I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/divisao.swf</i></br>Divisão utilizando desenhos; divisão sem resto, com resto");
+
+
+
+
+
+
+
+
+
+the_entries[150]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/divisao_por1-2-3-4-5digit.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/divisao_por1-2-3-4-5digit.swf' target='_blank'>Divisão II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/divisao_por1-2-3-4-5digit.swf</i></br>Divisão com 3, 4, 5 e 6 algarismos; divisão por 10 e por 100 ");
+
+
+
+
+
+
+
+
+
+the_entries[151]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/Dobradura.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/Dobradura.swf' target='_blank'>Dobradura - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/Dobradura.swf</i></br>Apontar como ficará um papel se dobrado conforme mostrado em tela");
+
+
+
+
+
+
+
+
+
+the_entries[152]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/escalas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/escalas.swf' target='_blank'>Escalas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/escalas.swf</i></br>Explanação sobre escala, atividades utilizando mapas");
+
+
+
+
+
+
+
+
+
+the_entries[153]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/fracoes2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/fracoes2.swf' target='_blank'>Frações I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/fracoes2.swf</i></br>Frações de figuras; ordenar frações; frações equivalentes, comparar frações em maior ou menor, números mistos, frações décimas, centésimas");
+
+
+
+
+
+
+
+
+
+the_entries[154]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/fracoes3.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/fracoes3.swf' target='_blank'>Frações II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/fracoes3.swf</i></br>Frações de figuras; ordenar frações; frações equivalentes, comparar frações em maior ou menor, números mistos, frações décimas, centésimas");
+
+
+
+
+
+
+
+
+
+the_entries[155]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/funcoes_rules-tables2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/funcoes_rules-tables2.swf' target='_blank'>Funções - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/funcoes_rules-tables2.swf</i></br>Funções, regras em tabela");
+
+
+
+
+
+
+
+
+
+the_entries[156]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/qualearegra.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/qualearegra.swf' target='_blank'>Qual a Regra - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/qualearegra.swf</i></br>Sequências - padrões - completar sequência numéricas; criar próprias regras e sequências");
+
+
+
+
+
+
+
+
+
+the_entries[157]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regraemtabelas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regraemtabelas.swf' target='_blank'>Regra em Tabelas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regraemtabelas.swf</i></br>completar sequências numéricas obedecendo regras");
+
+
+
+
+
+
+
+
+
+the_entries[158]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regularidades.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regularidades.swf' target='_blank'>Regularidades I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regularidades.swf</i></br>Escolher regra e completar regularidade criada");
+
+
+
+
+
+
+
+
+
+the_entries[159]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regularidades_de.5em5.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regularidades_de.5em5.swf' target='_blank'>Regularidades II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/regularidades_de.5em5.swf</i></br>Completar regularidade de 5 em 5");
+
+
+
+
+
+
+
+
+
+the_entries[160]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoCirculos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoCirculos.swf' target='_blank'>Num Romanos I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoCirculos.swf</i></br>Associação de números romanos e indo-arábicos");
+
+
+
+
+
+
+
+
+
+the_entries[161]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoFormas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoFormas.swf' target='_blank'>Num Romanos II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoFormas.swf</i></br>Associação de números romanos e indo-arábicos");
+
+
+
+
+
+
+
+
+
+the_entries[162]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoHoras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoHoras.swf' target='_blank'>Num Romanos III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/RomanoHoras.swf</i></br>Acertar horas em relógio com números romanos");
+
+
+
+
+
+
+
+
+
+the_entries[163]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/volume_quantos-cubos2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/volume_quantos-cubos2.swf' target='_blank'>Volume I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/volume_quantos-cubos2.swf</i></br>Cubos e centímetros cúbicos - cm3");
+
+
+
+
+
+
+
+
+
+the_entries[164]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/volumes.com-centim3.swf","<a href='/home/EdujogatiFx/JogosEducativos/Matematica/nivel5/volumes.com-centim3.swf' target='_blank'>Volume II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Matematica/nivel5/volumes.com-centim3.swf</i></br>Centímetros cúbicos - cm3 - ml, metros cúbicos - m3");
+
+
+
+
+
+
+
+
+
+the_entries[165]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/achar_americadosul_c.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/achar_americadosul_c.swf' target='_blank'>Achar América do Sul - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/achar_americadosul_c.swf</i></br>Localizar no mapa capitais, sorteadas pelo computador, dos países da América do Sul");
+
+
+
+
+
+
+
+
+
+the_entries[166]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/achar_capitais.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/achar_capitais.swf' target='_blank'>Achar Capitais do Brasil - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/achar_capitais.swf</i></br>Localizar no mapa capitais, sorteadas pelo computador, do Brasil");
+
+
+
+
+
+
+
+
+
+the_entries[167]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/achar_estados.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/achar_estados.swf' target='_blank'>Achar Estados do Brasil - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/achar_estados.swf</i></br>Localizar no mapa Estados, sorteados pelo computador, do Brasil");
+
+
+
+
+
+
+
+
+
+the_entries[168]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/americas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/americas.swf' target='_blank'>Américas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/americas.swf</i></br>Organizar quebra-cabeças, dos mapas das Américas do norte, central e sul");
+
+
+
+
+
+
+
+
+
+the_entries[169]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/bandeirasdobrasil.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/bandeirasdobrasil.swf' target='_blank'>Bandeiras do Brasil - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/bandeirasdobrasil.swf</i></br>Associar bandeiras aos nomes dos estados à que pertencem");
+
+
+
+
+
+
+
+
+
+the_entries[170]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/coordenadasgeograficas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/coordenadasgeograficas.swf' target='_blank'>Coordenadas Geográficas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/coordenadasgeograficas.swf</i></br>Encontrar no mapa Mundi, as coordenadas pedidas pelo computador ");
+
+
+
+
+
+
+
+
+
+the_entries[171]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/estacoesdoano.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/estacoesdoano.swf' target='_blank'>Estações do Ano I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/estacoesdoano.swf</i></br>Caça palavras dos nomes das quatro estações do ano");
+
+
+
+
+
+
+
+
+
+the_entries[172]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/estacoes.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/estacoes.swf' target='_blank'>Estações do Ano II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/estacoes.swf</i></br>Explanação sobre como ocorre as estações do ano");
+
+
+
+
+
+
+
+
+
+the_entries[173]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/fusoshorarios.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/fusoshorarios.swf' target='_blank'>Fuso Horários - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/fusoshorarios.swf</i></br>Explanação sobre os fusos horários");
+
+
+
+
+
+
+
+
+
+the_entries[174]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/Jogoforca.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/Jogoforca.swf' target='_blank'>Jogo da Forca - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/Jogoforca.swf</i></br>Jogo da forca dos estados Brasileiros");
+
+
+
+
+
+
+
+
+
+the_entries[175]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/m_americadosul.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/m_americadosul.swf' target='_blank'>Mapa América do Sul - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/m_americadosul.swf</i></br>Quebra-cabeça da América do Sul, organizar mapa");
+
+
+
+
+
+
+
+
+
+the_entries[176]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/mapa_do_brasil.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/mapa_do_brasil.swf' target='_blank'>Mapa Brasil I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/mapa_do_brasil.swf</i></br>Organizar mapa do Brasil por estado");
+
+
+
+
+
+
+
+
+
+the_entries[177]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil.swf' target='_blank'>Mapa Brasil II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil.swf</i></br>Organizar mapa do Brasil por estado");
+
+
+
+
+
+
+
+
+
+the_entries[178]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil2.swf' target='_blank'>Mapa Brasil III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil2.swf</i></br>Quebra-cabeça do mapa do Brasil, organizar mapa do Brasil por estado");
+
+
+
+
+
+
+
+
+
+the_entries[179]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil3.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil3.swf' target='_blank'>Mapa Brasil IV - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil3.swf</i></br>Organizar mapa do Brasil");
+
+
+
+
+
+
+
+
+
+the_entries[180]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil4.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil4.swf' target='_blank'>Mapa Brasil V	 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/mapabrasil4.swf</i></br>Organizar mapa do Brasil por região");
+
+
+
+
+
+
+
+
+
+the_entries[181]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/movimentosdaterra.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/movimentosdaterra.swf' target='_blank'>Movimentos da Terra - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/movimentosdaterra.swf</i></br>Explanação sobre o movimento da terra -  Rotação e Translação");
+
+
+
+
+
+
+
+
+
+the_entries[182]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/papagaioBrasil_0007.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/papagaioBrasil_0007.swf' target='_blank'>Papagaio Brasil - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/papagaioBrasil_0007.swf</i></br>Acertar os nomes das capitais dos estados do Brasil e onde se localizam no mapa");
+
+
+
+
+
+
+
+
+
+the_entries[183]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/redes.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/redes.swf' target='_blank'>Rede Geografica - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/redes.swf</i></br>Explanação sobre Redes e coordenadas geográficas, paralelos, meridianos, latitude e longitude");
+
+
+
+
+
+
+
+
+
+the_entries[184]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Geografia/sistemasolar.swf","<a href='/home/EdujogatiFx/JogosEducativos/Geografia/sistemasolar.swf' target='_blank'>Sistema Solar - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Geografia/sistemasolar.swf</i></br>Organizar os planetas do sistema solar");
+
+
+
+
+
+
+
+
+
+the_entries[185]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/142_caca03.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/142_caca03.swf' target='_blank'>Caça Palavras I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/142_caca03.swf</i></br>Caça palavras com alguns animais");
+
+
+
+
+
+
+
+
+
+the_entries[186]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/143_caca04.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/143_caca04.swf' target='_blank'>Caça Palavras II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/143_caca04.swf</i></br>Caça palavras da fotossíntese");
+
+
+
+
+
+
+
+
+
+the_entries[187]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/caca_palavras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/caca_palavras.swf' target='_blank'>Caça Palavras III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/caca_palavras.swf</i></br>Caça palavras de palavras relacionada ao meio ambiente");
+
+
+
+
+
+
+
+
+
+the_entries[188]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/coletaSeletiva_0008.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/coletaSeletiva_0008.swf' target='_blank'>Coleta Seletiva - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/coletaSeletiva_0008.swf</i></br>Explanação sobre lixo e coleta seletiva, atividade de separação do lixo ");
+
+
+
+
+
+
+
+
+
+the_entries[189]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/corpoHumano_portugues_0005.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/corpoHumano_portugues_0005.swf' target='_blank'>Corpo Humano I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/corpoHumano_portugues_0005.swf</i></br>Clicar nas partes do corpo que é pedida pelo computador");
+
+
+
+
+
+
+
+
+
+the_entries[190]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/corpohumanoarrastar.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/corpohumanoarrastar.swf' target='_blank'>Corpo Humano II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/corpohumanoarrastar.swf</i></br>Associar nome das partes do corpo com as imagens das mesmas");
+
+
+
+
+
+
+
+
+
+the_entries[191]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/nome_alimentos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/nome_alimentos.swf' target='_blank'>Nome dos Alimentos I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/nome_alimentos.swf</i></br>Associar nomes dos alimentos com as imagens das mesmas");
+
+
+
+
+
+
+
+
+
+the_entries[192]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/nomealimentos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/nomealimentos.swf' target='_blank'>Nome dos Alimentos II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel1/nomealimentos.swf</i></br>Organizar letras para formar os nomes dos alimentos da imagem mostrada ");
+
+
+
+
+
+
+
+
+
+the_entries[193]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/celula_animal1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/celula_animal1.swf' target='_blank'>Célula Animal I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/celula_animal1.swf</i></br>Exploração da célula animal, com informações e expĺicações sobre cada parte");
+
+
+
+
+
+
+
+
+
+the_entries[194]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/celula_animal2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/celula_animal2.swf' target='_blank'>Célula Animal II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/celula_animal2.swf</i></br>Associar as partes das células com sua descrição");
+
+
+
+
+
+
+
+
+
+the_entries[195]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/cicloagua.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/cicloagua.swf' target='_blank'>Ciclo da água I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/cicloagua.swf</i></br>Exploração do ciclo da água por meio de imagem");
+
+
+
+
+
+
+
+
+
+the_entries[196]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/ciclodaagua002.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/ciclodaagua002.swf' target='_blank'>Ciclo da água II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/ciclodaagua002.swf</i></br>Acontecimentos às imagens do ciclo da água");
+
+
+
+
+
+
+
+
+
+the_entries[197]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/ciclodoagua3.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/ciclodoagua3.swf' target='_blank'>Ciclo da água III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/ciclodoagua3.swf</i></br>Explanação sobre o ciclo da água");
+
+
+
+
+
+
+
+
+
+the_entries[198]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/corpo-humano.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/corpo-humano.swf' target='_blank'>Corpo Humano I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/corpo-humano.swf</i></br>Explorar órgãos do corpo Humano, pulmões, fígado, etc.");
+
+
+
+
+
+
+
+
+
+the_entries[199]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/corpo-humano2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/corpo-humano2.swf' target='_blank'>Corpo Humano II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/corpo-humano2.swf</i></br>Explorar órgãos do corpo Humano, pulmões, fígado, etc.");
+
+
+
+
+
+
+
+
+
+the_entries[200]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/cuidados_energia.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/cuidados_energia.swf' target='_blank'>Cuidados com Energia - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/cuidados_energia.swf</i></br>Dicas para evitar acidentes com energia elétrica");
+
+
+
+
+
+
+
+
+
+the_entries[201]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/curiosidades.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/curiosidades.swf' target='_blank'>Curiosidades - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/curiosidades.swf</i></br>Dicas para economia de água e preservação do meio ambiente");
+
+
+
+
+
+
+
+
+
+the_entries[202]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/Esqueleto.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/Esqueleto.swf' target='_blank'>Esqueleto I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/Esqueleto.swf</i></br>Montar o esqueleto Humano");
+
+
+
+
+
+
+
+
+
+the_entries[203]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/esqueleto2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/esqueleto2.swf' target='_blank'>Esqueleto II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/esqueleto2.swf</i></br>Identificação das partes do esqueleto humano");
+
+
+
+
+
+
+
+
+
+the_entries[204]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/identifiquealimentos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/identifiquealimentos.swf' target='_blank'>Identificar Alimentos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/identifiquealimentos.swf</i></br>Associar os alimentos às suas categorias");
+
+
+
+
+
+
+
+
+
+the_entries[205]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/jogonomedosdentes.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/jogonomedosdentes.swf' target='_blank'>Jogos dos Dentes - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/jogonomedosdentes.swf</i></br>Identificar as partes internas da boca pela figura");
+
+
+
+
+
+
+
+
+
+the_entries[206]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/lixo1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/lixo1.swf' target='_blank'>Lixo I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/lixo1.swf</i></br>Explanação sobre reciclagem, materiais recicláveis e tempo de decomposição dos materiais. ");
+
+
+
+
+
+
+
+
+
+the_entries[207]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/lixo2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/lixo2.swf' target='_blank'>Lixo II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/lixo2.swf</i></br>Questionário sobre o tempo de decomposição dos materiais");
+
+
+
+
+
+
+
+
+
+the_entries[208]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/piramide.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/piramide.swf' target='_blank'>Pirâmide dos Alimentos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/piramide.swf</i></br>Classifcar os alimentos em carne, verduras, grãos etc.");
+
+
+
+
+
+
+
+
+
+the_entries[209]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/testedacidadani1.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/testedacidadani1.swf' target='_blank'>Teste da Cidadania I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/testedacidadani1.swf</i></br>Questionário sobre uso adequado da água e da energia elétrica");
+
+
+
+
+
+
+
+
+
+the_entries[210]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/testedacidadani2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/testedacidadani2.swf' target='_blank'>Teste da Cidadania II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/testedacidadani2.swf</i></br>Desafio para desligar os aparelhos ligados, jogar o lixo nas latas adequadas, conscientizando sobre a importância de economia de água e energia e destinação correta do lixo");
+
+
+
+
+
+
+
+
+
+the_entries[211]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/visitaEspacial_0006.swf","<a href='/home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/visitaEspacial_0006.swf' target='_blank'>Visita Espacial	 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Ciencia/nivel2/visitaEspacial_0006.swf</i></br>Viagem pelo nosso sistema solar, conhecendo um pouco sobre cada planeta");
+
+
+
+
+
+
+
+
+
+the_entries[212]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/aprendendoHoras_0008.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/aprendendoHoras_0008.swf' target='_blank'>Aprendendo as Horas I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/aprendendoHoras_0008.swf</i></br>Ajustar as horas do relógio analógico de  acordo com horário mostrado no digital");
+
+
+
+
+
+
+
+
+
+the_entries[213]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/aprendendoshoras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/aprendendoshoras.swf' target='_blank'>Aprendendo as Horas II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/aprendendoshoras.swf</i></br>Ajustar as horas do relógio analógico de  acordo com horário mostrado no digital");
+
+
+
+
+
+
+
+
+
+the_entries[214]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/arie_na_escola.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/arie_na_escola.swf' target='_blank'>Brincando com Ariê 2	 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/arie_na_escola.swf</i></br>nomear objetos utilizando as letras disponíveis; Contar objetos associando com o valor disponível ");
+
+
+
+
+
+
+
+
+
+the_entries[215]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/calendario_0005.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/calendario_0005.swf' target='_blank'>Calendário - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/calendario_0005.swf</i></br>Explorar calendário por meio de perguntas e respostas");
+
+
+
+
+
+
+
+
+
+the_entries[216]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/jogoCores_0008.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/jogoCores_0008.swf' target='_blank'>Jogo das Cores - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/jogoCores_0008.swf</i></br>Responder a cor dos objetos apresentados. Obs -  com áudio.");
+
+
+
+
+
+
+
+
+
+the_entries[217]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/maiorMenor_0007.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/maiorMenor_0007.swf' target='_blank'>Maior e Menor - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/maiorMenor_0007.swf</i></br>Clicar no animal maior ou menor");
+
+
+
+
+
+
+
+
+
+the_entries[218]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/MasculinoFeminino_0005.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/MasculinoFeminino_0005.swf' target='_blank'>Masculino e Feminino - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/MasculinoFeminino_0005.swf</i></br>Classificar nomes de objetos como masculino ou feminino");
+
+
+
+
+
+
+
+
+
+the_entries[219]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/meiosTransporte_0008.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/meiosTransporte_0008.swf' target='_blank'>Meios de Transporte - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/meiosTransporte_0008.swf</i></br>Classificar os transportes apresentados como Aéreos, aquáticos ou terrestres");
+
+
+
+
+
+
+
+
+
+the_entries[220]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/relogio_analogico.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/relogio_analogico.swf' target='_blank'>Relógio Analógico - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/relogio_analogico.swf</i></br>escrever as horas mostrada no relógio analógico; escrever as horas do relógio analógico para o digital; Entender horários antes do meio dia e depois do meio dia; Responder perguntas sobre dias, meses e anos específicos; Responder perguntas baseadas na agenda e horários discriminados; Responder perguntas com base na cronologias das aves casuares apresentadas");
+
+
+
+
+
+
+
+
+
+the_entries[221]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/relogio_tempo-meses-estacoes.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/relogio_tempo-meses-estacoes.swf' target='_blank'>Relógio | Tempo | Meses - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/relogio_tempo-meses-estacoes.swf</i></br>Escrever as horas apresentadas no relógio analógico; organizar os nomes dos meses do ano");
+
+
+
+
+
+
+
+
+
+the_entries[222]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Interdisciplinar/tempoecalendario.swf","<a href='/home/EdujogatiFx/JogosEducativos/Interdisciplinar/tempoecalendario.swf' target='_blank'>Tempo e Calendário - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Interdisciplinar/tempoecalendario.swf</i></br>Escrever as  horas mostradas em relógio analógico; Organizar nomes dos meses do ano; Identificar dia apontado em calendário");
+
+
+
+
+
+
+
+
+
+the_entries[223]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/7erros.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/7erros.swf' target='_blank'>7 erros | Jogo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/7erros.swf</i></br>Sob contagem regressiva encontrar as sete diferenças entre as ilustrações");
+
+
+
+
+
+
+
+
+
+the_entries[224]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/bela_adormecida.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/bela_adormecida.swf' target='_blank'>Bela Adormecida - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/bela_adormecida.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[225]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/bela_fera.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/bela_fera.swf' target='_blank'>A Bela e a Fera - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/bela_fera.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[226]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/pequena_sereia.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/pequena_sereia.swf' target='_blank'>A Pequena Sereia - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/pequena_sereia.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[227]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/princesa_sapo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/princesa_sapo.swf' target='_blank'>A Princesa e o Sapo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/princesa_sapo.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[228]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/bambi.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/bambi.swf' target='_blank'>Bambi - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/bambi.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[229]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/branca_neve.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/branca_neve.swf' target='_blank'>Branca de Neve - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/branca_neve.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[230]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/cachinhos_dourados.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/cachinhos_dourados.swf' target='_blank'>Cachinhos Dourados - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/cachinhos_dourados.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[231]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/chapeuzinho_vermelho.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/chapeuzinho_vermelho.swf' target='_blank'>Chapeuzinho Vermelho - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/chapeuzinho_vermelho.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[232]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/cinderela.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/cinderela.swf' target='_blank'>Cinderela - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/cinderela.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[233]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/patinho_feio.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/patinho_feio.swf' target='_blank'>O Patinho Feio - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/patinho_feio.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[234]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/tres_porquinhos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/tres_porquinhos.swf' target='_blank'>Os Três Porquinhos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/tres_porquinhos.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[235]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/peter_pan.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/peter_pan.swf' target='_blank'>Peter Pan - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/peter_pan.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[236]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Contos/pinoquio.swf","<a href='/home/EdujogatiFx/JogosEducativos/Contos/pinoquio.swf' target='_blank'>Pinóquio - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Contos/pinoquio.swf</i></br>Ilustrações, textos, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[237]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Fabulas/aformigaeacigarra.swf","<a href='/home/EdujogatiFx/JogosEducativos/Fabulas/aformigaeacigarra.swf' target='_blank'>A Formiga e a Cigarra - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Fabulas/aformigaeacigarra.swf</i></br>Teatro de fantoches com interpretações e narração.");
+
+
+
+
+
+
+
+
+
+the_entries[238]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Fabulas/araposaeadonacorvo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Fabulas/araposaeadonacorvo.swf' target='_blank'>A Raposa e a Corvo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Fabulas/araposaeadonacorvo.swf</i></br>Teatro de fantoches com interpretações e narração.");
+
+
+
+
+
+
+
+
+
+the_entries[239]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Fabulas/araposaeogalo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Fabulas/araposaeogalo.swf' target='_blank'>A Raposa e o Galo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Fabulas/araposaeogalo.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[240]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Fabulas/atartarugaealebre.swf","<a href='/home/EdujogatiFx/JogosEducativos/Fabulas/atartarugaealebre.swf' target='_blank'>A Tartaruga e a Lebre - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Fabulas/atartarugaealebre.swf</i></br>Teatro de fantoches com interpretações e narração.");
+
+
+
+
+
+
+
+
+
+the_entries[241]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Fabulas/oburroempeledeleao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Fabulas/oburroempeledeleao.swf' target='_blank'>O Burro em Pele de Leão - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Fabulas/oburroempeledeleao.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[242]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Fabulas/ojovempastoreolobo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Fabulas/ojovempastoreolobo.swf' target='_blank'>O Jovem e o Lobo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Fabulas/ojovempastoreolobo.swf</i></br>Teatro de fantoches com interpretações e narração.");
+
+
+
+
+
+
+
+
+
+the_entries[243]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Fabulas/oleaoeorato.swf","<a href='/home/EdujogatiFx/JogosEducativos/Fabulas/oleaoeorato.swf' target='_blank'>O leão e o Rato - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Fabulas/oleaoeorato.swf</i></br>Teatro de fantoches com interpretações e narração.");
+
+
+
+
+
+
+
+
+
+the_entries[244]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Lendas/aoncadamaotorta.swf","<a href='/home/EdujogatiFx/JogosEducativos/Lendas/aoncadamaotorta.swf' target='_blank'>A onça da mão torta - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Lendas/aoncadamaotorta.swf</i></br>Ilustrações, interpretações e sons contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[245]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Lendas/mula.swf","<a href='/home/EdujogatiFx/JogosEducativos/Lendas/mula.swf' target='_blank'>A Mula Sem Cabeça - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Lendas/mula.swf</i></br>Ilustrações, interpretações e sons contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[246]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Lendas/oboto.swf","<a href='/home/EdujogatiFx/JogosEducativos/Lendas/oboto.swf' target='_blank'>O Boto - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Lendas/oboto.swf</i></br>Ilustrações, interpretações e sons contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[247]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Lendas/boitata.swf","<a href='/home/EdujogatiFx/JogosEducativos/Lendas/boitata.swf' target='_blank'>O Boitatá - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Lendas/boitata.swf</i></br>Ilustrações, interpretações e sons contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[248]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Lendas/saci.swf","<a href='/home/EdujogatiFx/JogosEducativos/Lendas/saci.swf' target='_blank'>Saci Pererê - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Lendas/saci.swf</i></br>Ilustrações, interpretações e sons contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[249]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/aovelhaeolobo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/aovelhaeolobo.swf' target='_blank'>A Ovelha e o Lobo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/aovelhaeolobo.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[250]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocamaleao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocamaleao.swf' target='_blank'>O Camaleão - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocamaleao.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[251]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocangurueacoruja.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocangurueacoruja.swf' target='_blank'>O Canguru e a Coruja - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocangurueacoruja.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[252]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocoalasujo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocoalasujo.swf' target='_blank'>O Coala Sujo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/ocoalasujo.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[253]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/olapis.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/olapis.swf' target='_blank'>O Lápis - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/olapis.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[254]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/omeleasabelhas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/omeleasabelhas.swf' target='_blank'>O Mel e as Abelhas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/omeleasabelhas.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[255]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osburrosespertos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osburrosespertos.swf' target='_blank'>Os Burros Espertos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osburrosespertos.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[256]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osegredodasbananas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osegredodasbananas.swf' target='_blank'>O Segredo das Bananas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osegredodasbananas.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[257]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osoleoverao.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osoleoverao.swf' target='_blank'>O Sol e o Verão - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/osoleoverao.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[258]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/pintinhosgalos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/pintinhosgalos.swf' target='_blank'>Pintinhos, Galos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/pintinhosgalos.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[259]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/piratasecorsarios.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/piratasecorsarios.swf' target='_blank'>Piratas e Corsários - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao1/piratasecorsarios.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[260]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/afotografiaeocinema.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/afotografiaeocinema.swf' target='_blank'>A Fotografia e o Cinema - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/afotografiaeocinema.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[261]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ahistoriadenoel.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ahistoriadenoel.swf' target='_blank'>A História de Noel - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ahistoriadenoel.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[262]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ahistoriadoskate.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ahistoriadoskate.swf' target='_blank'>História do Skate - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ahistoriadoskate.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[263]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/asfasesdalua.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/asfasesdalua.swf' target='_blank'>As Fases da Lua - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/asfasesdalua.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[264]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/cachorroquente.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/cachorroquente.swf' target='_blank'>Cachorro Quente - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/cachorroquente.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[265]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/direitosdacrianca.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/direitosdacrianca.swf' target='_blank'>Direitos da Criança - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/direitosdacrianca.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[266]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/florestaamazonica.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/florestaamazonica.swf' target='_blank'>Floresta Amazônica - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/florestaamazonica.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[267]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/hipnose.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/hipnose.swf' target='_blank'>Hipnose - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/hipnose.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[268]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/marteeseussegredos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/marteeseussegredos.swf' target='_blank'>Marte e seus Segredos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/marteeseussegredos.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[269]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ocerebro.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ocerebro.swf' target='_blank'>O Cérebro - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ocerebro.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[270]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ociclodasaguas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ociclodasaguas.swf' target='_blank'>O Ciclo das águas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/ociclodasaguas.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[271]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/oclimaeotempo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/oclimaeotempo.swf' target='_blank'>O Clima e o Tempo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/oclimaeotempo.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[272]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/odiadoindio.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/odiadoindio.swf' target='_blank'>O Dia do índio - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/odiadoindio.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[273]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/oplastico.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/oplastico.swf' target='_blank'>O Plástico - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/oplastico.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[274]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/osol.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/osol.swf' target='_blank'>O Sol - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/osol.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[275]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/otelefone.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/otelefone.swf' target='_blank'>O Telefone - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/otelefone.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[276]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/piramides.swf","<a href='/home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/piramides.swf' target='_blank'>Pirâmides - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Quadrinhos/sessao2/piramides.swf</i></br>Ilustrações, interpretações, sons e narração contam a estória");
+
+
+
+
+
+
+
+
+
+the_entries[277]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/bloxorz.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/bloxorz.swf' target='_blank'>Bloxorz | Level o Bloco - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/bloxorz.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[278]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/briker.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/briker.swf' target='_blank'>Briker | Leve o Gelo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/briker.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[279]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/coolmath-buildingblocks.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/coolmath-buildingblocks.swf' target='_blank'>Blocks | Construção - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/coolmath-buildingblocks.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[280]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/jogodascanecas.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/jogodascanecas.swf' target='_blank'>Jogo das Canecas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/jogodascanecas.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[281]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/jogo-memoria.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/jogo-memoria.swf' target='_blank'>Jogo da Memória - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/jogo-memoria.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[282]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/velha.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/velha.swf' target='_blank'>Jogo da Velha - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/velha.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[283]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/tilt.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/tilt.swf' target='_blank'>Leve a Bola - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Raciocinio/tilt.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[284]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/473_adivinhar_adicao.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/473_adivinhar_adicao.swf' target='_blank'>Adivinhar Adição	 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/473_adivinhar_adicao.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[285]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/472_adivinhar_vezes.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/472_adivinhar_vezes.swf' target='_blank'>Adivinhar Multiplicação - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/472_adivinhar_vezes.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[286]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/474_adivinhar_3op.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/474_adivinhar_3op.swf' target='_blank'>Adivinhar III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/474_adivinhar_3op.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[287]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/198_ponte.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/198_ponte.swf' target='_blank'>Atravessar a Ponte - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/198_ponte.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[288]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/149_logica.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/149_logica.swf' target='_blank'>Enigma da Turma - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/149_logica.swf</i></br>Descrição    ");
+
+
+
+
+
+
+
+
+
+the_entries[289]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/211_enigma_fracoes.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/211_enigma_fracoes.swf' target='_blank'>Enigma das Frações - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/211_enigma_fracoes.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[290]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma1.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma1.swf' target='_blank'>Enigma dos Símbolos I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma1.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[291]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma2.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma2.swf' target='_blank'>Enigma dos Símbolos II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma2.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[292]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma3.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma3.swf' target='_blank'>Enigma dos Símbolos III - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma3.swf</i></br>Descrição    ");
+
+
+
+
+
+
+
+
+
+the_entries[293]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/1429_charadas.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/1429_charadas.swf' target='_blank'>Enigma de Matemática - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/1429_charadas.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[294]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/jogo-cerca.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/jogo-cerca.swf' target='_blank'>Jogo da Cerca - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/jogo-cerca.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[295]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/150_penhasco.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/150_penhasco.swf' target='_blank'>Jogo do Penhasco - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/150_penhasco.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[296]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/199_concentra.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/199_concentra.swf' target='_blank'>Teste de Concentração - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/199_concentra.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[297]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/197_rio.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/197_rio.swf' target='_blank'>Teste de QI I - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/197_rio.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[298]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/testinteligencia.swf","<a href='/home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/testinteligencia.swf' target='_blank'>Teste de QI II - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/RaciocinioLogico/Logica/testinteligencia.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[299]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_cacapalavras.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_cacapalavras.swf' target='_blank'>Caça Palavras - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_cacapalavras.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[300]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_campominado.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_campominado.swf' target='_blank'>Campo Minado - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_campominado.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[301]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_chave.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_chave.swf' target='_blank'>Chave - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_chave.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[302]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_conecte.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_conecte.swf' target='_blank'>Conecte - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_conecte.swf</i></br>Diversão, Desafio, Atenção Visual]");
+
+
+
+
+
+
+
+
+
+the_entries[303]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_enigmas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_enigmas.swf' target='_blank'>Enigmas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_enigmas.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[304]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_hexagonos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_hexagonos.swf' target='_blank'>Hexágonos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_hexagonos.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[305]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_ilusoes.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_ilusoes.swf' target='_blank'>Ilusões de óptica - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_ilusoes.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[306]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_linhascoloridas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_linhascoloridas.swf' target='_blank'>Linhas Coloridas - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_linhascoloridas.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[307]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_palitos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_palitos.swf' target='_blank'>Palitos - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_palitos.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[308]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_quebra_cabeca.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_quebra_cabeca.swf' target='_blank'>Quebra-cabeça - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_quebra_cabeca.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[309]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_sombra.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_sombra.swf' target='_blank'>Sombra  - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_sombra.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[310]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_tangram.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_tangram.swf' target='_blank'>Tangram - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_tangram.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[311]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_telepatia.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_telepatia.swf' target='_blank'>Telepatia - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_telepatia.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[312]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_transito.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_transito.swf' target='_blank'>Trânsito - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_transito.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[313]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_trevodasorte.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_trevodasorte.swf' target='_blank'>Trevo da Sorte  - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_trevodasorte.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[314]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_triminos.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_triminos.swf' target='_blank'>Triminós - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/jogos_triminos.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[315]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/filhotes/panimal.exe","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Educativos/filhotes/panimal.exe' target='_blank'>panimal - <b>EdujogatiFX</b></a>","","</br><i>wine /home/EdujogatiFx/JogosEducativos/Jogos/Educativos/filhotes/panimal.exe</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[316]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/bartsimpsonstreetburglary8_secure.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/bartsimpsonstreetburglary8_secure.swf' target='_blank'>Bart Simpson - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/bartsimpsonstreetburglary8_secure.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[317]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/Freegear.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/Freegear.swf' target='_blank'>Free Gear - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/Freegear.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[318]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/pacman2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/pacman2.swf' target='_blank'>Pac-Man 2 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/pacman2.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[319]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/sitiopicapauamarelo.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/sitiopicapauamarelo.swf' target='_blank'>Pica-pau Amarelo - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/sitiopicapauamarelo.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[320]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/ultimate_sonic.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/ultimate_sonic.swf' target='_blank'>Sonic Ultimate - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/ultimate_sonic.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[321]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/Super_Mario_Star_Scramble_2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/Super_Mario_Star_Scramble_2.swf' target='_blank'>Super Mario Star - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/Super_Mario_Star_Scramble_2.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[322]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/tetris.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/tetris.swf' target='_blank'>Tetris - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/tetris.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[323]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/moto_cross.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/moto_cross.swf' target='_blank'>Moto Cross - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/moto_cross.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[324]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/moto_cross2.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Arcade/moto_cross2.swf' target='_blank'>Moto Cross 2 - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Arcade/moto_cross2.swf</i></br>Diversão, Desafio, Atenção Visual");
+
+
+
+
+
+
+
+
+
+the_entries[325]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/barbie_fantasy_tale_round_puzzle.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/barbie_fantasy_tale_round_puzzle.swf' target='_blank'>Barbie Puzzle - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/barbie_fantasy_tale_round_puzzle.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[326]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/barbie-rock-princess-dress-up-y8.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/barbie-rock-princess-dress-up-y8.swf' target='_blank'>Barbie Rock Princess - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/barbie-rock-princess-dress-up-y8.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[327]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/Beauty_Nail_Fad.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/Beauty_Nail_Fad.swf' target='_blank'>Beauty Nail Fad - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/Beauty_Nail_Fad.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[328]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/cake_decorate.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/cake_decorate.swf' target='_blank'>Cake Decorate - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/cake_decorate.swf</i></br>Descrição     ");
+
+
+
+
+
+
+
+
+
+the_entries[329]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/holly_madison_dress_up_game.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/holly_madison_dress_up_game.swf' target='_blank'>Holly Madison - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/holly_madison_dress_up_game.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[330]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/pimp_your_guitar.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/pimp_your_guitar.swf' target='_blank'>Pimp Your Guitar - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/pimp_your_guitar.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[331]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/rapunzel.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/rapunzel.swf' target='_blank'>Rapunzel - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/rapunzel.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[332]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/roomchanger.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/roomchanger.swf' target='_blank'>Room Changer - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/roomchanger.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[333]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/backyard_adventure_maker_nickelodeon.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/backyard_adventure_maker_nickelodeon.swf' target='_blank'>Decorar - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/backyard_adventure_maker_nickelodeon.swf</i></br>Decoração de ambientes e vestir pesonagens animados");
+
+
+
+
+
+
+
+
+
+the_entries[334]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/construircasasf_garotas.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/construircasasf_garotas.swf' target='_blank'>Decorar - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/construircasasf_garotas.swf</i></br>Decorar e construir cenários, casas");
+
+
+
+
+
+
+
+
+
+the_entries[335]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/montar_cocorico.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Decorar/montar_cocorico.swf' target='_blank'>Montar - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Decorar/montar_cocorico.swf</i></br>Animais cocoricó");
+
+
+
+
+
+
+
+
+
+the_entries[336]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/sprinter.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/sprinter.swf' target='_blank'>Sprinter - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Esportes/sprinter.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[337]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/The_Champions_3D.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/The_Champions_3D.swf' target='_blank'>The Champions 3D - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Esportes/The_Champions_3D.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[338]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/World_Basket_Cup.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/World_Basket_Cup.swf' target='_blank'>World Basket Cup - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Esportes/World_Basket_Cup.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[339]	=	new	entry (	"/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/yahootennis.swf","<a href='/home/EdujogatiFx/JogosEducativos/Jogos/Esportes/yahootennis.swf' target='_blank'>Yahoo Tennis - <b>EdujogatiFX</b></a>","","</br><i>chromium-browser /home/EdujogatiFx/JogosEducativos/Jogos/Esportes/yahootennis.swf</i></br>Descrição");
+
+
+
+
+
+
+
+
+
+the_entries[340]	=	new	entry (	"","Tabela periódica - <b>Kalzium</b>","","</br><i>kalzium</i></br>Programa mostra tabela periódica, podendo seus elementos   serem exibidos por grupo, famílias etc...");
+
+
+
+
+
+
+
+
+
+the_entries[341]	=	new	entry (	"","Globo na área de trabalho - <b>Marble</b>","","</br><i>marble</i></br>Mostra globo terrestre tridimensional");
+
+
+
+
+
+
+
+
+
+the_entries[342]	=	new	entry (	"","Planetário virtual - <b>Kstars</b>","","</br><i>kstars</i></br>Programa mostra céu, estrelas, galáxias, sistema solar, entre outros, permite busca de planetas do sistema solar");
+
+
+
+
+
+
+
+
+
+the_entries[343]	=	new	entry (	"","Treinamento em geografia - <b>Kgeography</b>","","</br><i>kgeography</i></br>Programa para estudo interativo de mapa do brasil, entre outros, com perguntas e respostas sobre capitais,  estados e bandeiras dos países e estados.");
+
+
+
+
+
+
+
+
+
+the_entries[344]	=	new	entry (	"","Aprender o alfabeto - <b>Klettres</b>","","</br><i>klettres</i></br>Programa para aprendizado do alfabeto em inglês, francês ou português por meio dos sons e dos ícones das letras.");
+
+
+
+
+
+
+
+
+
+the_entries[345]	=	new	entry (	"","Ferramenta de Referência/estudo do japonês - <b>Kiten</b>","","</br><i>kiten</i></br>Ferramenta de Referência/estudo do japonês");
+
+
+
+
+
+
+
+
+
+the_entries[346]	=	new	entry (	"","Jogo da forca - <b>Khangman</b>","","</br><i>khangman</i></br>Programa em que o estudante deve adivinhar a palavra antes que se forme uma forca");
+
+
+
+
+
+
+
+
+
+the_entries[347]	=	new	entry (	"","Jogo de ordenação de letras - <b>Kanagram</b>","","</br><i>kanagram</i></br>Programa exibe palavra com as letras  desordenadas, tendo o estudante que adivinhar que palavra é.");
+
+
+
+
+
+
+
+
+
+the_entries[348]	=	new	entry (	"","Treinador de vocabulário - <b>Parley</b>","","</br><i>parley</i></br>Parley suporta muitos recursos específicos do idioma, mas também pode ser usado para outras tarefas de aprendizagem. Ele usa o método de aprendizagem de repetição espaçada, também conhecido como flash cards.");
+
+
+
+
+
+
+
+
+
+the_entries[349]	=	new	entry (	"","Simon diz - <b>Blinken</b>","","</br><i>blinken</i></br>Programa simples para teste de memória, onde os estudantes veem e ouvem uma sequência de sons e cores e devem mostrar na ordem que aparecem e são tocados, contando ainda com score de pontuação ");
+
+
+
+
+
+
+
+
+
+the_entries[350]	=	new	entry (	"","Treinador de vocabulário - <b>KwordQuiz</b>","","</br><i>kwordquiz</i></br>Programa de quiz");
+
+
+
+
+
+
+
+
+
+the_entries[351]	=	new	entry (	"","Software Matemático - <b>Cantor</b>","","</br><i>cantor</i></br>É um software livre de aplicações matemáticas para estatística e análise científicas.");
+
+
+
+
+
+
+
+
+
+the_entries[352]	=	new	entry (	"","Desenho de funções matemáticas - <b>KmPlot</b>","","</br><i>kmplot</i></br>Programa destinado ao desenho de funções  matemáticas");
+
+
+
+
+
+
+
+
+
+the_entries[353]	=	new	entry (	"","Calculadora Gráfica - <b>KAlgebra</b>","","</br><i>kalgebra</i></br>Calculadora Gráfica");
+
+
+
+
+
+
+
+
+
+the_entries[354]	=	new	entry (	"","Exercícios com frações - <b>Kbruch</b>","","</br><i>kbruch</i></br>São mostrados exercícios de frações, lógica da soma de frações que devem ser resolvidos");
+
+
+
+
+
+
+
+
+
+the_entries[355]	=	new	entry (	"","Geometria interativa - <b>Kig</b>","","</br><i>kig</i></br>O Kig é um aplicativo para geometria interativa. Ele pretende cumprir dois objetivos: · Permitir aos estudantes explorarem interativamente figuras e conceitos");
+
+
+
+
+
+
+
+
+
+the_entries[356]	=	new	entry (	"","Geometria dinâmica - <b>GeoGebra</b>","","</br><i>geogebra</i></br>Estudo de Fíguras e conceitos matemáticos, desenho de figuras matemáticas");
+
+
+
+
+
+
+
+
+
+the_entries[357]	=	new	entry (	"","Série educacional - <b>Gcompris</b>","","</br><i>gcompris</i></br>Gcompris – Diversos jogos infantis que auxiliam no aprendizado ao uso do mouse, teclado, matemática, português, lógica e etc.");
+
+
+
+
+
+
+
+
+
+the_entries[358]	=	new	entry (	"","Desenho - <b>Tuxpaint</b>","","</br><i>tuxpaint</i></br>Tuxpaint - Pintura e desenho diversos, formas geométricas, linhas etc. Muito intuitivo");
+
+
+
+
+
+
+
+
+
+the_entries[359]	=	new	entry (	"","Clone do Bomberman - <b>Granatier</b>","","</br><i>granatier</i></br>jogo de estratégia, explodir paredes");
+
+
+
+
+
+
+
+
+
+the_entries[360]	=	new	entry (	"","Clone do Pacman - <b>Kapman</b>","","</br><i>kapman</i></br>Juntar ouro e fugir das múmias");
+
+
+
+
+
+
+
+
+
+the_entries[361]	=	new	entry (	"","Jogo como tetris - <b>Kblocks</b>","","</br><i>kblocks</i></br>jogo de tijolos descendo");
+
+
+
+
+
+
+
+
+
+the_entries[362]	=	new	entry (	"","Jogo de ação - <b>Kgoldrunner</b>","","</br><i>kgoldrunner</i></br>Kgoldrunner – jogo de ação onde o participante deve pegar ouro e usar de estratégia para fugir dos inimigos");
+
+
+
+
+
+
+
+
+
+the_entries[363]	=	new	entry (	"","Jogo de arcade espacial - <b>KspaceDuel</b>","","</br><i>kspaceduel</i></br>Duelo de naves ao redor do sol");
+
+
+
+
+
+
+
+
+
+the_entries[364]	=	new	entry (	"","Jogo de bolas que pulam - <b>Kbounce</b>","","</br><i>kbounce</i></br>participante deve construir ao menos 75% de parede de modo que as bolas não toquem quando estas estiverem sendo construídas");
+
+
+
+
+
+
+
+
+
+the_entries[365]	=	new	entry (	"","Jogo de bombardeio - <b>Bomber</b>","","</br><i>bomber</i></br>Avião lança bombas sobre alvos fixos");
+
+
+
+
+
+
+
+
+
+the_entries[366]	=	new	entry (	"","Jogo de corrida de Cobras - <b>Ksnakes</b>","","</br><i>ksnakes</i></br>Participante deve guiar uma cobra de modo que esta não toque as barreiras nem em outra cobra");
+
+
+
+
+
+
+
+
+
+the_entries[367]	=	new	entry (	"","Jogo de tetris  - <b>Ksirtet</b>","","</br><i>ksirtet</i></br>jogo de tijolos que caem, para serem montados");
+
+
+
+
+
+
+
+
+
+the_entries[368]	=	new	entry (	"","Jogo espacial - <b>Kasteroides</b>","","</br><i>kasteroides</i></br>jogo de naves, onde o participante deve atirar para destruir asteróides");
+
+
+
+
+
+
+
+
+
+the_entries[369]	=	new	entry (	"","Jogo parecido com puyopuyo japones - <b>Kovos</b>","","</br><i>kovos</i></br>Jogo tipo tetris, parecido com puyopuyo");
+
+
+
+
+
+
+
+
+
+the_entries[370]	=	new	entry (	"","Jogo parecido com tron - <b>Ktron</b>","","</br><i>ktron</i></br>Linhas de cores diferentes, uma deve ser guiadas para não tocar na outra nem bater na lateral.");
+
+
+
+
+
+
+
+
+
+the_entries[371]	=	new	entry (	"","Mini golf - <b>Kolf</b>","","</br><i>kolf</i></br>Pequeno campo de golf");
+
+
+
+
+
+
+
+
+
+the_entries[372]	=	new	entry (	"","Paciência - <b>Kpatience</b>","","</br><i>kpatience</i></br>jogo de cartas, para organizar as cartas do maior para o menor naipe");
+
+
+
+
+
+
+
+
+
+the_entries[373]	=	new	entry (	"","Tenente Lskat - <b>Lskat</b>","","</br><i>lskat</i></br>jogo de cartas jogadas, quem fizer o maior número de pontos vence.");
+
+
+
+
+
+
+
+
+
+the_entries[374]	=	new	entry (	"","3D Chess Game - <b>Glchess</b>","","</br><i>glchess</i></br>Jogo de xadrez em 3D");
+
+
+
+
+
+
+
+
+
+the_entries[375]	=	new	entry (	"","Conecte os pontos para criar quadrados - <b>KSquares</b>","","</br><i>ksquares</i></br>Conectar os pontos para criar quadros");
+
+
+
+
+
+
+
+
+
+the_entries[376]	=	new	entry (	"","Jogo de dados - <b>Kiriti</b>","","</br><i>kiriti</i></br>Jogo de dados");
+
+
+
+
+
+
+
+
+
+the_entries[377]	=	new	entry (	"","Jogo de peças - <b>Shisen-Sho</b>","","</br><i>shisen-sho</i></br>Jogo de peças");
+
+
+
+
+
+
+
+
+
+the_entries[378]	=	new	entry (	"","Jogo de reversi - <b>Bovo</b>","","</br><i>bovo</i></br>jogo de estratégia, deve-se clicar nos espaços e ter o maior numero de pecas de sua cor");
+
+
+
+
+
+
+
+
+
+the_entries[379]	=	new	entry (	"","Jogo de reversi - <b>KReversi</b>","","</br><i>kreversi</i></br>jogo de estratégia, deve-se clicar nos espaços e ter o maior numero de pecas de sua cor");
+
+
+
+
+
+
+
+
+
+the_entries[380]	=	new	entry (	"","Jogo de tabuleiro Go - <b>Kigo</b>","","</br><i>kigo</i></br>jogo de estratégia, deve-se clicar nas diagonais e ter o maior numero de pecas de sua cor");
+
+
+
+
+
+
+
+
+
+the_entries[381]	=	new	entry (	"","Jogo lógico de Caixa Preta - <b>KBlackBox</b>","","</br><i>kblackbox</i></br>Jogo lógico de Caixa Preta, lógica");
+
+
+
+
+
+
+
+
+
+the_entries[382]	=	new	entry (	"","Jogo lógico quatro em linha - <b>Kfourinline</b>","","</br><i>kfourinline</i></br>Kfourinline");
+
+
+
+
+
+
+
+
+
+the_entries[383]	=	new	entry (	"","Paciência Manjongg - <b>KMahjongg</b>","","</br><i>kmahjongg</i></br>KMahjongg");
+
+
+
+
+
+
+
+
+
+the_entries[384]	=	new	entry (	"","Homem batata - <b>Ktuberling</b>","","</br><i>ktuberling</i></br>pode-se enfeitar uma batata com várias ferramentas como óculos, chapéu etc...");
+
+
+
+
+
+
+
+
+
+the_entries[385]	=	new	entry (	"","Tuxmath - <b>Tuxmath </b>","","</br><i>tuxmath </i></br>ferramenta muito interessante para prática da matemática, soma, adição, subtração, multiplicação, entre outras.");
+
+
+
+
+
+
+
+
+
+the_entries[386]	=	new	entry (	"","Jogo de batalha  naval - <b>Kbattleship</b>","","</br><i>kbattleship</i></br>jogador deve posicionar seus navios de guerra e atirar no inimigo utilizando o mouse no campo oposto.");
+
+
+
+
+
+
+
+
+
+the_entries[387]	=	new	entry (	"","Jogo de captura de território - <b>KJuningCube</b>","","</br><i>kjuningcube</i></br>Jogo de captura de território");
+
+
+
+
+
+
+
+
+
+the_entries[388]	=	new	entry (	"","Jogo de construir deres de computadores - <b>KNetWalk</b>","","</br><i>knetwalk</i></br>Jogo de construir deres de computadores");
+
+
+
+
+
+
+
+
+
+the_entries[389]	=	new	entry (	"","Jogo de dominação Planetária - <b>KSirk</b>","","</br><i>ksirk</i></br>ogo de dominação Planetária");
+
+
+
+
+
+
+
+
+
+the_entries[390]	=	new	entry (	"","Jogo de estratégia galáctico - <b>Konquest</b>","","</br><i>konquest</i></br>Jogo de estratégia galáctico, estratégico");
+
+
+
+
+
+
+
+
+
+the_entries[391]	=	new	entry (	"","Jogo de Tabuleiro - <b>SameGame</b>","","</br><i>samegame</i></br>Jogo de estratégia e pontuação, ganha-se pontos ao clicar nos objetod de cores iguais agrupados");
+
+
+
+
+
+
+
+
+
+the_entries[392]	=	new	entry (	"","Jogo lógico parecido com Sokoban - <b>KAtomic</b>","","</br><i>katomic</i></br>Jogo lógico parecido com Sokoban");
+
+
+
+
+
+
+
+
+
+the_entries[393]	=	new	entry (	"","Jogo parecido com capo minado - <b>KMines</b>","","</br><i>kmines</i></br>Jogo parecido com capo minado");
+
+
+
+
+
+
+
+
+
+the_entries[394]	=	new	entry (	"","Jogo Tático - <b>Kolor lines</b>","","</br><i>klines</i></br>Jogo Tático");
+
+
+
+
+
+
+
+
+
+the_entries[395]	=	new	entry (	"","fugir das múmias - <b>Killbots</b>","","</br><i>killbots</i></br>fugir das múmias");
+
+
+
+
+
+
+
+
+
+the_entries[396]	=	new	entry (	"","Jogo de quebra-cabeça - <b>Palapeli</b>","","</br><i>palapeli</i></br>Jogo de quebra-cabeça");
+
+
+
+
+
+
+
+
+
+the_entries[397]	=	new	entry (	"","Jogo de lógica Sudoku - <b>KSudoku</b>","","</br><i>ksudoku</i></br>Jogo de lógica Sudoku");
+
+
+
+
+
+
+
+
+
+the_entries[398]	=	new	entry (	"","Jogo de Lógica três em linha - <b>KDiamond</b>","","</br><i>kdiamond</i></br>Jogo de Lógica três em linha");
+
+
+
+
+
+
+
+
+
+the_entries[399]	=	new	entry (	"","Cubo Mágico em 3D - <b>Kubrick</b>","raciocinio, lógico, lógica","</br><i>kubrick</i></br>Cubo Mágico em 3D, montar o cubo mágico apresentado na tela, raciocínio lógico, lógica");
+
+
+
+
+
+
+
+
+
+
+
+//abaixo vai o número de entradas existentes
+
+var entry_num = the_entries.length; //aumenta de acordo com as obcoes de busca no caso 2 ate agora
+
+var max_keywords = 20; //aumenta de acordo com as obcoes de busca no caso 2 ate agora
+
+var points_title = the_entries.length; //aumenta de acordo com as obcoes de busca no caso 2 ate agora
+
+var points_keywords = the_entries.length; //aumenta de acordo com as obcoes de busca no caso 2 ate agora
+
+var points_description = 3;
+
+begin_search ();
+
+</script>
+</body>
+

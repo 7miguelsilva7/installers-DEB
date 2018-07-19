@@ -1,0 +1,12 @@
+#!/bin/bash
+apt-get clean
+rm -rf /tmp/*
+rm -f /etc/hosts /etc/resolv.conf
+
+umount -l /proc/
+umount -l /sys/
+
+
+	echo -e "\e[101m|  EXECUTE:  |\e[0m"
+
+ echo -e "\e[105m|  exit  |\e[0m"

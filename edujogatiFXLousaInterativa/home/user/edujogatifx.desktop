@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Edujogati Fx
+Version=2014
+Exec=bash ~/EdujogatiFx/StartEdujogatiFx
+Comment=Atividades Educativas
+Icon=/home/user/EdujogatiFx/Edujogati.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Application;Education

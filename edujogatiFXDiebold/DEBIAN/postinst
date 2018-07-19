@@ -1,0 +1,11 @@
+#!/bin/bash
+if [ "$(id -u)" != "0" ]; then
+echo
+echo "Voce deve executar este script como root!"
+echo
+
+else
+
+chmod -R 777 /home/EdujogatiFx
+
+fi

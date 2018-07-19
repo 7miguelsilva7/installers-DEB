@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="Sem_nome" version="0.1.3" type="library">
+ <settings>
+  <title>Fundamental II - Disciplinas</title>
+  <revision description="created" date="10/31/13" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Atividades Educativas</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Atividades Educativas</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x97B8C7">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x97B8C7" border="true" />
+   </settings>
+   <menuElement caption="" icon="/opt/JClic/icons/jclic.png" path="AETJ.jclic" description="" />
+   <menuElement caption="Português" icon="/opt/JClic/icons/portugues32.png" path="portuguesfun2.jclic" />
+   <menuElement caption="Matemática" icon="/opt/JClic/icons/matematica32.png" path="matematicafun2.jclic" />
+   <menuElement caption="Geografia" icon="/opt/JClic/icons/geografia32.png" path="geografiafun2.jclic" />
+   <menuElement caption="História" icon="/opt/JClic/icons/historia32.png" path="historiafun2.jclic" />
+   <menuElement caption="Ciências" icon="/opt/JClic/icons/ciencias32.png" path="cienciasfun2.jclic" />
+   <menuElement caption="Interdisciplinar" icon="/opt/JClic/icons/interdisciplinar32.png" path="interdisciplinarfun2.jclic" />
+   <menuElement caption="Inglês" icon="/opt/JClic/icons/ingles32.png" path="inglesfun2.jclic" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="/opt/atvjclic/icons/ingles32.png" file="/opt/atvjclic/icons/ingles32.png" />
+  <media name="/opt/atvjclic/icons/interdisciplinar32.png" file="/opt/atvjclic/icons/interdisciplinar32.png" />
+  <media name="/opt/atvjclic/icons/jclic.png" file="/opt/atvjclic/icons/jclic.png" />
+  <media name="/opt/atvjclic/icons/portugues24.png" file="/opt/atvjclic/icons/portugues24.png" />
+  <media name="/opt/atvjclic/icons/ciencias32.png" file="/opt/atvjclic/icons/ciencias32.png" />
+  <media name="/opt/atvjclic/icons/geografia32.png" file="/opt/atvjclic/icons/geografia32.png" />
+  <media name="/opt/atvjclic/icons/historia32.png" file="/opt/atvjclic/icons/historia32.png" />
+  <media name="/opt/atvjclic/icons/matematica32.png" file="/opt/atvjclic/icons/matematica32.png" />
+  <media name="/opt/atvjclic/icons/portugues32.png" file="/opt/atvjclic/icons/portugues32.png" />
+  <media name="/opt/JClic/icons/ciencias32.png" file="/opt/JClic/icons/ciencias32.png" />
+  <media name="/opt/JClic/icons/geografia32.png" file="/opt/JClic/icons/geografia32.png" />
+  <media name="/opt/JClic/icons/historia32.png" file="/opt/JClic/icons/historia32.png" />
+  <media name="/opt/JClic/icons/ingles32.png" file="/opt/JClic/icons/ingles32.png" />
+  <media name="/opt/JClic/icons/interdisciplinar32.png" file="/opt/JClic/icons/interdisciplinar32.png" />
+  <media name="/opt/JClic/icons/jclic.png" file="/opt/JClic/icons/jclic.png" />
+  <media name="/opt/JClic/icons/matematica32.png" file="/opt/JClic/icons/matematica32.png" />
+  <media name="/opt/JClic/icons/portugues32.png" file="/opt/JClic/icons/portugues32.png" />
+  <media name="jclic.png" file="jclic.png" />
+  <media name="voltar.png" file="voltar.png" />
+  <media name="voltarmenu.png" file="voltarmenu.png" />
+ </mediaBag>
+</JClicProject>
+

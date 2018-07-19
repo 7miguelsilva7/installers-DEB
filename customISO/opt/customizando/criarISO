@@ -1,0 +1,13 @@
+#!/bin/bash 
+DATA=`date +%d-%m-%Y`
+
+cd ~/Distro/extract-cd
+sudo mkisofs -r -V "Ubuntu-Live-Custom" -b isolinux/isolinux.bin -c isolinux/boot.cat -cache-inodes -J -l -no-emul-boot -boot-load-size 4 -boot-info-table -o ~/Customizando$DATA.iso .
+
+umount -l /tmp/livecd
+rm -r /tmp/livecd
+umount -l ~/Distro/squashfs
+rm -r ~/Distro
+
+zenity --info --text="ISO customizada com sucesso, sua iso foi salva na pasta pessoal, teste-a no Virtualbox ou Qemu."
+

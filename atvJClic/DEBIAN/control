@@ -1,0 +1,13 @@
+Package: atv-jclic
+Version: 2018
+Installed-Size: 209000
+Homepage: www.aetj.info
+Maintainer: AET <7miguelsilva7@gmail.com>
+Priority: standard
+Architecture: all
+Description: Pacote de Atividades desenvolvidas no software Jclic.
+ Articulação de Educação Tecnológica. Juazeiro - BA.
+ ATENÇÃO: É necesário o ter java instalado para rodar esta aplicação.
+
+
+

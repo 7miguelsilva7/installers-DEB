@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Busque Aqui - Atividades
+Version=2015.2
+Exec=firefox /opt/busqueAqui/index.html
+Comment=Buscar Atividades
+Icon=/opt/busqueAqui/logos/lupa.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Application;Education

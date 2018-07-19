@@ -1,0 +1,11 @@
+Package: conf-rede
+Version: 2018
+Installed-Size: 50
+Homepage: www.aetj.info
+Maintainer: AET <7miguelsilva7@gmail.com>
+Priority: standard
+Architecture: all
+Description: Configurar Redes, MAc, Nome Host .
+
+
+

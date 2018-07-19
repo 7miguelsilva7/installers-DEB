@@ -1,0 +1,8 @@
+#!/bin/bash
+# Configurações de hostname
+HOST=$( zenity --entry --text "Digite um nome para máquina" --entry-text "aetj1" --title "Hostname" )
+
+echo "$HOST" > /etc/hostname
+reboot
+
+exit

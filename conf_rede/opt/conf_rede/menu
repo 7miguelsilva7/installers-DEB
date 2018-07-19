@@ -1,0 +1,36 @@
+#!/bin/bash
+title="Configurações"
+prompt="Escolha a opção desejada:"
+options=("1 - Renomear Máquina" "2 - Mudar MAC" "3 - Resetar MAC" "4 - Sair")
+
+echo "$title"
+PS3="$prompt "
+select opt in "${options[@]}" "Quit"; do 
+
+    case "$REPLY" in
+
+    1 ) echo "You picked $opt which is option $REPLY";;
+    2 ) echo "You picked $opt which is option $REPLY";;
+    3 ) echo "You picked $opt which is option $REPLY";;
+    4 ) echo "You picked $opt which is option $REPLY";;
+
+    $(( ${#options[@]}+1 )) ) echo "Goodbye!"; break;;
+    *) echo "Você deve escolher uma opção!!!";continue;;
+
+    esac
+
+done
+
+while opt=$(zenity --title="$title" --text="$prompt" --list \
+                   --column="Opções" "${options[@]}"); do
+
+    case "$opt" in
+    "${options[0]}" ) xterm -e sudo bash /opt/conf_rede/renomear;;
+    "${options[1]}" ) xterm -e sudo bash /opt/conf_rede/conf_Rede_auto;;
+    "${options[2]}" ) xterm -e sudo bash /opt/conf_rede/resetarMAC;;
+    "${options[3]}" ) break;;
+
+    *) zenity --error --text="Você deve escolher uma opção!!!";;
+    esac
+#break
+done

@@ -1,0 +1,10 @@
+#!/bin/bash
+# virmal_divx
+arquivo=$NAUTILUS_SCRIPT_SELECTED_FILE_PATHS
+XTERM="xterm"
+
+### Localizando e abrindo o arquivo de vídeo
+entra=`zenity --title="Selecione o arquivo ISO a ser montado" --file-selection --file-filter="*.*"`
+
+mkdir /tmp/ISO
+$XTERM -e sudo mount -o loop $entra /tmp/ISO

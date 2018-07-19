@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<JClicProject name="Sem_nome" version="0.1.3" type="library">
+ <settings>
+  <title>Fundamental I - Português</title>
+  <revision description="created" date="10/31/13" />
+  <descriptors />
+ </settings>
+ <sequence>
+  <item id="main" name="main">
+   <jump action="STOP" id="forward" />
+   <jump action="RETURN" id="back" />
+  </item>
+ </sequence>
+ <activities>
+  <activity class="@panels.Menu" name="main">
+   <description>
+    <p>Atividades Educativas</p>
+   </description>
+   <messages>
+    <cell type="initial">
+     <style />
+     <p>Atividades Educativas</p>
+    </cell>
+   </messages>
+   <settings margin="8" report="false">
+    <container bgColor="0x97B8C7">
+     <counters time="false" actions="false" score="false" />
+    </container>
+    <window bgColor="0x97B8C7" border="true" />
+   </settings>
+   <menuElement icon="/opt/JClic/icons/jclic.png" path="disciplinasfun1.jclic" />
+   <menuElement caption="Adjetivos" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_adjetivos.jclic.zip" />
+   <menuElement caption="Alfabeto I" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_Alfabeto.jclic.zip" />
+   <menuElement caption="Alfabeto II" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_AlfabetoFiguras.jclic.zip" />
+   <menuElement caption="Aprendendo as Sílabas" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_aprendendosilabas.jclic.zip" />
+   <menuElement caption="Artigo Definido e Indefinido" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_artigo_def_indef.jclic.zip" />
+   <menuElement caption="Cantigas" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_cantigas.jclic.zip" />
+   <menuElement caption="Classificação de Sílabas" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_ClassficacaoQnSilabas.jclic.zip" />
+   <menuElement caption="Digitar o Alfabeto" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_DigitarAlfabeto.jclic.zip" />
+   <menuElement caption="Ditado" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_ditado.jclic.zip" />
+   <menuElement caption="Escrever Nome de Animais" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_escritanomesanimais.jclic.zip" />
+   <menuElement caption="Escrever Números" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/matematica/matematica_escrevernumeros.jclic.zip" />
+   <menuElement caption="Figuras e Iniciais" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_FigurasIniciais.jclic.zip" />
+   <menuElement caption="Figuras e Letras" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_figurasletras.jclic.zip" />
+   <menuElement caption="Figuras e Nomes" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_figuranomes.jclic.zip" />
+   <menuElement caption="Figuras e Sílaba Final" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_Figurassilabafinal.jclic.zip" />
+   <menuElement caption="Figuras e Sílaba Inicial" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_Figurassilabainicial.jclic.zip" />
+   <menuElement caption="Letras Cursivas" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_letras_cursivas.jclic.zip" />
+   <menuElement caption="M_N" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/m_n.jclic.zip" />
+   <menuElement caption="Masculino e Feminino" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_Masculino_Feminino.jclic.zip" />
+   <menuElement caption="Nomes Comuns e Próprios" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_nomes_comuns_proprios.jclic.zip" />
+   <menuElement caption="Nomes de Animais" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_AnimaisNomes.jclic.zip" description="" />
+   <menuElement caption="Ortografia" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/OrtografiaDivertida.jclic.zip" description="" />
+  <menuElement caption="Pontuação" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_pontuacao_PalavraCruzada.jclic.zip" />
+   <menuElement caption="S ou Z" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_s_ou_z.jclic.zip" />
+   <menuElement caption="Separação de Sílabas" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/Portugues_SeparacaoSilabas.jclic.zip" />
+   <menuElement caption="Sinônimos e Antônimos" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_sinonimos_antonimos.jclic.zip" />
+   <menuElement caption="Verbos" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/verbos.jclic.zip" />
+   <menuElement caption="Vogais" icon="/opt/JClic/icons/portugues24.png" path="/opt/atvjclic/fundamental1/portugues/portugues_vogais.jclic.zip" />
+  </activity>
+ </activities>
+ <mediaBag>
+  <media name="disciplinas.jclic" file="disciplinas.jclic" />
+  <media name="/opt/atvjclic/icons/portugues32.png" file="/opt/atvjclic/icons/portugues32.png" />
+  <media name="/opt/JClic/icons/jclic.png" file="/opt/JClic/icons/jclic.png" />
+  <media name="/opt/JClic/icons/portugues24.png" file="/opt/JClic/icons/portugues24.png" />
+  <media name="/opt/JClic/icons/portugues32.png" file="/opt/JClic/icons/portugues32.png" />
+  <media name="jclic.png" file="jclic.png" />
+  <media name="portugues24.png" file="portugues24.png" />
+  <media name="portugues32.png" file="portugues32.png" />
+  <media name="voltarmenu.png" file="voltarmenu.png" />
+ </mediaBag>
+</JClicProject>
+

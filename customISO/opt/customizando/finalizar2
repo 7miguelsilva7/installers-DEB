@@ -1,0 +1,17 @@
+#!/bin/bash
+DATA=`date +%d-%m-%Y`
+
+chmod +w ~/Distro/extract-cd/casper/filesystem.manifest
+sudo chroot ~/Distro/custom dpkg-query -W --showformat='${Package} ${Version}\n' > ~/Distro/extract-cd/casper/filesystem.manifest
+sudo cp ~/Distro/extract-cd/casper/filesystem.manifest ~/Distro/extract-cd/casper/filesystem.manifest-desktop 
+
+sudo mksquashfs ~/Distro/custom ~/Distro/extract-cd/casper/filesystem.squashfs
+
+ 	
+clear
+	echo -e "\e[105m|  EXECUTE OS SEGUINTES COMANDOS:   |\e[0m
+sudo rm ~/Distro/extract-cd/md5sum.txt
+sudo -s
+(cd ~/Distro/extract-cd && find . -type f -print0 | xargs -0 md5sum > md5sum.txt)
+./criarISO
+"

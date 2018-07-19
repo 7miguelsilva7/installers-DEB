@@ -1,0 +1,9 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Name=JClic Atividades Educacionais
+Comment=
+Exec=java -jar /home/user/JClic/jclic.jar
+Icon=/home/user/JClic/icons/jclic_aqua.ico
+Type=Application
+Categories=Application;Education
+StartupNotify=true

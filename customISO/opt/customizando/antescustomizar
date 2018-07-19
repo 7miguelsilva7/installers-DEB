@@ -1,0 +1,7 @@
+#!/bin/bash
+sudo xterm -e umount -l ~/Distro/squashfs
+sudo xterm -e umount -l ~/Distro/custom/proc/
+sudo xterm -e umount -l ~/Distro/custom/sys/
+sudo xterm -e umount -l /tmp/livecd
+sudo xterm -e rm -f -r ~/Distro
+sudo xterm -e rm -f -r /tmp/livecd

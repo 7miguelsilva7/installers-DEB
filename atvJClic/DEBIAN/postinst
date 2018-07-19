@@ -1,0 +1,29 @@
+#!/bin/bash
+if [ "$(id -u)" != "0" ]; then
+echo
+echo "Voce deve executar este script como root!"
+echo
+
+else
+
+#chmod -R 777 /usr/share/applications/Jclic\ -\ Atividades\ Educacionais.desktop
+
+cp -r /opt/JClic /home/professor/
+cp -r /opt/JClic /home/aluno1/
+cp -r /opt/JClic /home/aluno2/
+cp -r /opt/JClic /home/aluno3/
+cp -r /opt/JClic /home/aluno4/
+cp -r /opt/JClic /home/aluno5/
+cp -r /opt/JClic ~/
+
+chmod -R 777 /opt/atvjclic
+chmod -R 777 /opt/JClic
+chmod -R 777 ~/JClic
+chmod -R 777 /home/aluno1/JClic
+chmod -R 777 /home/aluno2/JClic
+chmod -R 777 /home/aluno3/JClic
+chmod -R 777 /home/aluno4/JClic
+chmod -R 777 /home/aluno5/JClic
+chmod -R 777 /home/professor/JClic
+
+fi

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=EditorISO
+Comment=Customiza ISOs do Ubuntu e derivados.
+Icon=/opt/img/EditorISO.png
+Exec=/opt/EditorISO/EditorISO
+Terminal=false
+Type=Application
+Categories=Application;
+StartupNotify=true
+Name[pt_BR]=EditorISO

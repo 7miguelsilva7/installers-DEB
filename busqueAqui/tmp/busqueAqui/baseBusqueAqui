@@ -1,0 +1,4011 @@
+tiles:
+
+-
+
+  name: "Alfabeto"	
+  application: "Jclic"	
+  description: "Ouvir, associar e organizar as letras do alfabeto"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_Alfabeto.jclic.zip"	
+  tags: ""
+  num: "0"
+
+-
+
+  name: "Alfabeto 2"	
+  application: "Jclic"	
+  description: "Associar letra do alfabeto com figuras e suas letras iniciais"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_AlfabetoFiguras.jclic.zip"	
+  tags: ""
+  num: "1"
+
+-
+
+  name: "Sílabas"	
+  application: "Jclic"	
+  description: "Ouvir e associar as sílabas, ba, be, bi ..."	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_aprendendosilabas.jclic.zip"	
+  tags: ""
+  num: "2"
+
+-
+
+  name: "Vogais"	
+  application: "Jclic"	
+  description: "Ouvir e associar as vogais, encontrar as vogais em pequenos textos, identificar a vogal inicial em palavras, diferenciar vogais de números "	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_vogais.jclic.zip"	
+  tags: ""
+  num: "3"
+
+-
+
+  name: "Formas Geométricas"	
+  application: "Jclic"	
+  description: "Ouvir, associar as principais formas geométricas -  quadrado, triângulo, retângulo, círculo"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricasPre.jclic.zip"	
+  tags: ""
+  num: "4"
+
+-
+
+  name: "Números de 0-9"	
+  application: "Jclic"	
+  description: "Ouvir, associar números, diferenciar números de letras, associar números a quantidade de objetos equivalentes"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/Matematica_Numeros.jclic.zip"	
+  tags: ""
+  num: "5"
+
+-
+
+  name: "Somar Frutas"	
+  application: "Jclic"	
+  description: "Somar as quantidades de frutas apresentadas e identificar o número equivalente"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_somandofrutas.jclic.zip"	
+  tags: ""
+  num: "6"
+
+-
+
+  name: "Conhecer animais"	
+  application: "Jclic"	
+  description: "Montar quebra cabeça de animais e ouvir seus nomes"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/ciencias/ciencias_ConhecendoAnimais.jclic.zip"	
+  tags: ""
+  num: "7"
+
+-
+
+  name: "Montar frutas"	
+  application: "Jclic"	
+  description: "Montar quebra cabeça de frutas e ouvir seus nomes"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/ciencias/ciencias_montandofrutas.jclic.zip"	
+  tags: ""
+  num: "8"
+
+-
+
+  name: "Adjetivos"	
+  application: "Jclic"	
+  description: "Identificar adjetivos em texto"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_adjetivos.jclic.zip"	
+  tags: ""
+  num: "9"
+
+-
+
+  name: "Animais e nomes"	
+  application: "Jclic"	
+  description: "Associar nomes de animais às suas figuras, escrever nomes de animais corretamente"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_AnimaisNomes.jclic.zip"	
+  tags: ""
+  num: "10"
+
+-
+
+  name: "Artigos Definido e Indefinido"	
+  application: "Jclic"	
+  description: "Identificar artigos em texto, classificar os tipos de artigos em definidos ou indefinidos, usar artigos correto antes de palavras"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_artigo_def_indef.jclic.zip"	
+  tags: ""
+  num: "11"
+
+-
+
+  name: "Alfabeto"	
+  application: "Jclic"	
+  description: "Ouvir, associar e digitar a letra ouvida do alfabeto"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_DigitarAlfabeto.jclic.zip"	
+  tags: ""
+  num: "12"
+
+-
+
+  name: "Substantivos"	
+  application: "Jclic"	
+  description: "comuns, próprios, primitivos, derivados e coletivosClassificar as palavras em comuns e próprias, escrever o primitivo das palavras derivadas apresentadas, associar os coletivos corretamente"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_nomes_comuns_proprios.jclic.zip"	
+  tags: ""
+  num: "13"
+
+-
+
+  name: "Cantigas populares"	
+  application: "Jclic"	
+  description: "Ordenar corretamente as palavras das cantigas apresentadas e escrever as palavras que faltam "	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_cantigas.jclic.zip"	
+  tags: ""
+  num: "14"
+
+-
+
+  name: "Classificação de sílabas"	
+  application: "Jclic"	
+  description: "Classificação de palavras quanto ao número de sílabas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_ClassficacaoQnSilabas.jclic.zip"	
+  tags: ""
+  num: "15"
+
+-
+
+  name: "Ditado"	
+  application: "Jclic"	
+  description: "Escrever o nome das figuras apresentadas, ou falados"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_ditado.jclic.zip"	
+  tags: ""
+  num: "16"
+
+-
+
+  name: "Figuras e Letras"	
+  application: "Jclic"	
+  description: "Escrever o nome das figuras apresentadas, arrastando as letras disponíveis"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_figurasletras.jclic.zip"	
+  tags: ""
+  num: "17"
+
+-
+
+  name: "Figuras e Nomes"	
+  application: "Jclic"	
+  description: "Associar nomes e figuras correspondentes"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_figuranomes.jclic.zip"	
+  tags: ""
+  num: "18"
+
+-
+
+  name: "Letra Inicial"	
+  application: "Jclic"	
+  description: "Escrever a letra inicial das figuras apresentadas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_FigurasIniciais.jclic.zip"	
+  tags: ""
+  num: "19"
+
+-
+
+  name: "Letras Cursivas"	
+  application: "Jclic"	
+  description: "Associar as letras tipo bastão com cursivas correspondente"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_letras_cursivas.jclic.zip"	
+  tags: ""
+  num: "20"
+
+-
+
+  name: "Masculino | Feminino"	
+  application: "Jclic"	
+  description: "Associar palavras masculinas as femininas, usar os artigos masculinos e femininos corretamente nas palavras apresentadas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_Masculino_Feminino.jclic.zip"	
+  tags: ""
+  num: "21"
+
+-
+
+  name: "Nomes de Animais"	
+  application: "Jclic"	
+  description: "Escrever corretamente os nomes dos animais apresentados"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_escritanomesanimais.jclic.zip"	
+  tags: ""
+  num: "22"
+
+-
+
+  name: "Pontuação"	
+  application: "Jclic"	
+  description: "Preencher cruzadinha de acordo com o uso de cada pontuação - dois pontos, reticências, vírgula, exclamação, ponto final, travessão, interrogação, parênteses"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_pontuacao_PalavraCruzada.jclic.zip"	
+  tags: ""
+  num: "23"
+
+-
+
+  name: "S | Z"	
+  application: "Jclic"	
+  description: "Preencher lacunas com as palavras escritas corretamente com S ou com Z"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_s_ou_z.jclic.zip"	
+  tags: ""
+  num: "24"
+
+-
+
+  name: "Separar Sílabas"	
+  application: "Jclic"	
+  description: "Separar sílabas das palavras apresentadas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_SeparacaoSilabas.jclic.zip"	
+  tags: ""
+  num: "25"
+
+-
+
+  name: "Sílaba final"	
+  application: "Jclic"	
+  description: "Arrastar e associar corretamente a sílaba final das figuras apresentadas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/Portugues_Figurassilabafinal.jclic.zip"	
+  tags: ""
+  num: "26"
+
+-
+
+  name: "Sílaba Inicial"	
+  application: "Jclic"	
+  description: "Arrastar e associar corretamente a sílaba inicial das figuras apresentadas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_Figurassilabainicial.jclic.zip"	
+  tags: ""
+  num: "27"
+
+-
+
+  name: "Sinônimo | Antônimo"	
+  application: "Jclic"	
+  description: "Preencher cruzadinha com os antônimos das palavras apresentadas, associar palavras sinônimas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/portugues_sinonimos_antonimos.jclic.zip"	
+  tags: ""
+  num: "28"
+
+-
+
+  name: "Ortografia Divertida"	
+  application: "Jclic"	
+  description: "Ortografia de palavras escritas com X, Ch, M, P"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/portugues/OrtografiaDivertida.jclic.zip"	
+  tags: ""
+  num: "29"
+
+-
+
+  name: "Capacidade "	
+  application: "Jclic"	
+  description: "associar valores em Lt com ML, dividir jarra de líquido em quantidades pedidas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_medida_de_capacidade.jclic.zip"	
+  tags: ""
+  num: "30"
+
+-
+
+  name: "Escrita de Números"	
+  application: "Jclic"	
+  description: "Escrever numerais cardinais apresentados"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_escrevernumeros.jclic.zip"	
+  tags: ""
+  num: "31"
+
+-
+
+  name: "Formas Geométricas"	
+  application: "Jclic"	
+  description: "Associar formas geométricas aos seus nomes - Retângulo, hexágono, quadrado, trapézio, pentágono, triângulo, paralelogramo, círculo, losango"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_formas_geometricas.jclic.zip"	
+  tags: ""
+  num: "32"
+
+-
+
+  name: "Igual | Diferente"	
+  application: "Jclic"	
+  description: "Classificar as figuras apresentadas, usando os símbolos de igual ou diferente"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_igualdiferente.jclic.zip"	
+  tags: ""
+  num: "33"
+
+-
+
+  name: "Menor | Igual | Maior"	
+  application: "Jclic"	
+  description: "Classificar as figuras apresentadas, usando os símbolos de Menor que, Igual ou Maior que"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_menorigualmaior.jclic.zip"	
+  tags: ""
+  num: "34"
+
+-
+
+  name: "Ordenar Numeros"	
+  application: "Jclic"	
+  description: "Associar o número ordinal com sua descrição, por em ordem os números ordinais apresentados, ordenar números cardinais apresentados em ordem crescente, e em ordem decrescente"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_OrdenarNum.jclic.zip"	
+  tags: ""
+  num: "35"
+
+-
+
+  name: "Poliedros"	
+  application: "Jclic"	
+  description: "Explanação de figuras planas e não planas e seus nomes, identificar figura intrusa em determinado grupo, classificar as figuras como planas e não planas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_poliedroscorposredondos.jclic.zip"	
+  tags: ""
+  num: "36"
+
+-
+
+  name: "Sequência Numérica"	
+  application: "Jclic"	
+  description: "Completar a sequência de números apresentados"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_sequencia.jclic.zip"	
+  tags: ""
+  num: "37"
+
+-
+
+  name: "Somar"	
+  application: "Jclic"	
+  description: "Soma de dois algarismos"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_somando1.jclic.zip"	
+  tags: ""
+  num: "38"
+
+-
+
+  name: "Soma 2"	
+  application: "Jclic"	
+  description: "Soma de dezenas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_somando2.jclic.zip"	
+  tags: ""
+  num: "39"
+
+-
+
+  name: "Tabuadas"	
+  application: "Jclic"	
+  description: "Resolver tabuada, podendo trabalhar uma tabela específica ou todas as quatro operações"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_tabuada.jclic.zip"	
+  tags: ""
+  num: "40"
+
+-
+
+  name: "U | D | C"	
+  application: "Jclic"	
+  description: "Contar e responder a quantidade de blocos apresentados em Unidades e Dezenas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_udc.jclic.zip"	
+  tags: ""
+  num: "41"
+
+-
+
+  name: "Frações"	
+  application: "Jclic"	
+  description: "associar gráficos e frações por extenso, frações, Escrever frações pedidas  "	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematicafracoes.jclic.zip"	
+  tags: ""
+  num: "42"
+
+-
+
+  name: "Unidade, dezena, centena"	
+  application: "Jclic"	
+  description: "Associar os números aos termos – unidade, dezena, centena"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/matematica/matematica_unidade_de_medida.jclic.zip"	
+  tags: ""
+  num: "43"
+
+-
+
+  name: "Estados e Capitais"	
+  application: "Jclic"	
+  description: "Explanação do mapa do Brasil e suas capitais, apresentação dos governantes Prefeito, governador e Presidente, Quebra cabeça do mapa do Brasil, associação dos estados e suas siglas "	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/geografia/geografia_mapas.jclic.zip"	
+  tags: ""
+  num: "44"
+
+-
+
+  name: "Regras de uso Laborátório"	
+  application: "Jclic"	
+  description: "Dicas de como se comportar no laboratório de informática"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/Interdisciplinar/regraslaboratorio.jclic.zip"	
+  tags: ""
+  num: "45"
+
+-
+
+  name: "Aparelho Digestivo"	
+  application: "Jclic"	
+  description: "Explanação do aparelho digestivo, Exploração com descrição das partes do aparelho digestivo, associar descrição com as partes do aparelho digestivo, escrever os nomes das partes do aparelho digestivo"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/ciencias/Ciencias_aparelho_digestivo.jclic.zip"	
+  tags: ""
+  num: "46"
+
+-
+
+  name: "Célula"	
+  application: "Jclic"	
+  description: "Explanação das partes da célula - núcleo, membrana, citoplasma, tipos de células - nervosa, muscular, da pele, óssea, identificar partes da célula, quebra cabeça com os tipos de células, associar os nomes aos tipos de células corretamente, escrever os nomes dos tipos de células de acordo com as figuras apresentadas"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/ciencias/ciencias_celula_animal.jclic.zip"	
+  tags: ""
+  num: "47"
+
+-
+
+  name: "Sentidos"	
+  application: "Jclic"	
+  description: "Ouvir músicas e identificar o sentido a que se refere - visão, olfato, audição, tato, paladar"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/ciencias/ciencias_sentidos.jclic.zip"	
+  tags: ""
+  num: "48"
+
+-
+
+  name: "Tipos de Animais"	
+  application: "Jclic"	
+  description: "Classificar os animais apresentados como -  úteis, silvestres, nocivos, domésticos"	
+  command: "jclic"	
+  link: "/opt/atvjclic/fundamental1/ciencias/ciencias_animais.jclic.zip"	
+  tags: ""
+  num: "49"
+
+-
+
+  name: "Alfabeto de Sabão"	
+  application: "EdujogatiFX"	
+  description: "Atividade trabalha as vogais e o alfabeto com áudio"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/alfabetoDeSabao_0006.swf"	
+  tags: ""
+  num: "50"
+
+-
+
+  name: "Abcdário"	
+  application: "EdujogatiFX"	
+  description: "Identificar desenhos pelas iniciais do alfabeto"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/abcdario.swf"	
+  tags: ""
+  num: "51"
+
+-
+
+  name: "Aprendendo a Ler I"	
+  application: "EdujogatiFX"	
+  description: "Associação de desenhos e vogais   "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/134_aprendendo_a_ler.swf"	
+  tags: ""
+  num: "52"
+
+-
+
+  name: "Aprendendo a Ler II"	
+  application: "EdujogatiFX"	
+  description: "Identificação de vogais e alfabeto    "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/jogodasfrases.swf"	
+  tags: ""
+  num: "53"
+
+-
+
+  name: "Aprendendo as Sílabas"	
+  application: "EdujogatiFX"	
+  description: "Sílabas das vogais com áudio   "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/laboratorioSilabas_0002.swf"	
+  tags: ""
+  num: "54"
+
+-
+
+  name: "Aprendendo o alfabeto"	
+  application: "EdujogatiFX"	
+  description: "Organizar o alfabeto"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/540_alfabeto.swf"	
+  tags: ""
+  num: "55"
+
+-
+
+  name: "Jogos dos Bichos"	
+  application: "EdujogatiFX"	
+  description: "Montar Quebra-cabeça de animais com seus nomes"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/jogodosbichos.swf"	
+  tags: ""
+  num: "56"
+
+-
+
+  name: "Liga Objetos"	
+  application: "EdujogatiFX"	
+  description: "Associação das letras iniciais dos objetos com os mesmos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel1/liga_objetos.swf"	
+  tags: ""
+  num: "57"
+
+-
+
+  name: "Associação"	
+  application: "EdujogatiFX"	
+  description: "Associar os objetos e seus respectivos nomes"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel2/360_associacao.swf"	
+  tags: ""
+  num: "58"
+
+-
+
+  name: "Brincando com Ariê"	
+  application: "EdujogatiFX"	
+  description: "Pintura, Quebra-cabeça com objetos, Separar frutas, associação de objetos e seus respectivos nomes  "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel2/arie_pc_portugues.swf"	
+  tags: ""
+  num: "59"
+
+-
+
+  name: "Figuras e Letras"	
+  application: "EdujogatiFX"	
+  description: "Nomear os objetos apresentados letra a letra"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel2/359_figura_letras.swf"	
+  tags: ""
+  num: "60"
+
+-
+
+  name: "Figuras e Nomes"	
+  application: "EdujogatiFX"	
+  description: "Associação de objetos com seus respectivos nomes"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel2/358_figura_nome.swf"	
+  tags: ""
+  num: "61"
+
+-
+
+  name: "Jogo da Memória"	
+  application: "EdujogatiFX"	
+  description: "Jogo de memória de animais e seus nomes"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel2/361_memo_fig.swf"	
+  tags: ""
+  num: "62"
+
+-
+
+  name: "Jogo dos Animais I"	
+  application: "EdujogatiFX"	
+  description: "Associação de animais com seus respectivos nomes, escrever nomes dos animais"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel2/533_jogodosanimais.swf"	
+  tags: ""
+  num: "63"
+
+-
+
+  name: "Jogo dos Animais II"	
+  application: "EdujogatiFX"	
+  description: "Completar os nomes dos animais com as sílabas que faltam"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel2/534_animaissilabas.swf"	
+  tags: ""
+  num: "64"
+
+-
+
+  name: "Acerte as Palavras"	
+  application: "EdujogatiFX"	
+  description: "Tipo jogo da forca, com 4 categorias, sendo flores, frutas, animais e cores"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/palavras.swf"	
+  tags: ""
+  num: "65"
+
+-
+
+  name: "Caça Letras"	
+  application: "EdujogatiFX"	
+  description: "É exibido uma palavra e o usuário deve encontrar as letras da mesma"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/caca_letras.swf"	
+  tags: ""
+  num: "66"
+
+-
+
+  name: "Cantigas e Parlendas"	
+  application: "EdujogatiFX"	
+  description: "Completar as cantigas e parlendas com as palavras que faltam"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/cantigaseparlendas.swf"	
+  tags: ""
+  num: "67"
+
+-
+
+  name: "Casa"	
+  application: "EdujogatiFX"	
+  description: "completar com palavras que faltam da música La casa de Vinicius de Morais"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/casa.swf"	
+  tags: ""
+  num: "68"
+
+-
+
+  name: "Jogos das Cantigas"	
+  application: "EdujogatiFX"	
+  description: "Completar cantigas com as palavras que faltam"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/jogo_das_cantigas.swf"	
+  tags: ""
+  num: "69"
+
+-
+
+  name: "Jogo das Rimas"	
+  application: "EdujogatiFX"	
+  description: "Completar cantigas com palavras de acordo com as rimas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/jogodasrimas.swf"	
+  tags: ""
+  num: "70"
+
+-
+
+  name: "Complete a Palavra"	
+  application: "EdujogatiFX"	
+  description: "Escrever o nome da fruta de aparece"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/102_jogo.swf"	
+  tags: ""
+  num: "71"
+
+-
+
+  name: "Jogo das Letras"	
+  application: "EdujogatiFX"	
+  description: "Completar palavras com a letra que falta"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/222_pa_letras.swf"	
+  tags: ""
+  num: "72"
+
+-
+
+  name: "Labirinto das Letras"	
+  application: "EdujogatiFX"	
+  description: "Procurar letras em labirinto, fugindo do inimigo"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/labirinto.swf"	
+  tags: ""
+  num: "73"
+
+-
+
+  name: "Caça Palavras"	
+  application: "EdujogatiFX"	
+  description: "encontrar nomes dos discípulos de Jesus, além de aprender um pouco sobre cada um"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel3/Caça palavras.swf"	
+  tags: ""
+  num: "74"
+
+-
+
+  name: "Jogo da Forca I"	
+  application: "EdujogatiFX"	
+  description: "Adivinhar palavras"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/0100_forca.swf"	
+  tags: ""
+  num: "75"
+
+-
+
+  name: "Jogo da Forca II"	
+  application: "EdujogatiFX"	
+  description: "Adivinhar palavras"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/forca.swf"	
+  tags: ""
+  num: "76"
+
+-
+
+  name: "Fórmula Ditado"	
+  application: "EdujogatiFX"	
+  description: "Ditado de palavras"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/formula_ditado.swf"	
+  tags: ""
+  num: "77"
+
+-
+
+  name: "Palavras e Significados I"	
+  application: "EdujogatiFX"	
+  description: "Escolher o significado de palavras entre alternativas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/0098_n3_aprender04.swf"	
+  tags: ""
+  num: "78"
+
+-
+
+  name: "Palavras e Significados II"	
+  application: "EdujogatiFX"	
+  description: "Encontrar o significado das palavras"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/0099_n3_aprender_03.swf"	
+  tags: ""
+  num: "79"
+
+-
+
+  name: "Reforma Ortográfica"	
+  application: "EdujogatiFX"	
+  description: "Perguntas que abordam a nova reforma ortográfica"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/gamefmu.swf"	
+  tags: ""
+  num: "80"
+
+-
+
+  name: "Roda a Roda"	
+  application: "EdujogatiFX"	
+  description: "Adivinhar palavras pelas dicas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/443_rodaroda.swf"	
+  tags: ""
+  num: "81"
+
+-
+
+  name: "Soletrando"	
+  application: "EdujogatiFX"	
+  description: "Ditado de palavras"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Portugues/nivel4/210_soletrando1.swf"	
+  tags: ""
+  num: "82"
+
+-
+
+  name: "Adição I"	
+  application: "EdujogatiFX"	
+  description: "Somando maçãs de 1-10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/2384_adicao.swf"	
+  tags: ""
+  num: "83"
+
+-
+
+  name: "Adição II"	
+  application: "EdujogatiFX"	
+  description: "Soma e leitura do conto O Patinho Feio"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/2385_adicao.swf"	
+  tags: ""
+  num: "84"
+
+-
+
+  name: "Aprendendo a Contar I"	
+  application: "EdujogatiFX"	
+  description: "Clicar nas borboletas e ouvir a quantidade das mesmas de 1-10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/121_n1_aprendendoacontar.swf"	
+  tags: ""
+  num: "85"
+
+-
+
+  name: "Aprendendo a Contar II"	
+  application: "EdujogatiFX"	
+  description: "Adicionar ou remover lagostas de 1 - 30"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/122_n1_aprendendoacontar.swf"	
+  tags: ""
+  num: "86"
+
+-
+
+  name: "Aprendendo a Contar III"	
+  application: "EdujogatiFX"	
+  description: "Contar caixas num caminhão de 1-10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/281_contandoosblocos.swf"	
+  tags: ""
+  num: "87"
+
+-
+
+  name: "Aprendendo a Contar IV"	
+  application: "EdujogatiFX"	
+  description: "Contar blocos de 10-20, contar rãs até 50, contar bolas até100"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/282_contandoos2.swf"	
+  tags: ""
+  num: "88"
+
+-
+
+  name: "Aprendendo a Contar V"	
+  application: "EdujogatiFX"	
+  description: "Contar Desenhos de 1-10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/518_contandoimagens.swf"	
+  tags: ""
+  num: "89"
+
+-
+
+  name: "Formas Geométricas I"	
+  application: "EdujogatiFX"	
+  description: "Encaixar formas geométricas -  pentagrama, estrela, triângulo, hexagrama, losango, círculo "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/253_Formas.swf"	
+  tags: ""
+  num: "90"
+
+-
+
+  name: "Formas Geométricas II"	
+  application: "EdujogatiFX"	
+  description: "Formar, o Desenho desenho pedido, com as formas geométricas -  triângulo, quadrado, retângulo e círculo"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/254_Formas1.swf"	
+  tags: ""
+  num: "91"
+
+-
+
+  name: "Formas Geométricas III"	
+  application: "EdujogatiFX"	
+  description: "Formar, o Desenho desenho pedido, com as formas geométricas -  "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/255_Formas2.swf"	
+  tags: ""
+  num: "92"
+
+-
+
+  name: "Figuras Geométricas I"	
+  application: "EdujogatiFX"	
+  description: "Pintar as figuras geométricas com as cores pedidas. Quadrado, retângulo, triângulo e círculo "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/470_fgeometricas.swf"	
+  tags: ""
+  num: "93"
+
+-
+
+  name: "Figuras Geométricas II"	
+  application: "EdujogatiFX"	
+  description: "Associar figuras Geométricas. Retângulo, triângulo e círculo"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/471_fgeometricas.swf"	
+  tags: ""
+  num: "94"
+
+-
+
+  name: "Figuras Geométricas III"	
+  application: "EdujogatiFX"	
+  description: "Encontrar, associar, e desenhar as formas geométricas pedidas. Quadrado, retângulo, triângulo e círculo"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/472_fgeometricas.swf"	
+  tags: ""
+  num: "95"
+
+-
+
+  name: "Sequência"	
+  application: "EdujogatiFX"	
+  description: "ordenar números de 1-20"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/sequencia00.swf"	
+  tags: ""
+  num: "96"
+
+-
+
+  name: "Subtração"	
+  application: "EdujogatiFX"	
+  description: "subtração com maçãs de 1-10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/2385_subtracao.swf"	
+  tags: ""
+  num: "97"
+
+-
+
+  name: "Montar blocos mosaio"	
+  application: "EdujogatiFX"	
+  description: "Montar figuras com mosaico apresentado"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel1/Montar blocos.swf"	
+  tags: ""
+  num: "98"
+
+-
+
+  name: "Adição I"	
+  application: "EdujogatiFX"	
+  description: "Adicionar valores de 1-9 até alcançar o resultado pedido"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/adicao000.swf"	
+  tags: ""
+  num: "99"
+
+-
+
+  name: "Adição II"	
+  application: "EdujogatiFX"	
+  description: "Adição com resultados até 20, até 99, 999, até 9999"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/adicao00.swf"	
+  tags: ""
+  num: "100"
+
+-
+
+  name: "Adição III"	
+  application: "EdujogatiFX"	
+  description: "Adição com resultados até 99, até 999, até 9999"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/adicao01.swf"	
+  tags: ""
+  num: "101"
+
+-
+
+  name: "Adição IV"	
+  application: "EdujogatiFX"	
+  description: "Adição com resultados até 12. adição para equilibrar balança "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/adicao02.swf"	
+  tags: ""
+  num: "102"
+
+-
+
+  name: "Arredondamento"	
+  application: "EdujogatiFX"	
+  description: "Arredondar valor para dezena mais próxima, até 10, 100 ou 1000"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/arredondamento-nearest.swf"	
+  tags: ""
+  num: "103"
+
+-
+
+  name: "Capacidade"	
+  application: "EdujogatiFX"	
+  description: "Jogo dos recipientes, qual cabe mais e qual cabe menos "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/capacidade.swf"	
+  tags: ""
+  num: "104"
+
+-
+
+  name: "Contagem em 2 | 5 | 10"	
+  application: "EdujogatiFX"	
+  description: "Contagem de 2 em 2 até 50, de 5 em 5 até 100, de 10 em 10 até 100"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/contagem_2em2_5em5_10em10.swf"	
+  tags: ""
+  num: "105"
+
+-
+
+  name: "Contagem em 100"	
+  application: "EdujogatiFX"	
+  description: "contagem de 100 em 100, digitando números que faltam"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/contagemd_100-em-100.swf"	
+  tags: ""
+  num: "106"
+
+-
+
+  name: "Contando os Blocos"	
+  application: "EdujogatiFX"	
+  description: "Contando blocos, trabalhando com dezenas e unidades"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/contandoblocosEspaciais.swf"	
+  tags: ""
+  num: "107"
+
+-
+
+  name: "Equivalência | Igualdade"	
+  application: "EdujogatiFX"	
+  description: "Verificar a equivalência e igualdade dos números apresentados, maior que, menor que"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/numero_sinais-todos.swf"	
+  tags: ""
+  num: "108"
+
+-
+
+  name: "Ordenar"	
+  application: "EdujogatiFX"	
+  description: "Ordenar números de 1-10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/ordenar.swf"	
+  tags: ""
+  num: "109"
+
+-
+
+  name: "Sequência I"	
+  application: "EdujogatiFX"	
+  description: "Completar sequência de números de 1-20"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/sequencia0.swf"	
+  tags: ""
+  num: "110"
+
+-
+
+  name: "Sequência II"	
+  application: "EdujogatiFX"	
+  description: "Completar sequência de números de 0-99"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/sequencia1.swf"	
+  tags: ""
+  num: "111"
+
+-
+
+  name: "Subtração I"	
+  application: "EdujogatiFX"	
+  description: "Subtração contando borboletas, até 10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/subtracao.swf"	
+  tags: ""
+  num: "112"
+
+-
+
+  name: "Subtração II"	
+  application: "EdujogatiFX"	
+  description: "Subtração até 20, até 99, até 999, até 9999"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/subtracao_02.swf"	
+  tags: ""
+  num: "113"
+
+-
+
+  name: "Valor Posicional I"	
+  application: "EdujogatiFX"	
+  description: "Centenas, Dezenas, Unidades -  escrever a quantidade de desenhos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/valorposicional.swf"	
+  tags: ""
+  num: "114"
+
+-
+
+  name: "Valor Posicional II"	
+  application: "EdujogatiFX"	
+  description: "Centenas, Dezenas, Unidades; número posterior e anterior; Colocar números em ordem"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel2/valorposicional2.swf"	
+  tags: ""
+  num: "115"
+
+-
+
+  name: "Adição I"	
+  application: "EdujogatiFX"	
+  description: "atingir o valor pedido, clicando nos números para serem adicionados"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/adicao.swf"	
+  tags: ""
+  num: "116"
+
+-
+
+  name: "área | Iniciação"	
+  application: "EdujogatiFX"	
+  description: "Medir área utilizando quadrado e grelha"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/area_iniciacao-ao-cm2.swf"	
+  tags: ""
+  num: "117"
+
+-
+
+  name: "Capacidade"	
+  application: "EdujogatiFX"	
+  description: "Encher recipientes, unidade de medida ML"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/capacidade_litr.e.meio.swf"	
+  tags: ""
+  num: "118"
+
+-
+
+  name: "Completando os Números"	
+  application: "EdujogatiFX"	
+  description: "Completar sequência numérica, em diversos níveis,  1 em 1, 2 em 2, 3 em 3, 5 em 5, 10 em 10"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/completandoNumeros_0012.swf"	
+  tags: ""
+  num: "119"
+
+-
+
+  name: "Conjuntos I"	
+  application: "EdujogatiFX"	
+  description: "Montar conjunto de animais"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/conjunto_animais.swf"	
+  tags: ""
+  num: "120"
+
+-
+
+  name: "Conjuntos II"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre conjuntos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/conjuntos.swf"	
+  tags: ""
+  num: "121"
+
+-
+
+  name: "Coordenadas"	
+  application: "EdujogatiFX"	
+  description: "Posição -  por cima, por baixo; posição em grelhas; Itinerários mapas e coordenadas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/coordenadas_inicia-mesmo.swf"	
+  tags: ""
+  num: "122"
+
+-
+
+  name: "Gráficos"	
+  application: "EdujogatiFX"	
+  description: "digitar os números dos gráficos de imagens, barras e blocos "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/graficos.swf"	
+  tags: ""
+  num: "123"
+
+-
+
+  name: "Localização"	
+  application: "EdujogatiFX"	
+  description: "Localizar o animal utilizando eixo X e Y"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/localizacao.swf"	
+  tags: ""
+  num: "124"
+
+-
+
+  name: "Mapa"	
+  application: "EdujogatiFX"	
+  description: "Localizar casas, igrejas, lojas andar por mapa da cidade"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/mapa.swf"	
+  tags: ""
+  num: "125"
+
+-
+
+  name: "Multiplicação"	
+  application: "EdujogatiFX"	
+  description: "Clicar nos quadrados com números até atingir os valores pedidos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/multiplicacao.swf"	
+  tags: ""
+  num: "126"
+
+-
+
+  name: "Operação Páscoa"	
+  application: "EdujogatiFX"	
+  description: "Localizar ovo da páscoa por meio de soma ou subtração, usando conhecimento de linha e coluna "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/operacaoPascoa_005.swf"	
+  tags: ""
+  num: "127"
+
+-
+
+  name: "Ordenar Números"	
+  application: "EdujogatiFX"	
+  description: "Ordenar números até 50"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/ordenar_numeros.swf"	
+  tags: ""
+  num: "128"
+
+-
+
+  name: "Padrões de Figura"	
+  application: "EdujogatiFX"	
+  description: "Sequência lógica"	
+  command: "chromium-browser"	
+  link: "/home/Edujog/homeatiFx/JogosEducativos/Matematica/nivel3/padroesdefigura.swf"	
+  tags: ""
+  num: "129"
+
+-
+
+  name: "Pares e ímpares"	
+  application: "EdujogatiFX"	
+  description: "Jogo de pular para pegar os números pedidos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/pareseimpares0.swf"	
+  tags: ""
+  num: "130"
+
+-
+
+  name: "Subtração"	
+  application: "EdujogatiFX"	
+  description: "Clicar nos quadrados com números até atingir os valores pedidos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/subtracao.swf"	
+  tags: ""
+  num: "131"
+
+-
+
+  name: "Tabuada"	
+  application: "EdujogatiFX"	
+  description: "Tabuada de adição, subtração, multiplicação e divisão"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/tabuada_0010.swf"	
+  tags: ""
+  num: "132"
+
+-
+
+  name: "Tabuada | Labirinto"	
+  application: "EdujogatiFX"	
+  description: "Descobrir o caminho do gol passando pelas casas que contêm resultados de uma ou das duas tabuadas escolhidas pelo jogador"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/tabuada-2.swf"	
+  tags: ""
+  num: "133"
+
+-
+
+  name: "Subtrair e pintar"	
+  application: "EdujogatiFX"	
+  description: "Encontrar cor adequada, por meio da subtração"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel3/Subtrair_e_pintar.swf"	
+  tags: ""
+  num: "134"
+
+-
+
+  name: "Cartelas"	
+  application: "EdujogatiFX"	
+  description: "Formar valor pedido usando cartelas de números disponíveis"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/cartelas.swf"	
+  tags: ""
+  num: "135"
+
+-
+
+  name: "Decomposição"	
+  application: "EdujogatiFX"	
+  description: "Decompor  números apresentados. Até 9999"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/decomposicao.swf"	
+  tags: ""
+  num: "136"
+
+-
+
+  name: "Equações | Operações"	
+  application: "EdujogatiFX"	
+  description: "Resolver equações; ordenar números"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/equacoes_4operacoes_balanca.swf"	
+  tags: ""
+  num: "137"
+
+-
+
+  name: "Frações IV"	
+  application: "EdujogatiFX"	
+  description: "Relacionar figuras e símbolos com suas frações correspondentes, frações próprias, impróprias e equivalentes"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/fracoes4.swf"	
+  tags: ""
+  num: "138"
+
+-
+
+  name: "Gráficos O"	
+  application: "EdujogatiFX"	
+  description: "Gráfico de aves"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/graficos1.swf"	
+  tags: ""
+  num: "139"
+
+-
+
+  name: "Gráficos II"	
+  application: "EdujogatiFX"	
+  description: "Interpretar gráficos, além de trabalhar noção de colunas e linhas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/graficos1b.swf"	
+  tags: ""
+  num: "140"
+
+-
+
+  name: "Horas | Relógio"	
+  application: "EdujogatiFX"	
+  description: "Acertar hora do relógio analógico pelo digital"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/horas.swf"	
+  tags: ""
+  num: "141"
+
+-
+
+  name: "Ler Num Grande"	
+  application: "EdujogatiFX"	
+  description: "Escrever, decompôr e ordenar números grandes"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/lernumeros grandes.swf"	
+  tags: ""
+  num: "142"
+
+-
+
+  name: "Material Dourado I"	
+  application: "EdujogatiFX"	
+  description: "Representar com material dourado o número pedido"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/material_dourado1.swf"	
+  tags: ""
+  num: "143"
+
+-
+
+  name: "Material Dourado II"	
+  application: "EdujogatiFX"	
+  description: "Sortear um número, adcioná-lo a outro número, e representar o resultado usando o material dourado"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/material_dourado2.swf"	
+  tags: ""
+  num: "144"
+
+-
+
+  name: "Polígonos"	
+  application: "EdujogatiFX"	
+  description: "Identificação e explanação de polígonos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/poligonos.swf"	
+  tags: ""
+  num: "145"
+
+-
+
+  name: "Caixa"	
+  application: "EdujogatiFX"	
+  description: "Jogar dados e somar os valores, escolhendo as casas que representam os mesmos, o objetivo é fechar o maior número de casas possível, trabalha Adição e Subtração com números até 50"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel4/201_caixa.swf"	
+  tags: ""
+  num: "146"
+
+-
+
+  name: "Área I"	
+  application: "EdujogatiFX"	
+  description: "Calcular áreas de figuras, em cm2, Hectares e km"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/area_ha-km2-campos.swf"	
+  tags: ""
+  num: "147"
+
+-
+
+  name: "Área II"	
+  application: "EdujogatiFX"	
+  description: "Calcular áreas, em cm2 e m2"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/area_selos.e.campos.swf"	
+  tags: ""
+  num: "148"
+
+-
+
+  name: "Divisão I"	
+  application: "EdujogatiFX"	
+  description: "Divisão utilizando desenhos; divisão sem resto, com resto"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/divisao.swf"	
+  tags: ""
+  num: "149"
+
+-
+
+  name: "Divisão II"	
+  application: "EdujogatiFX"	
+  description: "Divisão com 3, 4, 5 e 6 algarismos; divisão por 10 e por 100 "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/divisao_por1-2-3-4-5digit.swf"	
+  tags: ""
+  num: "150"
+
+-
+
+  name: "Dobradura"	
+  application: "EdujogatiFX"	
+  description: "Apontar como ficará um papel se dobrado conforme mostrado em tela"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/Dobradura.swf"	
+  tags: ""
+  num: "151"
+
+-
+
+  name: "Escalas"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre escala, atividades utilizando mapas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/escalas.swf"	
+  tags: ""
+  num: "152"
+
+-
+
+  name: "Frações I"	
+  application: "EdujogatiFX"	
+  description: "Frações de figuras; ordenar frações; frações equivalentes, comparar frações em maior ou menor, números mistos, frações décimas, centésimas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/fracoes2.swf"	
+  tags: ""
+  num: "153"
+
+-
+
+  name: "Frações II"	
+  application: "EdujogatiFX"	
+  description: "Frações de figuras; ordenar frações; frações equivalentes, comparar frações em maior ou menor, números mistos, frações décimas, centésimas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/fracoes3.swf"	
+  tags: ""
+  num: "154"
+
+-
+
+  name: "Funções"	
+  application: "EdujogatiFX"	
+  description: "Funções, regras em tabela"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/funcoes_rules-tables2.swf"	
+  tags: ""
+  num: "155"
+
+-
+
+  name: "Qual a Regra"	
+  application: "EdujogatiFX"	
+  description: "Sequências - padrões - completar sequência numéricas; criar próprias regras e sequências"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/qualearegra.swf"	
+  tags: ""
+  num: "156"
+
+-
+
+  name: "Regra em Tabelas"	
+  application: "EdujogatiFX"	
+  description: "completar sequências numéricas obedecendo regras"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/regraemtabelas.swf"	
+  tags: ""
+  num: "157"
+
+-
+
+  name: "Regularidades I"	
+  application: "EdujogatiFX"	
+  description: "Escolher regra e completar regularidade criada"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/regularidades.swf"	
+  tags: ""
+  num: "158"
+
+-
+
+  name: "Regularidades II"	
+  application: "EdujogatiFX"	
+  description: "Completar regularidade de 5 em 5"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/regularidades_de.5em5.swf"	
+  tags: ""
+  num: "159"
+
+-
+
+  name: "Num Romanos I"	
+  application: "EdujogatiFX"	
+  description: "Associação de números romanos e indo-arábicos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/RomanoCirculos.swf"	
+  tags: ""
+  num: "160"
+
+-
+
+  name: "Num Romanos II"	
+  application: "EdujogatiFX"	
+  description: "Associação de números romanos e indo-arábicos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/RomanoFormas.swf"	
+  tags: ""
+  num: "161"
+
+-
+
+  name: "Num Romanos III"	
+  application: "EdujogatiFX"	
+  description: "Acertar horas em relógio com números romanos"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/RomanoHoras.swf"	
+  tags: ""
+  num: "162"
+
+-
+
+  name: "Volume I"	
+  application: "EdujogatiFX"	
+  description: "Cubos e centímetros cúbicos - cm3"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/volume_quantos-cubos2.swf"	
+  tags: ""
+  num: "163"
+
+-
+
+  name: "Volume II"	
+  application: "EdujogatiFX"	
+  description: "Centímetros cúbicos - cm3 - ml, metros cúbicos - m3"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Matematica/nivel5/volumes.com-centim3.swf"	
+  tags: ""
+  num: "164"
+
+-
+
+  name: "Achar América do Sul"	
+  application: "EdujogatiFX"	
+  description: "Localizar no mapa capitais, sorteadas pelo computador, dos países da América do Sul"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/achar_americadosul_c.swf"	
+  tags: ""
+  num: "165"
+
+-
+
+  name: "Achar Capitais do Brasil"	
+  application: "EdujogatiFX"	
+  description: "Localizar no mapa capitais, sorteadas pelo computador, do Brasil"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/achar_capitais.swf"	
+  tags: ""
+  num: "166"
+
+-
+
+  name: "Achar Estados do Brasil"	
+  application: "EdujogatiFX"	
+  description: "Localizar no mapa Estados, sorteados pelo computador, do Brasil"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/achar_estados.swf"	
+  tags: ""
+  num: "167"
+
+-
+
+  name: "Américas"	
+  application: "EdujogatiFX"	
+  description: "Organizar quebra-cabeças, dos mapas das Américas do norte, central e sul"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/americas.swf"	
+  tags: ""
+  num: "168"
+
+-
+
+  name: "Bandeiras do Brasil"	
+  application: "EdujogatiFX"	
+  description: "Associar bandeiras aos nomes dos estados à que pertencem"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/bandeirasdobrasil.swf"	
+  tags: ""
+  num: "169"
+
+-
+
+  name: "Coordenadas Geográficas"	
+  application: "EdujogatiFX"	
+  description: "Encontrar no mapa Mundi, as coordenadas pedidas pelo computador "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/coordenadasgeograficas.swf"	
+  tags: ""
+  num: "170"
+
+-
+
+  name: "Estações do Ano I"	
+  application: "EdujogatiFX"	
+  description: "Caça palavras dos nomes das quatro estações do ano"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/estacoesdoano.swf"	
+  tags: ""
+  num: "171"
+
+-
+
+  name: "Estações do Ano II"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre como ocorre as estações do ano"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/estacoes.swf"	
+  tags: ""
+  num: "172"
+
+-
+
+  name: "Fuso Horários"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre os fusos horários"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/fusoshorarios.swf"	
+  tags: ""
+  num: "173"
+
+-
+
+  name: "Jogo da Forca"	
+  application: "EdujogatiFX"	
+  description: "Jogo da forca dos estados Brasileiros"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/Jogoforca.swf"	
+  tags: ""
+  num: "174"
+
+-
+
+  name: "Mapa América do Sul"	
+  application: "EdujogatiFX"	
+  description: "Quebra-cabeça da América do Sul, organizar mapa"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/m_americadosul.swf"	
+  tags: ""
+  num: "175"
+
+-
+
+  name: "Mapa Brasil I"	
+  application: "EdujogatiFX"	
+  description: "Organizar mapa do Brasil por estado"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/mapa_do_brasil.swf"	
+  tags: ""
+  num: "176"
+
+-
+
+  name: "Mapa Brasil II"	
+  application: "EdujogatiFX"	
+  description: "Organizar mapa do Brasil por estado"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/mapabrasil.swf"	
+  tags: ""
+  num: "177"
+
+-
+
+  name: "Mapa Brasil III"	
+  application: "EdujogatiFX"	
+  description: "Quebra-cabeça do mapa do Brasil, organizar mapa do Brasil por estado"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/mapabrasil2.swf"	
+  tags: ""
+  num: "178"
+
+-
+
+  name: "Mapa Brasil IV"	
+  application: "EdujogatiFX"	
+  description: "Organizar mapa do Brasil"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/mapabrasil3.swf"	
+  tags: ""
+  num: "179"
+
+-
+
+  name: "Mapa Brasil V	"	
+  application: "EdujogatiFX"	
+  description: "Organizar mapa do Brasil por região"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/mapabrasil4.swf"	
+  tags: ""
+  num: "180"
+
+-
+
+  name: "Movimentos da Terra"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre o movimento da terra -  Rotação e Translação"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/movimentosdaterra.swf"	
+  tags: ""
+  num: "181"
+
+-
+
+  name: "Papagaio Brasil"	
+  application: "EdujogatiFX"	
+  description: "Acertar os nomes das capitais dos estados do Brasil e onde se localizam no mapa"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/papagaioBrasil_0007.swf"	
+  tags: ""
+  num: "182"
+
+-
+
+  name: "Rede Geografica"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre Redes e coordenadas geográficas, paralelos, meridianos, latitude e longitude"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/redes.swf"	
+  tags: ""
+  num: "183"
+
+-
+
+  name: "Sistema Solar"	
+  application: "EdujogatiFX"	
+  description: "Organizar os planetas do sistema solar"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Geografia/sistemasolar.swf"	
+  tags: ""
+  num: "184"
+
+-
+
+  name: "Caça Palavras I"	
+  application: "EdujogatiFX"	
+  description: "Caça palavras com alguns animais"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/142_caca03.swf"	
+  tags: ""
+  num: "185"
+
+-
+
+  name: "Caça Palavras II"	
+  application: "EdujogatiFX"	
+  description: "Caça palavras da fotossíntese"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/143_caca04.swf"	
+  tags: ""
+  num: "186"
+
+-
+
+  name: "Caça Palavras III"	
+  application: "EdujogatiFX"	
+  description: "Caça palavras de palavras relacionada ao meio ambiente"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/caca_palavras.swf"	
+  tags: ""
+  num: "187"
+
+-
+
+  name: "Coleta Seletiva"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre lixo e coleta seletiva, atividade de separação do lixo "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/coletaSeletiva_0008.swf"	
+  tags: ""
+  num: "188"
+
+-
+
+  name: "Corpo Humano I"	
+  application: "EdujogatiFX"	
+  description: "Clicar nas partes do corpo que é pedida pelo computador"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/corpoHumano_portugues_0005.swf"	
+  tags: ""
+  num: "189"
+
+-
+
+  name: "Corpo Humano II"	
+  application: "EdujogatiFX"	
+  description: "Associar nome das partes do corpo com as imagens das mesmas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/corpohumanoarrastar.swf"	
+  tags: ""
+  num: "190"
+
+-
+
+  name: "Nome dos Alimentos I"	
+  application: "EdujogatiFX"	
+  description: "Associar nomes dos alimentos com as imagens das mesmas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/nome_alimentos.swf"	
+  tags: ""
+  num: "191"
+
+-
+
+  name: "Nome dos Alimentos II"	
+  application: "EdujogatiFX"	
+  description: "Organizar letras para formar os nomes dos alimentos da imagem mostrada "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel1/nomealimentos.swf"	
+  tags: ""
+  num: "192"
+
+-
+
+  name: "Célula Animal I"	
+  application: "EdujogatiFX"	
+  description: "Exploração da célula animal, com informações e expĺicações sobre cada parte"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/celula_animal1.swf"	
+  tags: ""
+  num: "193"
+
+-
+
+  name: "Célula Animal II"	
+  application: "EdujogatiFX"	
+  description: "Associar as partes das células com sua descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/celula_animal2.swf"	
+  tags: ""
+  num: "194"
+
+-
+
+  name: "Ciclo da água I"	
+  application: "EdujogatiFX"	
+  description: "Exploração do ciclo da água por meio de imagem"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/cicloagua.swf"	
+  tags: ""
+  num: "195"
+
+-
+
+  name: "Ciclo da água II"	
+  application: "EdujogatiFX"	
+  description: "Acontecimentos às imagens do ciclo da água"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/ciclodaagua002.swf"	
+  tags: ""
+  num: "196"
+
+-
+
+  name: "Ciclo da água III"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre o ciclo da água"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/ciclodoagua3.swf"	
+  tags: ""
+  num: "197"
+
+-
+
+  name: "Corpo Humano I"	
+  application: "EdujogatiFX"	
+  description: "Explorar órgãos do corpo Humano, pulmões, fígado, etc."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/corpo-humano.swf"	
+  tags: ""
+  num: "198"
+
+-
+
+  name: "Corpo Humano II"	
+  application: "EdujogatiFX"	
+  description: "Explorar órgãos do corpo Humano, pulmões, fígado, etc."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/corpo-humano2.swf"	
+  tags: ""
+  num: "199"
+
+-
+
+  name: "Cuidados com Energia"	
+  application: "EdujogatiFX"	
+  description: "Dicas para evitar acidentes com energia elétrica"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/cuidados_energia.swf"	
+  tags: ""
+  num: "200"
+
+-
+
+  name: "Curiosidades"	
+  application: "EdujogatiFX"	
+  description: "Dicas para economia de água e preservação do meio ambiente"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/curiosidades.swf"	
+  tags: ""
+  num: "201"
+
+-
+
+  name: "Esqueleto I"	
+  application: "EdujogatiFX"	
+  description: "Montar o esqueleto Humano"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/Esqueleto.swf"	
+  tags: ""
+  num: "202"
+
+-
+
+  name: "Esqueleto II"	
+  application: "EdujogatiFX"	
+  description: "Identificação das partes do esqueleto humano"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/esqueleto2.swf"	
+  tags: ""
+  num: "203"
+
+-
+
+  name: "Identificar Alimentos"	
+  application: "EdujogatiFX"	
+  description: "Associar os alimentos às suas categorias"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/identifiquealimentos.swf"	
+  tags: ""
+  num: "204"
+
+-
+
+  name: "Jogos dos Dentes"	
+  application: "EdujogatiFX"	
+  description: "Identificar as partes internas da boca pela figura"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/jogonomedosdentes.swf"	
+  tags: ""
+  num: "205"
+
+-
+
+  name: "Lixo I"	
+  application: "EdujogatiFX"	
+  description: "Explanação sobre reciclagem, materiais recicláveis e tempo de decomposição dos materiais. "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/lixo1.swf"	
+  tags: ""
+  num: "206"
+
+-
+
+  name: "Lixo II"	
+  application: "EdujogatiFX"	
+  description: "Questionário sobre o tempo de decomposição dos materiais"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/lixo2.swf"	
+  tags: ""
+  num: "207"
+
+-
+
+  name: "Pirâmide dos Alimentos"	
+  application: "EdujogatiFX"	
+  description: "Classifcar os alimentos em carne, verduras, grãos etc."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/piramide.swf"	
+  tags: ""
+  num: "208"
+
+-
+
+  name: "Teste da Cidadania I"	
+  application: "EdujogatiFX"	
+  description: "Questionário sobre uso adequado da água e da energia elétrica"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/testedacidadani1.swf"	
+  tags: ""
+  num: "209"
+
+-
+
+  name: "Teste da Cidadania II"	
+  application: "EdujogatiFX"	
+  description: "Desafio para desligar os aparelhos ligados, jogar o lixo nas latas adequadas, conscientizando sobre a importância de economia de água e energia e destinação correta do lixo"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/testedacidadani2.swf"	
+  tags: ""
+  num: "210"
+
+-
+
+  name: "Visita Espacial	"	
+  application: "EdujogatiFX"	
+  description: "Viagem pelo nosso sistema solar, conhecendo um pouco sobre cada planeta"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Ciencia/nivel2/visitaEspacial_0006.swf"	
+  tags: ""
+  num: "211"
+
+-
+
+  name: "Aprendendo as Horas I"	
+  application: "EdujogatiFX"	
+  description: "Ajustar as horas do relógio analógico de  acordo com horário mostrado no digital"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/aprendendoHoras_0008.swf"	
+  tags: ""
+  num: "212"
+
+-
+
+  name: "Aprendendo as Horas II"	
+  application: "EdujogatiFX"	
+  description: "Ajustar as horas do relógio analógico de  acordo com horário mostrado no digital"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/aprendendoshoras.swf"	
+  tags: ""
+  num: "213"
+
+-
+
+  name: "Brincando com Ariê 2	"	
+  application: "EdujogatiFX"	
+  description: "nomear objetos utilizando as letras disponíveis; Contar objetos associando com o valor disponível "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/arie_na_escola.swf"	
+  tags: ""
+  num: "214"
+
+-
+
+  name: "Calendário"	
+  application: "EdujogatiFX"	
+  description: "Explorar calendário por meio de perguntas e respostas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/calendario_0005.swf"	
+  tags: ""
+  num: "215"
+
+-
+
+  name: "Jogo das Cores"	
+  application: "EdujogatiFX"	
+  description: "Responder a cor dos objetos apresentados. Obs -  com áudio."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/jogoCores_0008.swf"	
+  tags: ""
+  num: "216"
+
+-
+
+  name: "Maior e Menor"	
+  application: "EdujogatiFX"	
+  description: "Clicar no animal maior ou menor"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/maiorMenor_0007.swf"	
+  tags: ""
+  num: "217"
+
+-
+
+  name: "Masculino e Feminino"	
+  application: "EdujogatiFX"	
+  description: "Classificar nomes de objetos como masculino ou feminino"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/MasculinoFeminino_0005.swf"	
+  tags: ""
+  num: "218"
+
+-
+
+  name: "Meios de Transporte"	
+  application: "EdujogatiFX"	
+  description: "Classificar os transportes apresentados como Aéreos, aquáticos ou terrestres"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/meiosTransporte_0008.swf"	
+  tags: ""
+  num: "219"
+
+-
+
+  name: "Relógio Analógico"	
+  application: "EdujogatiFX"	
+  description: "escrever as horas mostrada no relógio analógico; escrever as horas do relógio analógico para o digital; Entender horários antes do meio dia e depois do meio dia; Responder perguntas sobre dias, meses e anos específicos; Responder perguntas baseadas na agenda e horários discriminados; Responder perguntas com base na cronologias das aves casuares apresentadas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/relogio_analogico.swf"	
+  tags: ""
+  num: "220"
+
+-
+
+  name: "Relógio | Tempo | Meses"	
+  application: "EdujogatiFX"	
+  description: "Escrever as horas apresentadas no relógio analógico; organizar os nomes dos meses do ano"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/relogio_tempo-meses-estacoes.swf"	
+  tags: ""
+  num: "221"
+
+-
+
+  name: "Tempo e Calendário"	
+  application: "EdujogatiFX"	
+  description: "Escrever as  horas mostradas em relógio analógico; Organizar nomes dos meses do ano; Identificar dia apontado em calendário"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Interdisciplinar/tempoecalendario.swf"	
+  tags: ""
+  num: "222"
+
+-
+
+  name: "7 erros | Jogo"	
+  application: "EdujogatiFX"	
+  description: "Sob contagem regressiva encontrar as sete diferenças entre as ilustrações"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/7erros.swf"	
+  tags: ""
+  num: "223"
+
+-
+
+  name: "Bela Adormecida"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/bela_adormecida.swf"	
+  tags: ""
+  num: "224"
+
+-
+
+  name: "A Bela e a Fera"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/bela_fera.swf"	
+  tags: ""
+  num: "225"
+
+-
+
+  name: "A Pequena Sereia"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/pequena_sereia.swf"	
+  tags: ""
+  num: "226"
+
+-
+
+  name: "A Princesa e o Sapo"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/princesa_sapo.swf"	
+  tags: ""
+  num: "227"
+
+-
+
+  name: "Bambi"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/bambi.swf"	
+  tags: ""
+  num: "228"
+
+-
+
+  name: "Branca de Neve"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/branca_neve.swf"	
+  tags: ""
+  num: "229"
+
+-
+
+  name: "Cachinhos Dourados"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/cachinhos_dourados.swf"	
+  tags: ""
+  num: "230"
+
+-
+
+  name: "Chapeuzinho Vermelho"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/chapeuzinho_vermelho.swf"	
+  tags: ""
+  num: "231"
+
+-
+
+  name: "Cinderela"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/cinderela.swf"	
+  tags: ""
+  num: "232"
+
+-
+
+  name: "O Patinho Feio"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/patinho_feio.swf"	
+  tags: ""
+  num: "233"
+
+-
+
+  name: "Os Três Porquinhos"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/tres_porquinhos.swf"	
+  tags: ""
+  num: "234"
+
+-
+
+  name: "Peter Pan"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/peter_pan.swf"	
+  tags: ""
+  num: "235"
+
+-
+
+  name: "Pinóquio"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, textos, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Contos/pinoquio.swf"	
+  tags: ""
+  num: "236"
+
+-
+
+  name: "A Formiga e a Cigarra"	
+  application: "EdujogatiFX"	
+  description: "Teatro de fantoches com interpretações e narração."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Fabulas/aformigaeacigarra.swf"	
+  tags: ""
+  num: "237"
+
+-
+
+  name: "A Raposa e a Corvo"	
+  application: "EdujogatiFX"	
+  description: "Teatro de fantoches com interpretações e narração."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Fabulas/araposaeadonacorvo.swf"	
+  tags: ""
+  num: "238"
+
+-
+
+  name: "A Raposa e o Galo"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Fabulas/araposaeogalo.swf"	
+  tags: ""
+  num: "239"
+
+-
+
+  name: "A Tartaruga e a Lebre"	
+  application: "EdujogatiFX"	
+  description: "Teatro de fantoches com interpretações e narração."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Fabulas/atartarugaealebre.swf"	
+  tags: ""
+  num: "240"
+
+-
+
+  name: "O Burro em Pele de Leão"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Fabulas/oburroempeledeleao.swf"	
+  tags: ""
+  num: "241"
+
+-
+
+  name: "O Jovem e o Lobo"	
+  application: "EdujogatiFX"	
+  description: "Teatro de fantoches com interpretações e narração."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Fabulas/ojovempastoreolobo.swf"	
+  tags: ""
+  num: "242"
+
+-
+
+  name: "O leão e o Rato"	
+  application: "EdujogatiFX"	
+  description: "Teatro de fantoches com interpretações e narração."	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Fabulas/oleaoeorato.swf"	
+  tags: ""
+  num: "243"
+
+-
+
+  name: "A onça da mão torta"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações e sons contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Lendas/aoncadamaotorta.swf"	
+  tags: ""
+  num: "244"
+
+-
+
+  name: "A Mula Sem Cabeça"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações e sons contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Lendas/mula.swf"	
+  tags: ""
+  num: "245"
+
+-
+
+  name: "O Boto"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações e sons contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Lendas/oboto.swf"	
+  tags: ""
+  num: "246"
+
+-
+
+  name: "O Boitatá"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações e sons contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Lendas/boitata.swf"	
+  tags: ""
+  num: "247"
+
+-
+
+  name: "Saci Pererê"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações e sons contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Lendas/saci.swf"	
+  tags: ""
+  num: "248"
+
+-
+
+  name: "A Ovelha e o Lobo"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/aovelhaeolobo.swf"	
+  tags: ""
+  num: "249"
+
+-
+
+  name: "O Camaleão"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/ocamaleao.swf"	
+  tags: ""
+  num: "250"
+
+-
+
+  name: "O Canguru e a Coruja"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/ocangurueacoruja.swf"	
+  tags: ""
+  num: "251"
+
+-
+
+  name: "O Coala Sujo"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/ocoalasujo.swf"	
+  tags: ""
+  num: "252"
+
+-
+
+  name: "O Lápis"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/olapis.swf"	
+  tags: ""
+  num: "253"
+
+-
+
+  name: "O Mel e as Abelhas"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/omeleasabelhas.swf"	
+  tags: ""
+  num: "254"
+
+-
+
+  name: "Os Burros Espertos"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/osburrosespertos.swf"	
+  tags: ""
+  num: "255"
+
+-
+
+  name: "O Segredo das Bananas"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/osegredodasbananas.swf"	
+  tags: ""
+  num: "256"
+
+-
+
+  name: "O Sol e o Verão"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/osoleoverao.swf"	
+  tags: ""
+  num: "257"
+
+-
+
+  name: "Pintinhos, Galos"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/pintinhosgalos.swf"	
+  tags: ""
+  num: "258"
+
+-
+
+  name: "Piratas e Corsários"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao1/piratasecorsarios.swf"	
+  tags: ""
+  num: "259"
+
+-
+
+  name: "A Fotografia e o Cinema"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/afotografiaeocinema.swf"	
+  tags: ""
+  num: "260"
+
+-
+
+  name: "A História de Noel"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/ahistoriadenoel.swf"	
+  tags: ""
+  num: "261"
+
+-
+
+  name: "História do Skate"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/ahistoriadoskate.swf"	
+  tags: ""
+  num: "262"
+
+-
+
+  name: "As Fases da Lua"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/asfasesdalua.swf"	
+  tags: ""
+  num: "263"
+
+-
+
+  name: "Cachorro Quente"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/cachorroquente.swf"	
+  tags: ""
+  num: "264"
+
+-
+
+  name: "Direitos da Criança"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/direitosdacrianca.swf"	
+  tags: ""
+  num: "265"
+
+-
+
+  name: "Floresta Amazônica"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/florestaamazonica.swf"	
+  tags: ""
+  num: "266"
+
+-
+
+  name: "Hipnose"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/hipnose.swf"	
+  tags: ""
+  num: "267"
+
+-
+
+  name: "Marte e seus Segredos"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/marteeseussegredos.swf"	
+  tags: ""
+  num: "268"
+
+-
+
+  name: "O Cérebro"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/ocerebro.swf"	
+  tags: ""
+  num: "269"
+
+-
+
+  name: "O Ciclo das águas"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/ociclodasaguas.swf"	
+  tags: ""
+  num: "270"
+
+-
+
+  name: "O Clima e o Tempo"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/oclimaeotempo.swf"	
+  tags: ""
+  num: "271"
+
+-
+
+  name: "O Dia do índio"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/odiadoindio.swf"	
+  tags: ""
+  num: "272"
+
+-
+
+  name: "O Plástico"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/oplastico.swf"	
+  tags: ""
+  num: "273"
+
+-
+
+  name: "O Sol"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/osol.swf"	
+  tags: ""
+  num: "274"
+
+-
+
+  name: "O Telefone"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/otelefone.swf"	
+  tags: ""
+  num: "275"
+
+-
+
+  name: "Pirâmides"	
+  application: "EdujogatiFX"	
+  description: "Ilustrações, interpretações, sons e narração contam a estória"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Quadrinhos/sessao2/piramides.swf"	
+  tags: ""
+  num: "276"
+
+-
+
+  name: "Bloxorz | Level o Bloco"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Raciocinio/bloxorz.swf"	
+  tags: ""
+  num: "277"
+
+-
+
+  name: "Briker | Leve o Gelo"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Raciocinio/briker.swf"	
+  tags: ""
+  num: "278"
+
+-
+
+  name: "Blocks | Construção"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Raciocinio/coolmath-buildingblocks.swf"	
+  tags: ""
+  num: "279"
+
+-
+
+  name: "Jogo das Canecas"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Raciocinio/jogodascanecas.swf"	
+  tags: ""
+  num: "280"
+
+-
+
+  name: "Jogo da Memória"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Raciocinio/jogo-memoria.swf"	
+  tags: ""
+  num: "281"
+
+-
+
+  name: "Jogo da Velha"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Raciocinio/velha.swf"	
+  tags: ""
+  num: "282"
+
+-
+
+  name: "Leve a Bola"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Raciocinio/tilt.swf"	
+  tags: ""
+  num: "283"
+
+-
+
+  name: "Adivinhar Adição	"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/473_adivinhar_adicao.swf"	
+  tags: ""
+  num: "284"
+
+-
+
+  name: "Adivinhar Multiplicação"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/472_adivinhar_vezes.swf"	
+  tags: ""
+  num: "285"
+
+-
+
+  name: "Adivinhar III"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/474_adivinhar_3op.swf"	
+  tags: ""
+  num: "286"
+
+-
+
+  name: "Atravessar a Ponte"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/198_ponte.swf"	
+  tags: ""
+  num: "287"
+
+-
+
+  name: "Enigma da Turma"	
+  application: "EdujogatiFX"	
+  description: "Descrição    "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/149_logica.swf"	
+  tags: ""
+  num: "288"
+
+-
+
+  name: "Enigma das Frações"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/211_enigma_fracoes.swf"	
+  tags: ""
+  num: "289"
+
+-
+
+  name: "Enigma dos Símbolos I"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma1.swf"	
+  tags: ""
+  num: "290"
+
+-
+
+  name: "Enigma dos Símbolos II"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma2.swf"	
+  tags: ""
+  num: "291"
+
+-
+
+  name: "Enigma dos Símbolos III"	
+  application: "EdujogatiFX"	
+  description: "Descrição    "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/club3_enigma3.swf"	
+  tags: ""
+  num: "292"
+
+-
+
+  name: "Enigma de Matemática"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/1429_charadas.swf"	
+  tags: ""
+  num: "293"
+
+-
+
+  name: "Jogo da Cerca"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/jogo-cerca.swf"	
+  tags: ""
+  num: "294"
+
+-
+
+  name: "Jogo do Penhasco"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/150_penhasco.swf"	
+  tags: ""
+  num: "295"
+
+-
+
+  name: "Teste de Concentração"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/199_concentra.swf"	
+  tags: ""
+  num: "296"
+
+-
+
+  name: "Teste de QI I"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/197_rio.swf"	
+  tags: ""
+  num: "297"
+
+-
+
+  name: "Teste de QI II"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/RaciocinioLogico/Logica/testinteligencia.swf"	
+  tags: ""
+  num: "298"
+
+-
+
+  name: "Caça Palavras"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_cacapalavras.swf"	
+  tags: ""
+  num: "299"
+
+-
+
+  name: "Campo Minado"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_campominado.swf"	
+  tags: ""
+  num: "300"
+
+-
+
+  name: "Chave"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_chave.swf"	
+  tags: ""
+  num: "301"
+
+-
+
+  name: "Conecte"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual]"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_conecte.swf"	
+  tags: ""
+  num: "302"
+
+-
+
+  name: "Enigmas"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_enigmas.swf"	
+  tags: ""
+  num: "303"
+
+-
+
+  name: "Hexágonos"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_hexagonos.swf"	
+  tags: ""
+  num: "304"
+
+-
+
+  name: "Ilusões de óptica"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_ilusoes.swf"	
+  tags: ""
+  num: "305"
+
+-
+
+  name: "Linhas Coloridas"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_linhascoloridas.swf"	
+  tags: ""
+  num: "306"
+
+-
+
+  name: "Palitos"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_palitos.swf"	
+  tags: ""
+  num: "307"
+
+-
+
+  name: "Quebra-cabeça"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_quebra_cabeca.swf"	
+  tags: ""
+  num: "308"
+
+-
+
+  name: "Sombra "	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_sombra.swf"	
+  tags: ""
+  num: "309"
+
+-
+
+  name: "Tangram"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_tangram.swf"	
+  tags: ""
+  num: "310"
+
+-
+
+  name: "Telepatia"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_telepatia.swf"	
+  tags: ""
+  num: "311"
+
+-
+
+  name: "Trânsito"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_transito.swf"	
+  tags: ""
+  num: "312"
+
+-
+
+  name: "Trevo da Sorte "	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_trevodasorte.swf"	
+  tags: ""
+  num: "313"
+
+-
+
+  name: "Triminós"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/jogos_triminos.swf"	
+  tags: ""
+  num: "314"
+
+-
+
+  name: "panimal"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "wine"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Educativos/filhotes/panimal.exe"	
+  tags: ""
+  num: "315"
+
+-
+
+  name: "Bart Simpson"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/bartsimpsonstreetburglary8_secure.swf"	
+  tags: ""
+  num: "316"
+
+-
+
+  name: "Free Gear"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/Freegear.swf"	
+  tags: ""
+  num: "317"
+
+-
+
+  name: "Pac-Man 2"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/pacman2.swf"	
+  tags: ""
+  num: "318"
+
+-
+
+  name: "Pica-pau Amarelo"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/sitiopicapauamarelo.swf"	
+  tags: ""
+  num: "319"
+
+-
+
+  name: "Sonic Ultimate"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/ultimate_sonic.swf"	
+  tags: ""
+  num: "320"
+
+-
+
+  name: "Super Mario Star"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/Super_Mario_Star_Scramble_2.swf"	
+  tags: ""
+  num: "321"
+
+-
+
+  name: "Tetris"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/tetris.swf"	
+  tags: ""
+  num: "322"
+
+-
+
+  name: "Moto Cross"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/moto_cross.swf"	
+  tags: ""
+  num: "323"
+
+-
+
+  name: "Moto Cross 2"	
+  application: "EdujogatiFX"	
+  description: "Diversão, Desafio, Atenção Visual"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Arcade/moto_cross2.swf"	
+  tags: ""
+  num: "324"
+
+-
+
+  name: "Barbie Puzzle"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/barbie_fantasy_tale_round_puzzle.swf"	
+  tags: ""
+  num: "325"
+
+-
+
+  name: "Barbie Rock Princess"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/barbie-rock-princess-dress-up-y8.swf"	
+  tags: ""
+  num: "326"
+
+-
+
+  name: "Beauty Nail Fad"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/Beauty_Nail_Fad.swf"	
+  tags: ""
+  num: "327"
+
+-
+
+  name: "Cake Decorate"	
+  application: "EdujogatiFX"	
+  description: "Descrição     "	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/cake_decorate.swf"	
+  tags: ""
+  num: "328"
+
+-
+
+  name: "Holly Madison"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/holly_madison_dress_up_game.swf"	
+  tags: ""
+  num: "329"
+
+-
+
+  name: "Pimp Your Guitar"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/pimp_your_guitar.swf"	
+  tags: ""
+  num: "330"
+
+-
+
+  name: "Rapunzel"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/rapunzel.swf"	
+  tags: ""
+  num: "331"
+
+-
+
+  name: "Room Changer"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/roomchanger.swf"	
+  tags: ""
+  num: "332"
+
+-
+
+  name: "Decorar"	
+  application: "EdujogatiFX"	
+  description: "Decoração de ambientes e vestir pesonagens animados"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/backyard_adventure_maker_nickelodeon.swf"	
+  tags: ""
+  num: "333"
+
+-
+
+  name: "Decorar"	
+  application: "EdujogatiFX"	
+  description: "Decorar e construir cenários, casas"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/construircasasf_garotas.swf"	
+  tags: ""
+  num: "334"
+
+-
+
+  name: "Montar"	
+  application: "EdujogatiFX"	
+  description: "Animais cocoricó"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Decorar/montar_cocorico.swf"	
+  tags: ""
+  num: "335"
+
+-
+
+  name: "Sprinter"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Esportes/sprinter.swf"	
+  tags: ""
+  num: "336"
+
+-
+
+  name: "The Champions 3D"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Esportes/The_Champions_3D.swf"	
+  tags: ""
+  num: "337"
+
+-
+
+  name: "World Basket Cup"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Esportes/World_Basket_Cup.swf"	
+  tags: ""
+  num: "338"
+
+-
+
+  name: "Yahoo Tennis"	
+  application: "EdujogatiFX"	
+  description: "Descrição"	
+  command: "chromium-browser"	
+  link: "/opt/edujogatifx/JogosEducativos/Jogos/Esportes/yahootennis.swf"	
+  tags: ""
+  num: "339"
+
+-
+
+  name: "Tabela periódica"	
+  application: "Kalzium"	
+  description: "Programa mostra tabela periódica, podendo seus elementos   serem exibidos por grupo, famílias etc..."	
+  command: "kalzium"	
+  link: ""	
+  tags: ""
+  num: "340"
+
+-
+
+  name: "Globo na área de trabalho"	
+  application: "Marble"	
+  description: "Mostra globo terrestre tridimensional"	
+  command: "marble"	
+  link: ""	
+  tags: ""
+  num: "341"
+
+-
+
+  name: "Planetário virtual"	
+  application: "Kstars"	
+  description: "Programa mostra céu, estrelas, galáxias, sistema solar, entre outros, permite busca de planetas do sistema solar"	
+  command: "kstars"	
+  link: ""	
+  tags: ""
+  num: "342"
+
+-
+
+  name: "Treinamento em geografia"	
+  application: "Kgeography"	
+  description: "Programa para estudo interativo de mapa do brasil, entre outros, com perguntas e respostas sobre capitais,  estados e bandeiras dos países e estados."	
+  command: "kgeography"	
+  link: ""	
+  tags: ""
+  num: "343"
+
+-
+
+  name: "Aprender o alfabeto"	
+  application: "Klettres"	
+  description: "Programa para aprendizado do alfabeto em inglês, francês ou português por meio dos sons e dos ícones das letras."	
+  command: "klettres"	
+  link: ""	
+  tags: ""
+  num: "344"
+
+-
+
+  name: "Ferramenta de Referência/estudo do japonês"	
+  application: "Kiten"	
+  description: "Ferramenta de Referência/estudo do japonês"	
+  command: "kiten"	
+  link: ""	
+  tags: ""
+  num: "345"
+
+-
+
+  name: "Jogo da forca"	
+  application: "Khangman"	
+  description: "Programa em que o estudante deve adivinhar a palavra antes que se forme uma forca"	
+  command: "khangman"	
+  link: ""	
+  tags: ""
+  num: "346"
+
+-
+
+  name: "Jogo de ordenação de letras"	
+  application: "Kanagram"	
+  description: "Programa exibe palavra com as letras  desordenadas, tendo o estudante que adivinhar que palavra é."	
+  command: "kanagram"	
+  link: ""	
+  tags: ""
+  num: "347"
+
+-
+
+  name: "Treinador de vocabulário"	
+  application: "Parley"	
+  description: "Parley suporta muitos recursos específicos do idioma, mas também pode ser usado para outras tarefas de aprendizagem. Ele usa o método de aprendizagem de repetição espaçada, também conhecido como flash cards."	
+  command: "parley"	
+  link: ""	
+  tags: ""
+  num: "348"
+
+-
+
+  name: "Simon diz"	
+  application: "Blinken"	
+  description: "Programa simples para teste de memória, onde os estudantes veem e ouvem uma sequência de sons e cores e devem mostrar na ordem que aparecem e são tocados, contando ainda com score de pontuação "	
+  command: "blinken"	
+  link: ""	
+  tags: ""
+  num: "349"
+
+-
+
+  name: "Treinador de vocabulário"	
+  application: "KwordQuiz"	
+  description: "Programa de quiz"	
+  command: "kwordquiz"	
+  link: ""	
+  tags: ""
+  num: "350"
+
+-
+
+  name: "Software Matemático"	
+  application: "Cantor"	
+  description: "É um software livre de aplicações matemáticas para estatística e análise científicas."	
+  command: "cantor"	
+  link: ""	
+  tags: ""
+  num: "351"
+
+-
+
+  name: "Desenho de funções matemáticas"	
+  application: "KmPlot"	
+  description: "Programa destinado ao desenho de funções  matemáticas"	
+  command: "kmplot"	
+  link: ""	
+  tags: ""
+  num: "352"
+
+-
+
+  name: "Calculadora Gráfica"	
+  application: "KAlgebra"	
+  description: "Calculadora Gráfica"	
+  command: "kalgebra"	
+  link: ""	
+  tags: ""
+  num: "353"
+
+-
+
+  name: "Exercícios com frações"	
+  application: "Kbruch"	
+  description: "São mostrados exercícios de frações, lógica da soma de frações que devem ser resolvidos"	
+  command: "kbruch"	
+  link: ""	
+  tags: ""
+  num: "354"
+
+-
+
+  name: "Geometria interativa"	
+  application: "Kig"	
+  description: "O Kig é um aplicativo para geometria interativa. Ele pretende cumprir dois objetivos: · Permitir aos estudantes explorarem interativamente figuras e conceitos"	
+  command: "kig"	
+  link: ""	
+  tags: ""
+  num: "355"
+
+-
+
+  name: "Geometria dinâmica"	
+  application: "GeoGebra"	
+  description: "Estudo de Fíguras e conceitos matemáticos, desenho de figuras matemáticas"	
+  command: "geogebra"	
+  link: ""	
+  tags: ""
+  num: "356"
+
+-
+
+  name: "Série educacional"	
+  application: "Gcompris"	
+  description: "Gcompris – Diversos jogos infantis que auxiliam no aprendizado ao uso do mouse, teclado, matemática, português, lógica e etc."	
+  command: "gcompris"	
+  link: ""	
+  tags: ""
+  num: "357"
+
+-
+
+  name: "Desenho"	
+  application: "Tuxpaint"	
+  description: "Tuxpaint - Pintura e desenho diversos, formas geométricas, linhas etc. Muito intuitivo"	
+  command: "tuxpaint"	
+  link: ""	
+  tags: ""
+  num: "358"
+
+-
+
+  name: "Clone do Bomberman"	
+  application: "Granatier"	
+  description: "jogo de estratégia, explodir paredes"	
+  command: "granatier"	
+  link: ""	
+  tags: ""
+  num: "359"
+
+-
+
+  name: "Clone do Pacman"	
+  application: "Kapman"	
+  description: "Juntar ouro e fugir das múmias"	
+  command: "kapman"	
+  link: ""	
+  tags: ""
+  num: "360"
+
+-
+
+  name: "Jogo como tetris"	
+  application: "Kblocks"	
+  description: "jogo de tijolos descendo"	
+  command: "kblocks"	
+  link: ""	
+  tags: ""
+  num: "361"
+
+-
+
+  name: "Jogo de ação"	
+  application: "Kgoldrunner"	
+  description: "Kgoldrunner – jogo de ação onde o participante deve pegar ouro e usar de estratégia para fugir dos inimigos"	
+  command: "kgoldrunner"	
+  link: ""	
+  tags: ""
+  num: "362"
+
+-
+
+  name: "Jogo de arcade espacial"	
+  application: "KspaceDuel"	
+  description: "Duelo de naves ao redor do sol"	
+  command: "kspaceduel"	
+  link: ""	
+  tags: ""
+  num: "363"
+
+-
+
+  name: "Jogo de bolas que pulam"	
+  application: "Kbounce"	
+  description: "participante deve construir ao menos 75% de parede de modo que as bolas não toquem quando estas estiverem sendo construídas"	
+  command: "kbounce"	
+  link: ""	
+  tags: ""
+  num: "364"
+
+-
+
+  name: "Jogo de bombardeio"	
+  application: "Bomber"	
+  description: "Avião lança bombas sobre alvos fixos"	
+  command: "bomber"	
+  link: ""	
+  tags: ""
+  num: "365"
+
+-
+
+  name: "Jogo de corrida de Cobras"	
+  application: "Ksnakes"	
+  description: "Participante deve guiar uma cobra de modo que esta não toque as barreiras nem em outra cobra"	
+  command: "ksnakes"	
+  link: ""	
+  tags: ""
+  num: "366"
+
+-
+
+  name: "Jogo de tetris "	
+  application: "Ksirtet"	
+  description: "jogo de tijolos que caem, para serem montados"	
+  command: "ksirtet"	
+  link: ""	
+  tags: ""
+  num: "367"
+
+-
+
+  name: "Jogo espacial"	
+  application: "Kasteroides"	
+  description: "jogo de naves, onde o participante deve atirar para destruir asteróides"	
+  command: "kasteroides"	
+  link: ""	
+  tags: ""
+  num: "368"
+
+-
+
+  name: "Jogo parecido com puyopuyo japones"	
+  application: "Kovos"	
+  description: "Jogo tipo tetris, parecido com puyopuyo"	
+  command: "kovos"	
+  link: ""	
+  tags: ""
+  num: "369"
+
+-
+
+  name: "Jogo parecido com tron"	
+  application: "Ktron"	
+  description: "Linhas de cores diferentes, uma deve ser guiadas para não tocar na outra nem bater na lateral."	
+  command: "ktron"	
+  link: ""	
+  tags: ""
+  num: "370"
+
+-
+
+  name: "Mini golf"	
+  application: "Kolf"	
+  description: "Pequeno campo de golf"	
+  command: "kolf"	
+  link: ""	
+  tags: ""
+  num: "371"
+
+-
+
+  name: "Paciência"	
+  application: "Kpatience"	
+  description: "jogo de cartas, para organizar as cartas do maior para o menor naipe"	
+  command: "kpatience"	
+  link: ""	
+  tags: ""
+  num: "372"
+
+-
+
+  name: "Tenente Lskat"	
+  application: "Lskat"	
+  description: "jogo de cartas jogadas, quem fizer o maior número de pontos vence."	
+  command: "lskat"	
+  link: ""	
+  tags: ""
+  num: "373"
+
+-
+
+  name: "3D Chess Game"	
+  application: "Glchess"	
+  description: "Jogo de xadrez em 3D"	
+  command: "glchess"	
+  link: ""	
+  tags: ""
+  num: "374"
+
+-
+
+  name: "Conecte os pontos para criar quadrados"	
+  application: "KSquares"	
+  description: "Conectar os pontos para criar quadros"	
+  command: "ksquares"	
+  link: ""	
+  tags: ""
+  num: "375"
+
+-
+
+  name: "Jogo de dados"	
+  application: "Kiriti"	
+  description: "Jogo de dados"	
+  command: "kiriti"	
+  link: ""	
+  tags: ""
+  num: "376"
+
+-
+
+  name: "Jogo de peças"	
+  application: "Shisen-Sho"	
+  description: "Jogo de peças"	
+  command: "shisen-sho"	
+  link: ""	
+  tags: ""
+  num: "377"
+
+-
+
+  name: "Jogo de reversi"	
+  application: "Bovo"	
+  description: "jogo de estratégia, deve-se clicar nos espaços e ter o maior numero de pecas de sua cor"	
+  command: "bovo"	
+  link: ""	
+  tags: ""
+  num: "378"
+
+-
+
+  name: "Jogo de reversi"	
+  application: "KReversi"	
+  description: "jogo de estratégia, deve-se clicar nos espaços e ter o maior numero de pecas de sua cor"	
+  command: "kreversi"	
+  link: ""	
+  tags: ""
+  num: "379"
+
+-
+
+  name: "Jogo de tabuleiro Go"
+  application: "Kigo"	
+  description: "jogo de estratégia, deve-se clicar nas diagonais e ter o maior numero de pecas de sua cor"	
+  command: "kigo"	
+  link: ""	
+  tags: ""
+  num: "380"
+
+-
+
+  name: "Jogo lógico de Caixa Preta"	
+  application: "KBlackBox"	
+  description: "Jogo lógico de Caixa Preta, lógica"	
+  command: "kblackbox"	
+  link: ""	
+  tags: ""
+  num: "381"
+
+-
+
+  name: "Jogo lógico quatro em linha"	
+  application: "Kfourinline"	
+  description: "Kfourinline"	
+  command: "kfourinline"	
+  link: ""	
+  tags: ""
+  num: "382"
+
+-
+
+  name: "Paciência Manjongg"	
+  application: "KMahjongg"	
+  description: "KMahjongg"	
+  command: "kmahjongg"	
+  link: ""	
+  tags: ""
+  num: "383"
+
+-
+
+  name: "Homem batata"	
+  application: "Ktuberling"	
+  description: "pode-se enfeitar uma batata com várias ferramentas como óculos, chapéu etc..."	
+  command: "ktuberling"	
+  link: ""	
+  tags: ""
+  num: "384"
+
+-
+
+  name: "Tuxmath"	
+  application: "Tuxmath "	
+  description: "ferramenta muito interessante para prática da matemática, soma, adição, subtração, multiplicação, entre outras."	
+  command: "tuxmath "	
+  link: ""	
+  tags: ""
+  num: "385"
+
+-
+
+  name: "Jogo de batalha  naval"	
+  application: "Kbattleship"	
+  description: "jogador deve posicionar seus navios de guerra e atirar no inimigo utilizando o mouse no campo oposto."	
+  command: "kbattleship"	
+  link: ""	
+  tags: ""
+  num: "386"
+
+-
+
+  name: "Jogo de captura de território"	
+  application: "KJuningCube"	
+  description: "Jogo de captura de território"	
+  command: "kjuningcube"	
+  link: ""	
+  tags: ""
+  num: "387"
+
+-
+
+  name: "Jogo de construir deres de computadores"	
+  application: "KNetWalk"	
+  description: "Jogo de construir deres de computadores"	
+  command: "knetwalk"	
+  link: ""	
+  tags: ""
+  num: "388"
+
+-
+
+  name: "Jogo de dominação Planetária"	
+  application: "KSirk"	
+  description: "ogo de dominação Planetária"	
+  command: "ksirk"	
+  link: ""	
+  tags: ""
+  num: "389"
+
+-
+
+  name: "Jogo de estratégia galáctico"	
+  application: "Konquest"	
+  description: "Jogo de estratégia galáctico, estratégico"	
+  command: "konquest"	
+  link: ""	
+  tags: ""
+  num: "390"
+
+-
+
+  name: "Jogo de Tabuleiro"	
+  application: "SameGame"	
+  description: "Jogo de estratégia e pontuação, ganha-se pontos ao clicar nos objetod de cores iguais agrupados"	
+  command: "samegame"	
+  link: ""	
+  tags: ""
+  num: "391"
+
+-
+
+  name: "Jogo lógico parecido com Sokoban"	
+  application: "KAtomic"	
+  description: "Jogo lógico parecido com Sokoban"	
+  command: "katomic"	
+  link: ""	
+  tags: ""
+  num: "392"
+
+-
+
+  name: "Jogo parecido com capo minado"	
+  application: "KMines"	
+  description: "Jogo parecido com capo minado"	
+  command: "kmines"	
+  link: ""	
+  tags: ""
+  num: "393"
+
+-
+
+  name: "Jogo Tático"	
+  application: "Kolor lines"	
+  description: "Jogo Tático"	
+  command: "klines"	
+  link: ""	
+  tags: ""
+  num: "394"
+
+-
+
+  name: "fugir das múmias"	
+  application: "Killbots"	
+  description: "fugir das múmias"	
+  command: "killbots"	
+  link: ""	
+  tags: ""
+  num: "395"
+
+-
+
+  name: "Jogo de quebra-cabeça"	
+  application: "Palapeli"	
+  description: "Jogo de quebra-cabeça"	
+  command: "palapeli"	
+  link: ""	
+  tags: ""
+  num: "396"
+
+-
+
+  name: "Jogo de lógica Sudoku"	
+  application: "KSudoku"	
+  description: "Jogo de lógica Sudoku"	
+  command: "ksudoku"	
+  link: ""	
+  tags: ""
+  num: "397"
+
+-
+
+  name: "Jogo de Lógica três em linha"	
+  application: "KDiamond"	
+  description: "Jogo de Lógica três em linha"	
+  command: "kdiamond"	
+  link: ""	
+  tags: ""
+  num: "398"
+
+-
+
+  name: "Cubo Mágico em 3D"	
+  application: "Kubrick"	
+  description: "Cubo Mágico em 3D, montar o cubo mágico apresentado na tela, raciocínio lógico, lógica"	
+  command: "kubrick"	
+  link: ""	
+  tags: ""
+  num: "399"
+
+# -  
+#   name:	"NomeAtividade"
+#   application: "NomeAplicativo"
+#   description: "Descrição"
+#   command: "ComandoAbrirAtividade"
+#   link: "LinkSeHouver"
+#   tags: ""
+  num: "SequenciaNumerica"
+

@@ -1,0 +1,19 @@
+Install the xhost and xnest packages.
+
+Ensure that /proc is mounted and DNS resolution is set-up within the chroot (see above).
+Type the following into a Terminal: (terminal comum sem Chroot)
+
+Xnest -ac :1
+
+A blank Xnest window should appear.
+Open another Terminal and type the following to enter the chroot:
+
+	sudo chroot ~/Distro/custom (no terminal de customização, o mesmo terminal em que está executando o chroot)
+
+While in the chroot shell, type the following: (no terminal com Chroot)
+
+export DISPLAY=localhost:1
+		ou
+export DISPLAY=127.0.0.1:1
+
+   agora pode usar a interface gráfica

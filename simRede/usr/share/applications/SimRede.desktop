@@ -1,0 +1,10 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=SimRede - Simulados em Rede
+Icon=/usr/share/applications/img/SR.png
+Exec=chromium-browser http://localhost/inicio
+Terminal=false
+Type=Application
+Categories=Application;Education
+StartupNotify=true
+Name[pt_BR]=SimRede

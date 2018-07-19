@@ -1,0 +1,3 @@
+#!/bin/bash -e
+update-rc.d poff.sh defaults
+update-rc.d pon.sh defaults

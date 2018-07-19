@@ -1,0 +1,17 @@
+#!/bin/bash
+
+mkdir ~/EditorISO	
+
+rsync -a /tmp/ISO/ ~/EditorISO/ISO
+
+
+sudo nautilus ~/EditorISO/ISO
+sudo dolphin ~/EditorISO/ISO
+sudo konqueror ~/EditorISO/ISO
+
+clear
+
+echo "Estamos abrindo a pasta para que você possa adicionar ou deletar arquivos de sua ISO"
+
+
+

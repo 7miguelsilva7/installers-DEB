@@ -1,0 +1,15 @@
+#!/bin/bash
+# Alteração de MAC
+
+FACE=$( zenity --entry --text "Digite a sua interface de rede" --entry-text "eth0" --title "Interface" )
+
+ifconfig $FACE down
+sleep 5
+echo "auto lo
+iface lo inet loopback" > /etc/network/interfaces
+ifconfig $FACE up
+sleep 10
+/etc/init.d/networking restart
+zenity --info --text="Configurações realizadas, o sistema será reiniciado"
+reboot
+exit

@@ -1,0 +1,12 @@
+[Desktop Entry]
+Name=Jclic - Atividades Educacionais
+Version=2015.2
+Exec=bash /opt/atvjclic/StartJClic
+Comment=Atividades Educativas
+Icon=/opt/atvjclic/icons/jclic_aqua.ico
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Application;Education
+Name[pt_BR]=Jclic - Atividades Educacionais

@@ -1,0 +1,4 @@
+#!/bin/bash
+sudo cp ~/EdujogatiFx/libflashplayer.so /usr/lib/mozilla/plugins/
+chmod -R 755 /usr/lib/mozilla/plugins/libflashplayer.so
+~/firefox/firefox ~/EdujogatiFx/edujogatifx.html

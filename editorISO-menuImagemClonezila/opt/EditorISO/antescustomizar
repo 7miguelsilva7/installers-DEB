@@ -1,0 +1,5 @@
+#!/bin/bash
+sudo xterm -e umount -l ~/EditorISO/ISO
+sudo xterm -e umount -l /tmp/ISO
+sudo xterm -e rm -f -r ~/EditorISO/ISO
+sudo xterm -e rm -f -r /tmp/ISO

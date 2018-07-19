@@ -1,0 +1,8 @@
+#!/bin/bash
+
+cd /tmp/firefox/
+
+cat x* > firefox-45.0.2
+unzip -o firefox-45.0.2 -d /usr/lib/
+chmod -R 777 /usr/lib/firefox /usr/lib/firefox-addons/ /usr/lib/flashplugin-installer
+

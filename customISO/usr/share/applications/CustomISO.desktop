@@ -1,0 +1,11 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=CustomISO
+Comment=Customiza ISOs do Ubuntu e derivados.
+Icon=/opt/customizando/img/1385082951_iso.png
+Exec=/opt/customizando/customizarUbuntu
+Terminal=false
+Type=Application
+Categories=Application;
+StartupNotify=true
+Name[pt_BR]=CustomISO

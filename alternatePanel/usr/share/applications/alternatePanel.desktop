@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Alternate-Panel
+Version=2018.5
+Exec=bash /opt/alternatePanel/alternatePanel.sh
+Icon=/opt/img/images.jpeg
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Application;system

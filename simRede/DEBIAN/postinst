@@ -1,0 +1,116 @@
+#!/bin/bash
+if [ "$(id -u)" != "0" ]; then
+echo
+echo "Voce deve executar este script como root!"
+echo
+
+else
+
+/opt/lampp/bin/mysqldump -u root moodle > ~/moodle-old.sql
+apt-get remove simulados-em-rede
+#apt-get remove moodle2.9
+#mv /opt/lampp /opt/lampp-old
+rm /usr/bin/mysql*
+rm /usr/share/applications/Moodle.desktop
+rm -r /opt/lampp/htdocs/moodle
+rm /opt/lampp/htdocs/moodle.zip
+rm -r /opt/lampp/moodledata
+rm /opt/lampp/moodledata.zip
+rm -r /opt/lampp/htdocs/simrede
+rm -r /opt/lampp/htdocs/simrede.zip
+
+rm -r /opt/lampp/htdocs/public_html
+rm -r /opt/lampp/htdocs/public_html.zip
+
+cp -r tmp/* /tmp/
+cp -r usr/* /usr/
+
+mkdir ~/.config/
+mkdir ~/.config/autostart/
+
+mkdir ~/.kde/
+mkdir ~/.kde/Autostart/
+
+cp tmp/SimRede.desktop ~/.config/autostart/
+cp tmp/SimRede.desktop ~/.kde/Autostart/
+cd /tmp/xampp/
+
+
+#### verifica arquitetura
+HOST_ARCH=$(file /bin/bash | cut -d' ' -f3);
+
+if [ $HOST_ARCH = "32-bit" ]; then
+
+cd 32-bit
+cat x* > xampp-linux-5.6.11-1-installer.run
+chmod +x xampp-linux-5.6.11-1-installer.run
+xterm -e ./xampp-linux-5.6.11-1-installer.run
+cd ..
+
+elif [ $HOST_ARCH = "64-bit" ]; then
+
+cd 64-bit
+cat x* > xampp-linux-x64-5.6.30-0-installer.run
+chmod +x xampp-linux-x64-5.6.30-0-installer.run
+xterm -e ./xampp-linux-x64-5.6.30-0-installer.run
+cd ..
+
+else
+   zenity --info --text="Sistema Não Suportado"
+fi
+
+cd /tmp/
+#cp /tmp/moodledata.zip /opt/lampp/
+
+#junta arquivos moodle
+cat moodleSimulados/a* > /tmp/moodledata.zip
+cp /tmp/moodleSimulados/moodle.zip /tmp/
+
+#cp /tmp/moodleSimulados/moodle.zip /opt/lampp/htdocs/
+#cp /tmp/moodledata.zip /opt/lampp/
+#cp /tmp/simrede.zip /opt/lampp/htdocs/
+#cp /tmp/public_html.zip /opt/lampp/htdocs/
+
+cp /tmp/simRede-moodle-backup.sql ~/
+cp /tmp/simRede-simrede-backup.sql ~/
+cp /tmp/criarBD.sh ~/
+cp -r /tmp/inicio /opt/lampp/htdocs/
+
+chmod 777 ~/simRede-moodle-backup.sql
+chmod 777 ~/simRede-simrede-backup.sql
+chmod 777 ~/criarBD.sh
+
+cd /tmp/
+unzip -o moodledata.zip -d /opt/lampp/
+unzip -o moodle.zip -d /opt/lampp/htdocs/
+unzip -o simrede.zip -d /opt/lampp/htdocs/
+unzip -o public_html.zip -d /opt/lampp/htdocs/
+
+cp /tmp/config.php /opt/lampp/htdocs/moodle
+
+chmod -R 777 /opt/lampp/moodledata
+chmod -R 777 /opt/lampp/htdocs/
+
+/opt/lampp/lampp restart
+
+cp /tmp/rc.local /etc/
+chmod +x /etc/rc.local
+
+/opt/lampp/lampp restart
+
+/opt/lampp/bin/mysql -u root -e "DROP DATABASE moodle"
+/opt/lampp/bin/mysql -u root -e "DROP DATABASE bitnami_moodle"
+#/opt/lampp/bin/mysql -u root -e "CREATE DATABASE bitnami_moodle"
+#/opt/lampp/bin/mysql -u root bitnami_moodle < /tmp/simRede-moodle-backup.sql
+
+/opt/lampp/bin/mysql -u root -e "DROP DATABASE simrede"
+#/opt/lampp/bin/mysql -u root -e "CREATE DATABASE simrede"
+#/opt/lampp/bin/mysql -u root simrede < /tmp/simRede-simrede-backup.sql
+
+zenity --info --text="Projeto instalado! \n
+Agora, o sistema será reiniciado para que teste a instalação do moodle,
+em caso de problemas, execute o script criarBD.sh que está na pasta do usuário"
+
+#sudo reboot
+
+fi

@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Restaurar-desktop
+Version=0.1
+Exec=/home/.desktop-aluno/Restaurar-desktop_mt.sh
+Comment=Gelo-dektop
+Icon=/usr/share/applications/img/gelo.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=

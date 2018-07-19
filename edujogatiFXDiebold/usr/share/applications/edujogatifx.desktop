@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=EdujogatiFx
+Version=2018.5
+Exec=firefox /home/EdujogatiFx/edujogatifx.html
+Comment=Atividades Educativas
+Icon=/home/EdujogatiFx/img/Edujogatifx.png
+Type=Application
+Terminal=false
+StartupNotify=true
+Encoding=UTF-8
+Categories=Application;Education
