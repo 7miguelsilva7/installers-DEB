@@ -83,8 +83,8 @@ chmod 777 ~/criarBD.sh
 cd /tmp/
 unzip -o moodledata.zip -d /opt/lampp/
 unzip -o moodle.zip -d /opt/lampp/htdocs/
-unzip -o simrede.zip -d /opt/lampp/htdocs/
-unzip -o public_html.zip -d /opt/lampp/htdocs/
+#unzip -o simrede.zip -d /opt/lampp/htdocs/
+#unzip -o public_html.zip -d /opt/lampp/htdocs/
 
 cp /tmp/config.php /opt/lampp/htdocs/moodle
 
