@@ -98,7 +98,7 @@ chmod +x /etc/rc.local
 
 /opt/lampp/lampp restart
 
-/opt/lampp/bin/mysql -u root -e "DROP DATABASE moodle"
+#/opt/lampp/bin/mysql -u root -e "DROP DATABASE moodle"
 /opt/lampp/bin/mysql -u root -e "DROP DATABASE bitnami_moodle"
 #/opt/lampp/bin/mysql -u root -e "CREATE DATABASE bitnami_moodle"
 #/opt/lampp/bin/mysql -u root bitnami_moodle < /tmp/simRede-moodle-backup.sql
@@ -108,8 +108,7 @@ chmod +x /etc/rc.local
 #/opt/lampp/bin/mysql -u root simrede < /tmp/simRede-simrede-backup.sql
 
 zenity --info --text="Projeto instalado! \n
-Agora, o sistema será reiniciado para que teste a instalação do moodle,
-em caso de problemas, execute o script criarBD.sh que está na pasta do usuário"
+Agora, reinicie o sistema e execute o script criarBD.sh, que está na /opt/lampp/htdocs/simrede/database/criarBD.sh para a criação das tabelas do banco de dados"
 
 #sudo reboot
 
