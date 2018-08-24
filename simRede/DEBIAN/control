@@ -5,7 +5,6 @@ Homepage: www.aetj.info
 Maintainer: Miguel Silva
 Priority: standard
 Architecture: all
-Description: SimRede
 Pre-Depends: dpkg
 Depends: xterm, zenity, git, unrar, zip, p7zip, unzip, chromium-browser
 Description: Projeto de Simulados em rede local idealizado e desenvolvido por Marcos José Chagas e Miguel Silva, utilizando o software livre moodle
