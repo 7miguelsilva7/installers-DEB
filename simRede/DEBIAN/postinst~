@@ -31,8 +31,8 @@ mkdir ~/.config/autostart/
 mkdir ~/.kde/
 mkdir ~/.kde/Autostart/
 
-cp tmp/SimRede.desktop ~/.config/autostart/
-cp tmp/SimRede.desktop ~/.kde/Autostart/
+cp /tmp/SimRede.desktop ~/.config/autostart/
+cp /tmp/SimRede.desktop ~/.kde/Autostart/
 cd /tmp/xampp/
 
 
@@ -71,14 +71,14 @@ cp /tmp/moodleSimulados/moodle.zip /tmp/
 #cp /tmp/simrede.zip /opt/lampp/htdocs/
 #cp /tmp/public_html.zip /opt/lampp/htdocs/
 
-cp /tmp/simRede-moodle-backup.sql ~/
-cp /tmp/simRede-simrede-backup.sql ~/
-cp /tmp/criarBD.sh ~/
+#cp /tmp/simRede-moodle-backup.sql ~/
+#cp /tmp/simRede-simrede-backup.sql ~/
+#cp /tmp/criarBD.sh ~/
 cp -r /tmp/inicio /opt/lampp/htdocs/
 
-chmod 777 ~/simRede-moodle-backup.sql
-chmod 777 ~/simRede-simrede-backup.sql
-chmod 777 ~/criarBD.sh
+#chmod 777 ~/simRede-moodle-backup.sql
+#chmod 777 ~/simRede-simrede-backup.sql
+#chmod 777 ~/criarBD.sh
 
 cd /tmp/
 unzip -o moodledata.zip -d /opt/lampp/
@@ -91,21 +91,8 @@ cp /tmp/config.php /opt/lampp/htdocs/moodle
 chmod -R 777 /opt/lampp/moodledata
 chmod -R 777 /opt/lampp/htdocs/
 
-/opt/lampp/lampp restart
-
 cp /tmp/rc.local /etc/
 chmod +x /etc/rc.local
-
-/opt/lampp/lampp restart
-
-#/opt/lampp/bin/mysql -u root -e "DROP DATABASE moodle"
-/opt/lampp/bin/mysql -u root -e "DROP DATABASE bitnami_moodle"
-#/opt/lampp/bin/mysql -u root -e "CREATE DATABASE bitnami_moodle"
-#/opt/lampp/bin/mysql -u root bitnami_moodle < /tmp/simRede-moodle-backup.sql
-
-/opt/lampp/bin/mysql -u root -e "DROP DATABASE simrede"
-#/opt/lampp/bin/mysql -u root -e "CREATE DATABASE simrede"
-#/opt/lampp/bin/mysql -u root simrede < /tmp/simRede-simrede-backup.sql
 
 zenity --info --text="Projeto instalado! \n
 Agora, o sistema será reiniciado, após execute o script criarBD.sh SEM sudo, que está na pasta \n /opt/lampp/htdocs/simrede/database/criarBD.sh para a criação das tabelas do banco de dados"
