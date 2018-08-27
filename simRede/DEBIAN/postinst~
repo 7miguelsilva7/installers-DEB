@@ -22,14 +22,13 @@ rm /opt/lampp/moodledata.zip
 rm -r /opt/lampp/htdocs/public_html
 rm -r /opt/lampp/htdocs/public_html.zip
 
-cp -r tmp/* /tmp/
-cp -r usr/* /usr/
-
 mkdir ~/.config/
 mkdir ~/.config/autostart/
+chmod -R 777 ~/.config/autostart/
 
 mkdir ~/.kde/
 mkdir ~/.kde/Autostart/
+chmod -R 777 ~/.config/Autostart/
 
 cp /tmp/SimRede.desktop ~/.config/autostart/
 cp /tmp/SimRede.desktop ~/.kde/Autostart/
