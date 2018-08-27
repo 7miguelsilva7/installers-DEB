@@ -16,8 +16,8 @@ rm -r /opt/lampp/htdocs/moodle
 rm /opt/lampp/htdocs/moodle.zip
 rm -r /opt/lampp/moodledata
 rm /opt/lampp/moodledata.zip
-rm -r /opt/lampp/htdocs/simrede
-rm -r /opt/lampp/htdocs/simrede.zip
+#rm -r /opt/lampp/htdocs/simrede
+#rm -r /opt/lampp/htdocs/simrede.zip
 
 rm -r /opt/lampp/htdocs/public_html
 rm -r /opt/lampp/htdocs/public_html.zip
@@ -108,8 +108,8 @@ chmod +x /etc/rc.local
 #/opt/lampp/bin/mysql -u root simrede < /tmp/simRede-simrede-backup.sql
 
 zenity --info --text="Projeto instalado! \n
-Agora, reinicie o sistema e execute o script criarBD.sh, que está na /opt/lampp/htdocs/simrede/database/criarBD.sh para a criação das tabelas do banco de dados"
+Agora, o sistema será reiniciado, após execute o script criarBD.sh SEM sudo, que está na pasta \n /opt/lampp/htdocs/simrede/database/criarBD.sh para a criação das tabelas do banco de dados"
 
-#sudo reboot
+sudo reboot
 
 fi

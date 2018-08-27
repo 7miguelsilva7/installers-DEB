@@ -71,14 +71,14 @@ cp /tmp/moodleSimulados/moodle.zip /tmp/
 #cp /tmp/simrede.zip /opt/lampp/htdocs/
 #cp /tmp/public_html.zip /opt/lampp/htdocs/
 
-cp /tmp/simRede-moodle-backup.sql ~/
-cp /tmp/simRede-simrede-backup.sql ~/
-cp /tmp/criarBD.sh ~/
+#cp /tmp/simRede-moodle-backup.sql ~/
+#cp /tmp/simRede-simrede-backup.sql ~/
+#cp /tmp/criarBD.sh ~/
 cp -r /tmp/inicio /opt/lampp/htdocs/
 
-chmod 777 ~/simRede-moodle-backup.sql
-chmod 777 ~/simRede-simrede-backup.sql
-chmod 777 ~/criarBD.sh
+#chmod 777 ~/simRede-moodle-backup.sql
+#chmod 777 ~/simRede-simrede-backup.sql
+#chmod 777 ~/criarBD.sh
 
 cd /tmp/
 unzip -o moodledata.zip -d /opt/lampp/
@@ -91,12 +91,12 @@ cp /tmp/config.php /opt/lampp/htdocs/moodle
 chmod -R 777 /opt/lampp/moodledata
 chmod -R 777 /opt/lampp/htdocs/
 
-/opt/lampp/lampp restart
+#/opt/lampp/lampp restart
 
 cp /tmp/rc.local /etc/
 chmod +x /etc/rc.local
 
-/opt/lampp/lampp restart
+#/opt/lampp/lampp restart
 
 #/opt/lampp/bin/mysql -u root -e "DROP DATABASE moodle"
 /opt/lampp/bin/mysql -u root -e "DROP DATABASE bitnami_moodle"
