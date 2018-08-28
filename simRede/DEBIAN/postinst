@@ -28,7 +28,7 @@ chmod -R 777 ~/.config/autostart/
 
 mkdir ~/.kde/
 mkdir ~/.kde/Autostart/
-chmod -R 777 ~/.config/Autostart/
+chmod -R 777 ~/.config/.kde/Autostart/
 
 cp /tmp/SimRede.desktop ~/.config/autostart/
 cp /tmp/SimRede.desktop ~/.kde/Autostart/

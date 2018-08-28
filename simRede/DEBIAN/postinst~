@@ -68,7 +68,7 @@ cp /tmp/moodleSimulados/moodle.zip /tmp/
 #cp /tmp/moodleSimulados/moodle.zip /opt/lampp/htdocs/
 #cp /tmp/moodledata.zip /opt/lampp/
 #cp /tmp/simrede.zip /opt/lampp/htdocs/
-#cp /tmp/public_html.zip /opt/lampp/htdocs/
+cp -r /tmp/public_html /opt/lampp/htdocs/
 
 #cp /tmp/simRede-moodle-backup.sql ~/
 #cp /tmp/simRede-simrede-backup.sql ~/
@@ -83,8 +83,8 @@ cd /tmp/
 unzip -o moodledata.zip -d /opt/lampp/
 unzip -o moodle.zip -d /opt/lampp/htdocs/
 #unzip -o simrede.zip -d /opt/lampp/htdocs/
-#unzip -o public_html.zip -d /opt/lampp/htdocs/
 
+#unzip -o public_html.zip -d /opt/lampp/htdocs/
 cp /tmp/config.php /opt/lampp/htdocs/moodle
 
 chmod -R 777 /opt/lampp/moodledata
