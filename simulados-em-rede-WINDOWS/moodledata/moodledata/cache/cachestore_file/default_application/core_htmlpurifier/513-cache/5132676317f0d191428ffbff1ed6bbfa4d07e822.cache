@@ -1,0 +1,7 @@
+s:510:"<p>O formato de curso determina o layout da página do curso.</p>
+
+<ul><li>Formato de atividade única - Para mostrar apenas uma atividade ou recurso (como um Quiz ou um pacote SCORM) na página do curso</li>
+<li>Formato social - Um fórum é mostrado na página do curso</li>
+<li>Formato tópicos - A página do curso é organizada em seções de tópicos</li>
+<li>Formato semanal - A página do curso é organizada em seções semanais, com a primeira semana começando na data de início do curso</li>
+</ul>";

@@ -1,0 +1,19 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1472";s:8:"category";s:2:"29";s:6:"parent";s:1:"0";s:4:"name";s:8:"MT-D28-K";s:12:"questiontext";s:702:"<p></p><p align="justify">
+A
+turma de Luis está estudando sobre os bairros da cidade do Rio de
+Janeiro. À medida que os bairros são estudados, eles colocam os
+dados coletados em gráficos.</p>
+<p align="justify">
+Observe
+o gráfico com o número aproximado de habitantes de alguns bairros
+já pesquisados pela turma de Luis.</p>
+<p align="center">
+</p>
+<p align="center">
+<img src="@@PLUGINFILE@@/10.svg" alt="" width="600" height="306" role="presentation" class="img-responsive atto_image_button_text-bottom"><br>
+
+</p>
+<p align="justify">
+De
+acordo com este gráfico, o bairro que, aproximadamente, tem a
+população 3 vezes maior que a população de Madureira é</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521192858+7zzydl";s:7:"version";s:29:"localhost+180522170031+dkmuvB";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526930938";s:12:"timemodified";s:10:"1527008430";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1472";s:10:"questionid";s:4:"1472";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:5888;O:8:"stdClass":7:{s:2:"id";s:4:"5888";s:8:"question";s:4:"1472";s:6:"answer";s:49:"<p style="display:inline;">(A) Vargem Grande.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:5889;O:8:"stdClass":7:{s:2:"id";s:4:"5889";s:8:"question";s:4:"1472";s:6:"answer";s:52:"<p style="display:inline;">(B) São Cristóvão.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:5890;O:8:"stdClass":7:{s:2:"id";s:4:"5890";s:8:"question";s:4:"1472";s:6:"answer";s:46:"<p style="display:inline;">(C) Copacabana.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:5891;O:8:"stdClass":7:{s:2:"id";s:4:"5891";s:8:"question";s:4:"1472";s:6:"answer";s:48:"<p style="display:inline;">(D) Campo Grande.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

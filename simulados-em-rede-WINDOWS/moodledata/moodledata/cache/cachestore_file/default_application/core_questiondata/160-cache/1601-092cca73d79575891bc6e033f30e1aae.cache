@@ -1,0 +1,53 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1601";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D13D";s:12:"questiontext";s:1850:"<p></p><p align="justify">
+Leia
+o texto e responda.</p>
+<p align="center">
+<b>Goiabada</b></p>
+<p align="right">
+Carlos
+Heitor Cony</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+Goiabada
+tinha cara de goiabada mesmo. Fica difícil explicar o que seja uma
+cara de goiabada, mas qualquer pessoa que se defrontava com ele,
+mesmo que nada dissesse, constataria em foro íntimo que Goiabada
+tinha cara de goiabada.</p>
+<p align="justify">
+Eu o
+conheci há tempos, quando jogava pelada nas ruas da Ilha do
+Governador. Ele se oferecia para a escalação, mas quase sempre era
+rejeitado. Ruim de bola, era bom de gênio.</p>
+<p align="justify">
+[...]</p>
+<p align="justify">
+Perdi-o
+de vista, o que foi recíproco. Outro dia, parei num posto para
+abastecer o carro e um senhor idoso me ofereceu umas flanelas, dessas
+de limpar para-brisa. Ia recusar, mas alguma coisa me chamou a
+atenção: dando o desconto do tempo, o cara tinha cara de goiabada.
+Fiquei indeciso. Não podia perguntar se ele era o Goiabada, podia se
+ofender, não havia motivo para tanta e tamanha intimidade.</p>
+<p align="justify">
+[...]</p>
+<p align="justify">
+O
+tanque do carro já estava cheio, e o novo Goiabada, desanimado de me
+vender uma flanela, ia se retirando em busca de freguês mais
+necessitado. Perguntei quantas flanelas ele tinha. Não sabia, devia
+ter umas 40, não vendera nenhuma naquele dia. Comprei-lhe todas, ele
+fez um abatimento razoável. E ficou de mãos vazias, olhando o
+estranho que sumia com suas 40 flanelas e nem fizera questão do
+troco.</p>
+<p align="right">
+http://www1.folha.uol.com.br/fsp/opiniao/fz1111200803.htm</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">Ao
+iniciar o texto com a frase – “Goiabada tinha cara de goiabada
+mesmo”, o produtor causa no leitor</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193652+5ei0Fx";s:7:"version";s:29:"localhost+180521193652+4a5E9i";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931412";s:12:"timemodified";s:10:"1526931412";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1601";s:10:"questionid";s:4:"1601";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6404;O:8:"stdClass":7:{s:2:"id";s:4:"6404";s:8:"question";s:4:"1601";s:6:"answer";s:100:"<p style="display:inline;">(A) expectativa para descobrir o que é “cara de goiabada mesmo”.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6405;O:8:"stdClass":7:{s:2:"id";s:4:"6405";s:8:"question";s:4:"1601";s:6:"answer";s:85:"<p style="display:inline;">(B) surpresa pela forma de explicar o que é goiabada.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6406;O:8:"stdClass":7:{s:2:"id";s:4:"6406";s:8:"question";s:4:"1601";s:6:"answer";s:86:"<p style="display:inline;">(C) confusão para entender o significado das palavras.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6407;O:8:"stdClass":7:{s:2:"id";s:4:"6407";s:8:"question";s:4:"1601";s:6:"answer";s:74:"<p style="display:inline;">(D) indignação pela crítica à goiabada.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

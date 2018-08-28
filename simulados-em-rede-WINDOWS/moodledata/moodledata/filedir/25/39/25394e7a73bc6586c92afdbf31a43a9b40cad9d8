@@ -1,0 +1,352 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="900.000000pt"
+   height="396.000000pt"
+   viewBox="0 0 900.000000 396.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg2"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="q3b.svg">
+  <defs
+     id="defs296" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="824"
+     id="namedview294"
+     showgrid="false"
+     inkscape:zoom="0.816"
+     inkscape:cx="625.48659"
+     inkscape:cy="250.16775"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <metadata
+     id="metadata4">
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="translate(0.000000,396.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g6">
+    <path
+       d="M6445 3430 c-3 -6 1 -13 10 -16 19 -8 30 0 20 15 -8 14 -22 14 -30 1z"
+       id="path26" />
+    <path
+       d="M1748 3302 c-201 -192 -355 -347 -367 -369 -7 -15 -11 -122 -11 -340 l0 -318 149 -150 149 -150 4 -594 c3 -512 5 -597 18 -612 8 -9 41 -31 74 -48 32 -17 111 -63 176 -101 65 -39 122 -70 127 -70 4 0 35 -16 67 -36 66 -39 77 -38 161 15 22 14 60 36 85 49 25 12 68 36 95 52 28 17 92 53 142 81 51 27 95 54 99 60 3 5 5 270 4 588 0 346 3 588 9 603 13 33 119 148 147 159 13 4 31 21 41 36 10 15 38 48 63 73 l45 45 0 336 0 336 -180 174 c-99 95 -200 194 -225 219 -25 26 -55 52 -68 59 -16 8 -114 11 -357 10 l-335 -1 -112 -106z m632 22 c85 -19 261 -103 283 -135 9 -12 44 -52 78 -90 52 -58 99 -129 84 -129 -2 0 -33 36 -69 79 -59 71 -77 86 -173 138 -133 71 -185 89 -300 104 -258 33 -531 -93 -678 -312 -27 -40 -58 -95 -69 -123 -26 -62 -34 -76 -47 -76 -15 0 -10 46 12 107 79 212 303 391 554 443 33 7 65 14 70 16 22 8 184 -5 255 -22z m-70 -269 c19 -4 68 -23 108 -43 134 -66 214 -181 257 -367 14 -58 14 -70 1 -98 -8 -18 -17 -43 -21 -57 -5 -22 -36 -98 -68 -167 -6 -13 -16 -23 -23 -23 -6 0 -19 -10 -27 -23 -31 -48 -191 -128 -257 -129 -106 -1 -181 5 -230 19 -103 31 -203 107 -244 185 -15 29 -31 60 -36 68 -26 47 -35 113 -30 230 2 65 25 110 43 87 7 -8 30 -18 52 -21 31 -5 46 -2 65 14 21 16 22 21 11 29 -9 6 -22 6 -32 0 -27 -14 -50 -11 -65 9 -18 23 -16 51 7 87 10 17 23 40 29 53 5 12 16 22 23 22 7 0 26 14 42 30 16 17 33 30 38 30 5 0 29 14 54 30 24 17 56 30 71 31 15 1 38 5 52 10 25 8 115 5 180 -6z m-791 -670 c40 -113 108 -220 176 -278 71 -62 185 -129 268 -158 37 -13 67 -27 67 -31 0 -13 -36 -9 -66 7 -16 8 -37 15 -47 15 -10 0 -52 17 -94 38 -61 30 -90 53 -149 117 -85 94 -141 172 -150 212 -3 15 -12 37 -19 49 -18 28 -45 161 -45 218 0 88 15 82 21 -9 4 -64 15 -116 38 -180z m1402 89 c-9 -28 -9 -29 -10 -3 -1 14 2 29 6 32 11 12 13 2 4 -29z m-31 -109 c-19 -85 -86 -185 -198 -297 -69 -70 -182 -129 -297 -158 -91 -22 -95 -23 -95 -12 0 7 55 35 170 85 25 11 52 23 60 28 8 5 29 15 45 24 102 51 189 125 221 187 13 26 30 51 37 55 11 7 36 58 51 106 10 31 14 18 6 -18z m-710 -465 c55 -7 54 -7 -27 -9 -45 0 -85 3 -88 9 -7 12 34 12 115 0z m-333 -163 c10 -7 7 -14 -12 -29 -14 -11 -25 -29 -26 -41 -1 -12 -5 -3 -11 21 -14 63 6 83 49 49z m743 -2 c0 -30 -2 -30 -43 -8 -29 15 -30 17 -12 24 39 15 55 10 55 -16z m10 -161 c0 -21 -4 -33 -10 -29 -17 10 -11 65 7 65 2 0 3 -16 3 -36z m-790 -150 c0 -41 -4 -63 -10 -59 -18 11 -12 125 7 125 2 0 3 -30 3 -66z m793 -116 c-3 -60 -10 -108 -14 -108 -10 0 -12 213 -2 224 16 16 20 -16 16 -116z m-784 -314 c1 -105 4 -109 111 -166 36 -20 87 -49 114 -67 28 -17 54 -31 58 -31 5 0 25 -11 46 -24 l37 -25 85 41 c86 41 199 106 278 160 34 24 43 26 48 14 11 -29 -1 -50 -46 -77 -55 -33 -186 -99 -199 -99 -4 0 -24 -13 -43 -28 -20 -15 -54 -36 -77 -46 -37 -17 -43 -18 -59 -4 -9 9 -96 56 -192 106 -96 50 -182 101 -192 114 -14 21 -15 42 -7 208 6 102 13 192 16 200 8 17 20 -139 22 -276z m781 -20 c0 -8 -4 -14 -10 -14 -5 0 -10 9 -10 21 0 11 5 17 10 14 6 -3 10 -13 10 -21z"
+       id="path30" />
+    <path
+       d="M2140 3024 c-30 -15 -38 -24 -25 -24 36 0 96 21 92 33 -6 18 -20 17 -67 -9z"
+       id="path32" />
+    <path
+       d="M1976 2974 c-4 -9 -5 -19 -2 -21 7 -7 46 17 46 27 0 17 -37 11 -44 -6z"
+       id="path34" />
+    <path
+       d="M2233 2937 c-25 -11 -37 -36 -27 -61 13 -34 47 -13 59 35 8 32 -2 40 -32 26z"
+       id="path36" />
+    <path
+       d="M2157 2923 c-11 -10 -8 -53 3 -53 5 0 13 8 18 18 15 27 -2 55 -21 35z"
+       id="path38" />
+    <path
+       d="M1975 2859 c-10 -15 3 -25 16 -12 7 7 7 13 1 17 -6 3 -14 1 -17 -5z"
+       id="path40" />
+    <path
+       d="M2058 2853 c-18 -20 -25 -63 -10 -63 13 0 34 45 30 65 -3 16 -4 16 -20 -2z"
+       id="path42" />
+    <path
+       d="M2370 2852 c0 -6 -9 -14 -20 -17 -20 -6 -28 -35 -10 -35 13 0 44 49 36 57 -3 3 -6 1 -6 -5z"
+       id="path44" />
+    <path
+       d="M2540 2795 c-7 -8 -18 -15 -24 -15 -24 0 -126 -62 -126 -76 0 -20 44 -28 72 -13 12 6 38 25 56 40 18 16 42 29 53 29 15 0 20 5 17 22 -4 27 -30 35 -48 13z"
+       id="path46" />
+    <path
+       d="M1973 2753 c-7 -2 -13 -11 -13 -20 0 -20 34 -12 38 10 3 17 -3 20 -25 10z"
+       id="path48" />
+    <path
+       d="M1760 2654 c0 -14 4 -23 10 -19 6 3 10 15 10 26 0 10 -4 19 -10 19 -5 0 -10 -12 -10 -26z"
+       id="path50" />
+    <path
+       d="M2223 2646 c-17 -6 -42 -23 -56 -38 -13 -14 -34 -29 -45 -33 -19 -5 -21 -11 -16 -45 6 -35 3 -43 -23 -67 -48 -45 -69 -102 -43 -118 18 -11 77 48 84 83 5 23 19 41 46 60 28 19 39 34 40 53 0 26 27 59 48 59 15 0 35 37 27 50 -7 12 -20 11 -62 -4z"
+       id="path52" />
+    <path
+       d="M2497 2623 c-4 -3 -7 -17 -7 -30 0 -16 -6 -23 -19 -23 -11 0 -23 -4 -26 -10 -9 -15 18 -12 52 5 32 16 48 40 37 56 -6 11 -28 12 -37 2z"
+       id="path54" />
+    <path
+       d="M1875 2606 c-21 -15 -14 -46 10 -46 31 0 74 31 75 53 0 12 -65 8 -85 -7z"
+       id="path56" />
+    <path
+       d="M1933 2480 c-13 -5 -23 -14 -23 -19 0 -5 -3 -16 -6 -25 -10 -25 29 -20 55 8 13 14 20 29 16 35 -7 13 -12 13 -42 1z"
+       id="path58" />
+    <path
+       d="M2442 2460 c-24 -19 -28 -35 -12 -45 16 -10 50 14 50 35 0 27 -12 31 -38 10z"
+       id="path60" />
+    <path
+       d="M2324 2336 c-8 -22 3 -33 18 -18 9 9 9 15 0 24 -9 9 -13 7 -18 -6z"
+       id="path62" />
+    <path
+       d="M2173 2293 c-7 -2 -13 -19 -12 -36 0 -29 1 -30 9 -9 5 12 14 22 20 22 5 0 10 7 10 15 0 15 -6 17 -27 8z"
+       id="path64" />
+    <path
+       d="M6750 3340 c-124 -13 -260 -55 -260 -80 0 -16 31 -12 141 20 119 34 138 35 237 15 128 -27 320 -113 367 -165 19 -21 35 -26 35 -11 0 18 -94 108 -140 134 -76 43 -261 101 -305 95 -5 -1 -39 -4 -75 -8z"
+       id="path74" />
+    <path
+       d="M6311 3051 c-12 -22 -14 -52 -5 -75 11 -28 34 2 34 45 0 44 -14 58 -29 30z"
+       id="path94" />
+    <path
+       d="M7278 3018 c-2 -7 -2 -44 1 -83 5 -62 9 -71 33 -84 15 -9 30 -12 33 -9 4 4 -2 35 -13 70 -11 35 -23 75 -26 91 -7 28 -21 36 -28 15z"
+       id="path102" />
+    <path
+       d="M6793 2933 c-23 -2 -47 -11 -53 -18 -17 -21 -4 -63 23 -70 12 -4 32 -18 43 -32 l22 -26 11 22 c7 11 27 28 46 36 29 12 35 19 35 45 0 24 -6 33 -26 40 -14 6 -33 9 -42 8 -9 -1 -36 -3 -59 -5z"
+       id="path110" />
+    <path
+       d="M7453 2851 c-18 -15 -33 -35 -33 -44 0 -16 36 -47 55 -47 9 0 29 45 42 98 8 32 -23 29 -64 -7z"
+       id="path114" />
+    <path
+       d="M6120 2830 c0 -11 4 -20 10 -20 5 0 13 -12 16 -27 6 -24 8 -25 20 -8 10 13 11 23 2 39 -20 38 -48 48 -48 16z"
+       id="path118" />
+    <path
+       d="M6990 2789 c-15 -27 -6 -49 19 -49 23 0 71 -54 71 -80 0 -22 19 -30 69 -30 25 0 44 -7 56 -20 21 -23 13 -54 -12 -46 -10 2 -44 12 -76 21 -33 9 -62 24 -70 35 -9 15 -23 20 -60 20 -74 0 -110 20 -127 69 -20 60 -34 67 -49 25 -10 -28 -10 -38 0 -50 15 -18 9 -24 -33 -34 l-33 -8 30 -1 c17 -1 50 -13 73 -28 l42 -28 -60 -14 c-58 -14 -61 -13 -83 7 -16 15 -36 22 -65 22 -43 0 -164 -30 -200 -49 -11 -6 -34 -11 -51 -11 -24 0 -31 4 -31 20 0 11 8 28 18 38 9 11 35 38 56 60 22 23 37 44 34 47 -3 3 -21 -2 -41 -10 -32 -13 -67 -12 -67 2 0 3 11 18 25 34 48 58 6 76 -80 35 -75 -35 -87 -53 -79 -115 4 -28 11 -54 15 -57 5 -3 9 -16 9 -28 0 -20 6 -24 41 -29 22 -3 43 -8 46 -10 10 -10 -17 -46 -50 -66 -34 -21 -93 -81 -153 -157 -41 -52 -109 -198 -140 -304 -38 -127 -46 -237 -23 -330 48 -197 109 -305 247 -437 74 -71 74 -72 8 -151 -33 -40 -48 -92 -27 -92 10 0 61 57 61 68 0 4 16 25 35 47 l35 40 51 -28 c163 -90 419 -139 544 -106 114 30 240 75 272 96 35 24 46 25 106 7 14 -5 17 1 17 36 0 34 7 48 43 88 94 102 136 160 174 237 51 102 68 156 89 279 15 92 15 106 -1 195 -19 114 -93 278 -134 298 -33 16 -79 60 -84 81 -3 9 -8 29 -11 45 -7 30 -71 107 -90 107 -6 1 -24 12 -41 25 l-30 25 36 0 c23 0 53 -11 85 -31 27 -18 73 -47 101 -65 60 -39 63 -40 63 -19 0 14 -70 64 -155 111 -43 24 -43 22 -32 126 l7 57 -58 31 c-31 17 -68 34 -81 37 -14 3 -36 12 -50 19 -35 19 -55 17 -99 -6 l-37 -20 -14 20 c-17 26 -37 26 -51 -1z m240 -59 c32 -32 24 -90 -12 -90 -31 0 -78 38 -78 64 0 47 54 62 90 26z m-188 -254 c195 -65 381 -250 428 -424 38 -146 25 -348 -33 -483 -22 -54 -110 -169 -163 -214 -64 -55 -180 -123 -223 -131 -20 -4 -50 -13 -68 -21 -79 -33 -310 -8 -439 47 -98 43 -247 170 -287 247 -7 15 -21 42 -30 58 -51 94 -77 199 -77 305 0 209 134 432 330 549 62 37 190 85 255 95 78 12 231 -2 307 -28z"
+       id="path122" />
+    <path
+       d="M6751 2373 c0 -10 4 -27 9 -38 7 -18 8 -18 15 7 7 28 1 48 -16 48 -5 0 -9 -8 -8 -17z"
+       id="path124" />
+    <path
+       d="M7065 2328 c-7 -21 9 -113 20 -110 15 3 13 114 -2 119 -7 3 -15 -1 -18 -9z"
+       id="path126" />
+    <path
+       d="M6515 2278 c9 -70 12 -78 30 -78 22 0 22 115 -1 124 -31 12 -35 6 -29 -46z"
+       id="path128" />
+    <path
+       d="M6590 2261 c0 -66 14 -87 31 -45 15 41 8 98 -13 102 -16 3 -18 -5 -18 -57z"
+       id="path130" />
+    <path
+       d="M6802 2158 c3 -25 43 -37 61 -19 15 15 -10 41 -40 41 -20 0 -24 -4 -21 -22z"
+       id="path132" />
+    <path
+       d="M7247 2165 c-9 -8 -20 -30 -26 -48 -8 -23 -23 -39 -49 -52 -29 -15 -33 -19 -18 -23 10 -2 25 3 33 11 13 13 20 13 49 1 45 -19 70 -19 55 0 -9 11 -7 21 9 48 24 40 24 42 4 62 -19 20 -38 20 -57 1z"
+       id="path134" />
+    <path
+       d="M6347 2144 c-7 -7 3 -116 12 -127 4 -4 19 -1 34 5 23 11 27 19 27 54 0 33 -5 45 -25 58 -26 17 -38 20 -48 10z"
+       id="path136" />
+    <path
+       d="M6440 2096 c0 -40 12 -52 30 -31 10 12 10 21 2 40 -16 36 -32 31 -32 -9z"
+       id="path138" />
+    <path
+       d="M7337 1923 c-14 -13 -6 -50 13 -68 11 -10 20 -27 20 -37 0 -13 6 -18 18 -16 17 4 19 18 6 73 -8 40 -40 66 -57 48z"
+       id="path140" />
+    <path
+       d="M6894 1909 c-4 -7 -22 -9 -51 -4 -54 8 -73 -5 -73 -50 0 -33 -32 -118 -55 -145 -16 -20 -29 -90 -16 -90 14 0 50 49 57 76 3 13 14 26 24 29 10 3 21 17 24 30 3 13 16 30 29 36 26 14 117 107 117 120 0 13 -48 11 -56 -2z"
+       id="path142" />
+    <path
+       d="M6309 1868 c-14 -35 -13 -77 3 -93 11 -11 58 37 58 60 0 24 -23 65 -35 65 -7 0 -19 -15 -26 -32z"
+       id="path144" />
+    <path
+       d="M6352 1667 c-26 -27 -27 -38 -7 -77 11 -21 20 -27 35 -23 11 3 26 0 34 -6 21 -17 29 2 21 49 -8 45 -12 48 -32 23 -12 -16 -13 -15 -11 16 4 42 -11 49 -40 18z"
+       id="path146" />
+    <path
+       d="M7274 1623 c-8 -54 4 -96 29 -101 19 -4 22 21 11 102 -9 61 -31 61 -40 -1z"
+       id="path148" />
+    <path
+       d="M6793 1624 c-8 -21 29 -54 62 -54 12 0 29 -10 38 -22 8 -13 19 -19 23 -15 5 5 0 15 -11 23 -11 8 -27 29 -35 47 -18 37 -65 51 -77 21z"
+       id="path150" />
+    <path
+       d="M6646 1565 c-10 -14 -16 -29 -13 -31 7 -8 39 35 35 47 -2 7 -12 0 -22 -16z"
+       id="path152" />
+    <path
+       d="M7074 1495 c-7 -18 3 -35 22 -35 8 0 14 10 14 25 0 27 -27 35 -36 10z"
+       id="path154" />
+    <path
+       d="M6542 1492 c-19 -6 -14 -22 11 -31 23 -9 61 4 52 18 -6 11 -46 19 -63 13z"
+       id="path156" />
+    <path
+       d="M7120 1413 c0 -10 5 -25 10 -33 12 -19 33 0 28 26 -4 25 -38 31 -38 7z"
+       id="path158" />
+    <path
+       d="M6780 1389 c-26 -48 19 -99 74 -85 33 8 37 55 6 63 -10 3 -22 14 -25 24 -8 25 -42 24 -55 -2z"
+       id="path160" />
+    <path
+       d="M6562 1384 c4 -21 22 -23 26 -1 2 10 -3 17 -13 17 -10 0 -15 -6 -13 -16z"
+       id="path162" />
+    <path
+       d="M6007 2593 c-59 -59 -70 -90 -42 -113 12 -10 21 -10 40 -2 28 13 29 19 15 58 -9 22 -8 31 5 43 13 14 17 14 31 -1 15 -14 15 -21 4 -48 -7 -17 -10 -33 -8 -36 10 -10 68 48 68 68 0 22 -37 88 -49 88 -4 0 -33 -26 -64 -57z"
+       id="path170" />
+    <path
+       d="M7495 2632 c-3 -3 -5 -18 -5 -33 0 -24 8 -32 65 -60 74 -36 115 -35 115 4 0 37 -41 67 -109 81 -34 7 -63 10 -66 8z"
+       id="path172" />
+    <path
+       d="M7370 1076 c0 -16 7 -27 21 -31 29 -10 33 -1 14 29 -22 33 -35 33 -35 2z"
+       id="path210" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:28.57924652px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="10.072253"
+     y="381.099"
+     id="text3273"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3275"
+       x="10.072253"
+       y="381.099"
+       style="font-style:italic;font-weight:bold">1934</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:35.26529312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="-29.703814"
+     y="119.37087"
+     id="text3277"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.8189119,-0.57391925,0.57391925,0.8189119,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan3279"
+       x="-29.703814"
+       y="119.37087"
+       style="font-weight:bold">BLÉIN!</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:35.26529312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="-146.40895"
+     y="264.1358"
+     id="text3277-3"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.81891191,-0.57391924,0.57391924,0.81891191,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6"
+       x="-146.40895"
+       y="264.1358"
+       style="font-weight:bold">BLÉIN!</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:35.26529312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="219.7374"
+     y="296.86835"
+     id="text3277-3-7"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.81891191,-0.57391923,0.57391923,0.81891191,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6-5"
+       x="219.7374"
+       y="296.86835"
+       style="font-weight:bold">BLÉIN!</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:35.26529312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="131.02078"
+     y="380.75"
+     id="text3277-3-3"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.81891191,-0.57391923,0.57391923,0.81891191,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6-56"
+       x="131.02078"
+       y="380.75"
+       style="font-weight:bold">BLÉIN!</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:35.26529312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="58.443558"
+     y="472.35104"
+     id="text3277-3-2"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.81891191,-0.57391923,0.57391923,0.81891191,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6-9"
+       x="58.443558"
+       y="472.35104"
+       style="font-weight:bold">BLÉIN!</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:31.38205147px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="648.40039"
+     y="-311.95139"
+     id="text3277-3-2-1"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.87641855,0.48155013,-0.48155013,0.87641855,0,0)"
+     inkscape:transform-center-x="-166.85342"
+     inkscape:transform-center-y="-20.720345"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6-9-2"
+       x="648.40039"
+       y="-311.95139"
+       style="font-weight:bold">TRIMMMM</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:28.57924843px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="500.93433"
+     y="379.75125"
+     id="text3273-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan3275-0"
+       x="500.93433"
+       y="379.75125"
+       style="font-style:italic;font-weight:bold">1963</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:35.26529312px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="233.34334"
+     y="484.83783"
+     id="text3277-3-2-1-9"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.68951119,-0.72427503,0.72427503,0.68951119,0,0)"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6-9-2-3"
+       x="233.34334"
+       y="484.83783"
+       style="font-weight:bold">TRIMMMM</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:31.38205338px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="580.29767"
+     y="4.5926743"
+     id="text3277-3-2-1-6"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.87641855,0.48155012,-0.48155012,0.87641855,0,0)"
+     inkscape:transform-center-x="-133.48274"
+     inkscape:transform-center-y="-16.576273"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6-9-2-0"
+       x="580.29767"
+       y="4.5926743"
+       style="font-weight:bold">TRIMMMM</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:31.38205338px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Comic Sans MS;-inkscape-font-specification:Comic Sans MS"
+     x="215.95163"
+     y="811.56915"
+     id="text3277-3-2-1-6-6"
+     sodipodi:linespacing="125%"
+     transform="matrix(0.70989168,-0.74180483,0.72758437,0.64837271,0,0)"
+     inkscape:transform-center-x="-15.922877"
+     inkscape:transform-center-y="-105.7224"><tspan
+       sodipodi:role="line"
+       id="tspan3279-6-9-2-0-2"
+       x="215.95163"
+       y="811.56915"
+       style="font-weight:bold">TRIMMMM</tspan></text>
+</svg>

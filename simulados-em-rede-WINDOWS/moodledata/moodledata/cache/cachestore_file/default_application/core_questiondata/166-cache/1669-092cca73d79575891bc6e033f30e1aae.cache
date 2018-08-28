@@ -1,0 +1,43 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1669";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D20F";s:12:"questiontext";s:1100:"<p align="justify">
+ (AvaliaBH).
+Leia o texto abaixo.</p>
+<p align="justify">
+<b>Texto
+1</b></p>
+<p align="center">
+<b>Rubinho
+a mil por hora</b></p>
+<p align="justify">
+Desde
+criança, Rubens Barrichello é louco por corridas. Aos seis anos já
+voava nas pistas de kart. Depois passou rápido pela Fórmula Ford,
+Fórmula Opel, Fórmula 3 e Fórmula 3000. Não parou por aí. Foi o
+mais jovem piloto da história a entrar para a Fórmula 1, quando
+tinha apenas 20 anos.</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+<b>Texto
+2</b></p>
+<p align="center">
+<b>Vencer
+ou vencer</b></p>
+<p align="justify">
+Ayrton
+Senna sempre fez tudo muito rapidinho. Aos quatro anos ganhou o seu
+primeiro kart. Aos dez, já pilotava no Autódromo de Interlagos.
+Quando tinha 31 anos, era o mais jovem tricampeão da história da
+Fórmula 1. Vencer ou vencer era o seu lema.</p>
+<p align="right">
+Maurício
+de Sousa Produções. <i>Manual
+de esportes do Cascão</i>.
+São Paulo: Globo, 2003. 
+</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">Esse dois textos</p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193658+KawcqB";s:7:"version";s:29:"localhost+180521193658+2MBOr8";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931418";s:12:"timemodified";s:10:"1526931418";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1669";s:10:"questionid";s:4:"1669";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6677;O:8:"stdClass":7:{s:2:"id";s:4:"6677";s:8:"question";s:4:"1669";s:6:"answer";s:183:"<p style="display:inline;">A) o governo estar incluído juros aos brasileiros que é refletida na imagem 1 e cobra juros que é refletida na imagem 2. A) apresentam uma biografia.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6678;O:8:"stdClass":7:{s:2:"id";s:4:"6678";s:8:"question";s:4:"1669";s:6:"answer";s:58:"<p style="display:inline;"> B) convidam para corridas.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6679;O:8:"stdClass":7:{s:2:"id";s:4:"6679";s:8:"question";s:4:"1669";s:6:"answer";s:60:"<p style="display:inline;"> C) incentivam o uso do kart.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6680;O:8:"stdClass":7:{s:2:"id";s:4:"6680";s:8:"question";s:4:"1669";s:6:"answer";s:55:"<p style="display:inline;"> D) oferecem um prêmio.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

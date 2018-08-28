@@ -1,0 +1,79 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1665";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D20B";s:12:"questiontext";s:2656:"<p><p><p>
+Leia
+os textos para responder a questão abaixo:</p>
+<p align="justify">
+<b>Texto
+I</b></p>
+<p align="center">
+<b>Você
+é a favor de clones humanos?</b></p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+“Sou
+contra. Engana-se quem pensa que o clone seria uma cópia perfeita de
+um ser humano. Ele teria a aparência, mas não a mesma
+personalidade. Já pensou um clone do Bon Jovi que detestasse música
+e se tornasse matemático, passando horas e horas falando sobre
+Hipotenusa, raiz quadrada e subtração? Ou o clone do Brad Pitt se
+tornando padre? Ou o do Tom Cavalcante se tornando um executivo sério
+e o do Maguila estudando balé? Estranho, não? Mas esses clones não
+seriam eles, e, sim, a sua imagem em forma de outra pessoa. No mundo,
+ninguém é igual. Prova disso são os gêmeos idênticos, tão
+parecidos e com gostos tão diferentes.</p>
+<p align="justify">
+Os
+clones seriam como as fitas piratas: não teriam o mesmo valor
+original. Se eu fosse um clone, me sentiria muito mal cada vez que
+alguém falasse: ‘olha lá o clone da fulana’. No fundo, no
+fundo, eu não passaria de uma cópia.”.</p>
+<p align="right">
+<b>Alexandra
+F. Rosa, 16 anos, Francisco Morato, </b>
+</p>
+<p align="right">
+<b>SP.</b><i>(Revista
+Atrevida nº 34)</i></p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+<b>Texto
+II</b></p>
+<p align="center">
+<b>Você
+é a favor de clones humanos?</b></p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+“Sou
+a favor! O mundo tem de aprender a lidar com a realidade e as
+inovações que acontecem. Ou seja, precisa se sofisticar e encontrar
+caminhos para seus problemas. Assistimos à televisão, lemos jornais
+e vemos que existem muitas pessoas que, para sobreviver, precisam de
+doadores de órgãos. Presenciamos atualmente aqui no Brasil e também
+em outros países a tristeza que é a falta de doadores. A clonagem
+seria um meio de resolver esse problema!</p>
+<p align="justify">
+Já
+pensou quantas pessoas seriam salvas por esse meio? Não há dúvida
+de que existem muitas questões a serem respondidas e muitos riscos a
+serem corridos, mas o melhor que temos a fazer é nos prepararmos
+para tudo o que der e vier, aprendendo a lidar com os avanços
+científicos que atualmente se realizam. Acredito que não
+gostaríamos de parar no tempo. Pelo contrário, temos de avançar!”</p>
+<p align="right">
+<b>Fabiana
+C.F. Aguiar, 16 anos, São Paulo, SP. </b>(Revista
+Atrevida nº 34)</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">Ao se compararem os textos I e II, pode-se afirmar que 
+</p><br></p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193657+gfcpTO";s:7:"version";s:29:"localhost+180521193657+IOGvSg";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931417";s:12:"timemodified";s:10:"1526931417";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1665";s:10:"questionid";s:4:"1665";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6661;O:8:"stdClass":7:{s:2:"id";s:4:"6661";s:8:"question";s:4:"1665";s:6:"answer";s:149:"<p style="display:inline;">(A) em I, há a negação da existência de pessoas diferentes; em II, afirma-se que a clonagem é uma sofisticação.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6662;O:8:"stdClass":7:{s:2:"id";s:4:"6662";s:8:"question";s:4:"1665";s:6:"answer";s:185:"<p style="display:inline;">(B) em I, há a afirmação de que a clonagem se constitui em distanciamento dos seres humanos; em II, a solução para a aproximação dos seres humanos.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6663;O:8:"stdClass":7:{s:2:"id";s:4:"6663";s:8:"question";s:4:"1665";s:6:"answer";s:185:"<p style="display:inline;">(C) em I, há indícios de que a humanidade ficará incomodada com a clonagem; em II, há a afirmação de que é preciso seguir os avanços científicos.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6664;O:8:"stdClass":7:{s:2:"id";s:4:"6664";s:8:"question";s:4:"1665";s:6:"answer";s:188:"<p style="display:inline;">(D) em I, discute-se o conceito de que a clonagem produz cópias perfeitas; em II, afirma-se que a clonagem é a solução para muitos dos problemas humanos.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

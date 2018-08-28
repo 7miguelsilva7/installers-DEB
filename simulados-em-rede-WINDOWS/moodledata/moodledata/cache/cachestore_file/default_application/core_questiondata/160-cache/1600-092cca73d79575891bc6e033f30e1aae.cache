@@ -1,0 +1,69 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1600";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D13C";s:12:"questiontext";s:1286:"<p></p><p>
+Leia
+o texto abaixo a seguir.</p>
+<p>
+<br>
+
+</p>
+<p>
+<br>
+
+</p>
+<table width="680" cellpadding="7" cellspacing="0">
+	<colgroup><col width="664">
+	</colgroup><tbody><tr>
+		<td width="664" valign="top">
+			<p align="center">
+			<b>Pressa</b></p>
+			<p align="center">
+			<br>
+
+			</p>
+			<p>
+			Só
+			tenho pressa  pras manchetes no metrô</p>
+			<p>
+			E
+			o que acontece na novela</p>
+			<p>
+			Alguém
+			me conta no corredor</p>
+			<p>
+			Escolho
+			os filmes que eu não vejo no elevador</p>
+			<p>
+			Pelas
+			estrelas que eu encontro na crítica do leitor</p>
+			<p>
+			Eu
+			tenho pressa e tanta coisa me interessa</p>
+			<p>
+			Mas
+			nada tanto assim</p>
+			<p>
+			Eu
+			me concentro em apostilas coisa tão normal</p>
+			<p>
+			Leio
+			os roteiros de viagem enquanto rola o comercial</p>
+			<p>
+			Conheço
+			quase o mundo inteiro por cartão-postal</p>
+			<p>
+			Eu
+			sei de quase tudo um pouco e quase tudo mal</p>
+			<p>
+			Eu
+			tenho pressa e tanta coisa me interessa mas nada tanto assim.</p>
+			<p align="right">
+			Bruno
+			&amp; Leoni Fortunado. Greatest Hits’80.WEA.</p>
+		</td>
+	</tr>
+</tbody></table>
+<p>
+<br>
+
+</p>
+<p>Identifica-se termo da linguagem informal em 
+</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193652+Js3QXA";s:7:"version";s:29:"localhost+180521193652+WbcVIL";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931412";s:12:"timemodified";s:10:"1526931412";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1600";s:10:"questionid";s:4:"1600";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6400;O:8:"stdClass":7:{s:2:"id";s:4:"6400";s:8:"question";s:4:"1600";s:6:"answer";s:102:"<p style="display:inline;">(A) “Leio os roteiros de viagem enquanto rola o comercial.”(v. 9)  </p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6401;O:8:"stdClass":7:{s:2:"id";s:4:"6401";s:8:"question";s:4:"1600";s:6:"answer";s:100:"<p style="display:inline;">(B) “Conheço quase o mundo inteiro por cartão postal!”(v. 10)  </p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6402;O:8:"stdClass":7:{s:2:"id";s:4:"6402";s:8:"question";s:4:"1600";s:6:"answer";s:97:"<p style="display:inline;">(C) “Eu sei de quase tudo um pouco e quase tudo mal.”(v. 11)  </p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6403;O:8:"stdClass":7:{s:2:"id";s:4:"6403";s:8:"question";s:4:"1600";s:6:"answer";s:117:"<p style="display:inline;">(D) “Eu tenho pressa e tanta coisa me interessa mas nada tanto assim.”(v. 12-13)  </p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

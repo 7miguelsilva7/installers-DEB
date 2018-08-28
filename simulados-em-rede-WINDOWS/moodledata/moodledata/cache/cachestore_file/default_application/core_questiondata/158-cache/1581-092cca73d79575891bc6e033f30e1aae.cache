@@ -1,0 +1,19 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1581";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D11D";s:12:"questiontext";s:711:"<p></p><p align="justify">
+<b>Leia
+a tirinha da Turma da Mônica e responda.</b></p>
+<p align="justify">
+<img src="@@PLUGINFILE@@/1svg" alt="" width="599" height="340" role="presentation" class="img-responsive atto_image_button_text-bottom"><br>
+
+</p><p align="justify"><img src="@@PLUGINFILE@@/2.svg" alt="" width="601" height="351" role="presentation" class="img-responsive atto_image_button_text-bottom"><br></p>
+<p align="justify">
+(concurso
+público – PMPG-PR). Turma da Mônica – Maurício de Souza</p><p align="right">
+(<i>Estado
+de S.Paulo</i>,
+15.06.2007)</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">O texto de Maurício de Sousa é surpreendente porque 
+</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193650+uG2pk6";s:7:"version";s:29:"localhost+180521193650+yUjp56";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931410";s:12:"timemodified";s:10:"1526931410";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1581";s:10:"questionid";s:4:"1581";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6324;O:8:"stdClass":7:{s:2:"id";s:4:"6324";s:8:"question";s:4:"1581";s:6:"answer";s:129:"<p style="display:inline;">(A) o autor introduz, no segundo quadrinho, personagens diferentes daqueles do primeiro quadrinho.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6325;O:8:"stdClass":7:{s:2:"id";s:4:"6325";s:8:"question";s:4:"1581";s:6:"answer";s:87:"<p style="display:inline;">(B) Mônica, a brava, está acariciando o amigo Cascão.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6326;O:8:"stdClass":7:{s:2:"id";s:4:"6326";s:8:"question";s:4:"1581";s:6:"answer";s:106:"<p style="display:inline;">(C) Cebolinha estava tão distante da cena que tinha visto, apenas, vultos.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6327;O:8:"stdClass":7:{s:2:"id";s:4:"6327";s:8:"question";s:4:"1581";s:6:"answer";s:104:"<p style="display:inline;">(D) o leitor parece testemunhar, com Cebolinha, o assassinato de Cascão.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

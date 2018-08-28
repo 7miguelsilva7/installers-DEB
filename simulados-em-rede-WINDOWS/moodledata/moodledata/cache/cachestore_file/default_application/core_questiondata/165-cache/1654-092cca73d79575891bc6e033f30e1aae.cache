@@ -1,0 +1,40 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1654";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D19A";s:12:"questiontext";s:1667:"<p></p><p>
+Leia
+o texto para responder a questão abaixo:</p>
+<p align="center">
+<br>
+
+</p>
+<p align="center">
+<b>A
+CHUVA</b></p>
+<p align="justify">
+A
+chuva derrubou as pontes. A chuva transbordou os rios. A chuva molhou
+os transeuntes. A chuva encharcou as praças. A chuva enferrujou as
+máquinas. A chuva enfureceu as marés. A chuva e seu cheiro de
+terra. A chuva com sua cabeleira. A chuva esburacou as pedras. A
+chuva alagou a favela. A chuva de canivetes. A chuva enxugou a sede.
+A chuva anoiteceu de tarde. A chuva e seu brilho prateado. A chuva de
+retas paralelas sobre a terra curva. A chuva destroçou os
+guarda-chuvas. A chuva durou muitos dias. A chuva apagou o incêndio.
+A chuva caiu. A chuva derramou-se. A chuva murmurou meu nome. A chuva
+ligou o pára-brisa. A chuva acendeu os faróis. A chuva tocou a
+sirene. A chuva com a sua crina. A chuva encheu a piscina. A chuva
+com as gotas grossas. A chuva de pingos pretos. A chuva açoitando as
+plantas. A chuva senhora da lama. A chuva sem pena. A chuva apenas. A
+chuva empenou os móveis. A chuva amarelou os livros. A chuva corroeu
+as cercas. A chuva e seu baque seco. A chuva e seu ruído de vidro. A
+chuva inchou o brejo. A chuva pingou pelo teto. A chuva multiplicando
+insetos. A chuva sobre os varais. A chuva derrubando raios. A chuva
+acabou a luz. A chuva molhou os cigarros. A chuva mijou no telhado. A
+chuva regou o gramado. A chuva arrepiou os poros. A chuva fez muitas
+poças. A chuva secou ao sol. 
+</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">Todas as frases do texto começam com "a chuva". Esse
+recurso é utilizado para 
+</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193656+R0eYBk";s:7:"version";s:29:"localhost+180521193656+vZ9BNC";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931416";s:12:"timemodified";s:10:"1526931416";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1654";s:10:"questionid";s:4:"1654";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6617;O:8:"stdClass":7:{s:2:"id";s:4:"6617";s:8:"question";s:4:"1654";s:6:"answer";s:83:"<p style="display:inline;">(A) provocar a percepção do ritmo e da sonoridade.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6618;O:8:"stdClass":7:{s:2:"id";s:4:"6618";s:8:"question";s:4:"1654";s:6:"answer";s:87:"<p style="display:inline;">(B) provocar uma sensação de relaxamento dos sentidos.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6619;O:8:"stdClass":7:{s:2:"id";s:4:"6619";s:8:"question";s:4:"1654";s:6:"answer";s:86:"<p style="display:inline;">(C) reproduzir exatamente os sons repetitivos da chuva.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6620;O:8:"stdClass":7:{s:2:"id";s:4:"6620";s:8:"question";s:4:"1654";s:6:"answer";s:83:"<p style="display:inline;">(D) sugerir a intensidade e a continuidade da chuva.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

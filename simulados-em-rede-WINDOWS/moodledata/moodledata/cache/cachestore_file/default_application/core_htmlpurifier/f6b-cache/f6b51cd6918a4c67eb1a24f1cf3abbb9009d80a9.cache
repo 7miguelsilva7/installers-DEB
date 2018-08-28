@@ -1,0 +1,7 @@
+s:399:"<p>Permissões configurações de capbility. Existem 4 opções:</p>
+
+<ul><li>Não definido</li>
+<li>Permitir - A permissão é dada para a capability</li>
+<li>Previnir - A permissão é removida da capability, mesmo quando permitida em um contexto superior</li>
+<li>Proibir - A permissão é completamente negada e não pode ser sobrescrita em nenhum contexto inferior (mais específico)</li>
+</ul>";

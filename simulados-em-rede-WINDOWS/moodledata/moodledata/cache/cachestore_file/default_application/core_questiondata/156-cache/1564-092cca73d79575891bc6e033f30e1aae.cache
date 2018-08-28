@@ -1,0 +1,27 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1564";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D09G";s:12:"questiontext";s:902:"<p></p><p align="justify">
+(SAERS).
+Leia o texto abaixo.</p>
+<p align="center">
+<b>A
+tartaruga e a lebre</b></p>
+<p align="center">
+Esopo</p>
+<p align="justify">
+A
+lebre estava caçoando da lerdeza da tartaruga. A tartaruga se
+abespinhou e desafiou a lebre para uma corrida. A lebre, cheia de si,
+aceitou a aposta. A raposa foi escolhida como juiz. A solução por
+ser muito sabida e correta. A tartaruga não perdeu tempo e começou
+a se arrastar. A lebre logo ultrapassou a adversária e, vendo que ia
+ganhar fácil, resolveu dar um cochilo. Acordou assustada e correu
+como louca. Na linha de chegada, a tartaruga esperava a lebre toda
+contente.</p>
+<p align="justify">
+Devagar
+se vai ao longe.</p>
+<p align="right">
+BENNET,
+William J. (Org.); MACHADO, Luiz Raul (Trad.). <i>O
+livro das virtudes</i>.</p>
+<p align="justify">O
+principal objetivo desse texto é</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193648+FR6bM5";s:7:"version";s:29:"localhost+180521193648+5bcXY0";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931408";s:12:"timemodified";s:10:"1526931408";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1564";s:10:"questionid";s:4:"1564";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6256;O:8:"stdClass":7:{s:2:"id";s:4:"6256";s:8:"question";s:4:"1564";s:6:"answer";s:54:"<p style="display:inline;"> A) descrever um local.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6257;O:8:"stdClass":7:{s:2:"id";s:4:"6257";s:8:"question";s:4:"1564";s:6:"answer";s:56:"<p style="display:inline;"> B) evidenciar uma moral.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6258;O:8:"stdClass":7:{s:2:"id";s:4:"6258";s:8:"question";s:4:"1564";s:6:"answer";s:58:"<p style="display:inline;"> C) falar sobre uma aposta.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6259;O:8:"stdClass":7:{s:2:"id";s:4:"6259";s:8:"question";s:4:"1564";s:6:"answer";s:63:"<p style="display:inline;"> D) relatar um fato científico.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

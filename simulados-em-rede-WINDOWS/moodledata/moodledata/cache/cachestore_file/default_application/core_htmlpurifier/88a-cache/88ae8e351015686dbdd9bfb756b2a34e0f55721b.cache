@@ -1,0 +1,7 @@
+s:493:"<p>Usuários podem ser enviados (e opcionalmente inscritos em cursos) via arquivos de texto. O formato deste arquivo deve ser o seguinte:</p>
+
+<ul><li>Cada linha do arquivo contém um registro</li>
+<li>cada registro é uma série de dados separados por vírgula (ou outros delimitadores)</li>
+<li>O primeiro registro contém a lista dos nomes de campos definindo o formato do resto do arquivo</li>
+<li>Os nomes de campos obrigatórios são username,password,firstname,lastname,email</li>
+</ul>";

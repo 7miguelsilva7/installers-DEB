@@ -1,0 +1,41 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1594";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D12G";s:12:"questiontext";s:1537:"<p></p><p align="justify">
+(SAERO).
+Leia o texto abaixo.</p>
+<p align="center">
+<b>O
+verde que aquece</b></p>
+<p align="justify">
+<i>Algas
+deverão colonizar fachadas de edifícios e fornecer energia elétrica
+</i>Normalmente,
+elas não são bem-vindas em casas ou edifícios, porque, onde as
+algas proliferam, o material de construção sofre danos. No entanto,
+elas são muito eficientes para utilizar a luz solar, a umidade e o
+dióxido de carbono para o seu próprio crescimento.</p>
+<p align="justify">
+Agora,
+arquitetos alemães querem aproveitar esse potencial e empregar algas
+como fornecedoras de energia em um moderno prédio de apartamentos.
+[...]</p>
+<p align="justify">
+As
+algas devem formar biomassa em elementos de celuloide transparente na
+fachada do edifício para posteriormente serem bombeadas por
+canalizações até o porão. Ali, uma miniusina elétrica doméstica
+gerará gás metano a partir da matéria aquosa. Esse gás volátil,
+rico em energia, tem uma qualidade semelhante ao gás natural e pode
+ser queimado para gerar aquecimento ambiente, bem como energia
+elétrica. Nesse processo, a queima libera na atmosfera apenas a
+quantidade de CO<sub>2</sub>
+que as algas usaram anteriormente para o seu crescimento. Portanto, a
+usina alimentada pelos micro-organismos opera de modo climaticamente
+neutro.[...]</p>
+<p align="right">
+Geo.
+n.21. Editora Escala. p. 18. Fragmento. 
+</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">O objetivo desse texto é</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193651+HcfdAG";s:7:"version";s:29:"localhost+180521193651+Zrgp9T";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931411";s:12:"timemodified";s:10:"1526931411";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1594";s:10:"questionid";s:4:"1594";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6376;O:8:"stdClass":7:{s:2:"id";s:4:"6376";s:8:"question";s:4:"1594";s:6:"answer";s:79:"<p style="display:inline;"> A) alertar sobre o uso de algas dentro de casa.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6377;O:8:"stdClass":7:{s:2:"id";s:4:"6377";s:8:"question";s:4:"1594";s:6:"answer";s:93:"<p style="display:inline;"> B) ensinar como construir uma fachada de edifício com algas.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6378;O:8:"stdClass":7:{s:2:"id";s:4:"6378";s:8:"question";s:4:"1594";s:6:"answer";s:80:"<p style="display:inline;"> C) descrever o trabalho dos arquitetos alemães.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6379;O:8:"stdClass":7:{s:2:"id";s:4:"6379";s:8:"question";s:4:"1594";s:6:"answer";s:106:"<p style="display:inline;"> D) informar sobre um projeto que utilizará algas que fornecerão energia.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

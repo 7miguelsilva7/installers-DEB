@@ -1,0 +1,66 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1676";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D21C";s:12:"questiontext";s:1900:"<p></p><p>
+Leia
+os textos para responder a questão abaixo:</p>
+<p align="justify">
+<b>Texto
+1 </b>
+</p>
+<p align="center">
+<b>Mapa
+Da Devastação</b></p>
+<p align="center">
+<br>
+
+</p>
+<p align="justify">
+A
+organização não-governamental SOS Mata Atlântica e o Instituto
+Nacional de Pesquisas Espaciais terminaram mais uma etapa do
+mapeamento da Mata Atlântica (www.sosmataatlantica.org.br). O estudo
+iniciado em 1990 usa imagens de satélite para apontar o que restou
+da floresta que já ocupou 1,3 milhão de km<sup>2</sup>,
+ou 15% do território brasileiro. O atlas mostra que o Rio de Janeiro
+continua o campeão da motosserra. Nos últimos 15 anos, sua média
+anual de desmatamento mais do que dobrou. 
+</p>
+<p align="right">
+Revista
+<b>Isto
+É </b>–
+nº 1648 – 02-05-2001 São Paulo – Ed. Três. 
+</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+<b>Texto
+2 </b>
+</p>
+<p align="center">
+<b>Há
+qualquer coisa no ar do Rio, além de favelas</b></p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+Nem
+só as favelas brotam nos morros cariocas. As encostas cada vez mais
+povoadas no Rio de Janeiro disfarçam o avanço do reflorestamento na
+crista das serras, que espalha cerca de 2 milhões de mudas nativas
+da Mata Atlântica em espaço equivalente a 1.800 gramados do
+Maracanã. O replantio começou há 13 anos, para conter vertentes
+ameaçadas de desmoronamento. Fez mais do que isso. Mudou a paisagem.
+Vista do alto, ângulo que não faz parte do cotidiano de seus
+habitantes, a cidade aninha-se agora em colinas coroadas por
+labirintos verdes, formando desenhos em curva de nível, como
+cafezais. 
+</p>
+<p align="right">
+Revista
+<b>Época
+</b>–
+nº 83. 20-12-1999. Rio de Janeiro – Ed. Globo. p. 9.</p>
+<p align="justify">Uma declaração do segundo texto que CONTRADIZ o primeiro é 
+</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193658+NbCBUe";s:7:"version";s:29:"localhost+180521193658+DYgyxm";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931418";s:12:"timemodified";s:10:"1526931418";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1676";s:10:"questionid";s:4:"1676";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6705;O:8:"stdClass":7:{s:2:"id";s:4:"6705";s:8:"question";s:4:"1676";s:6:"answer";s:94:"<p style="display:inline;">(A) a mata atlântica está sendo recuperada no Rio de Janeiro.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6706;O:8:"stdClass":7:{s:2:"id";s:4:"6706";s:8:"question";s:4:"1676";s:6:"answer";s:86:"<p style="display:inline;">(B) as encostas cariocas estão cada vez mais povoadas.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6707;O:8:"stdClass":7:{s:2:"id";s:4:"6707";s:8:"question";s:4:"1676";s:6:"answer";s:85:"<p style="display:inline;">(C) as favelas continuam surgindo nos morros cariocas.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6708;O:8:"stdClass":7:{s:2:"id";s:4:"6708";s:8:"question";s:4:"1676";s:6:"answer";s:89:"<p style="display:inline;">(D) o replantio segura encostas ameaçadas de desabamento.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

@@ -1,0 +1,63 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1570";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D10C";s:12:"questiontext";s:1775:"<p></p><p>
+Leia
+o texto para responder a questão abaixo:</p>
+<p align="center">
+<b>A
+outra noite</b></p>
+<p align="right">
+Rubem
+Braga</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+Outro
+dia fui a São Paulo e resolvi voltar à noite, uma noite de vento
+sul e chuva, tanto lá como aqui. Quando vinha para casa de táxi,
+encontrei um amigo e o trouxe até Copacabana; e contei a ele que lá
+em cima, além das nuvens, estava um luar lindo, de lua cheia; e que
+as nuvens feias que cobriam a cidade eram, vistas de cima,
+enluaradas, colchões de sonho, alvas. Uma paisagem irreal.</p>
+<p align="justify">
+Depois
+que o meu amigo desceu do carro, o chofer aproveitou um sinal fechado
+para voltar-se para mim:</p>
+<p align="justify">
+— O
+senhor vai desculpar, eu estava aqui a ouvir sua conversa. Mas tem
+mesmo luar lá em cima?</p>
+<p align="justify">
+Confirmei:
+sim, acima da nossa noite preta e enlamaçada e torpe havia uma outra
+− pura, perfeita e linda.</p>
+<p align="justify">
+— Mas,
+que coisa...</p>
+<p align="justify">
+Ele
+chegou a pôr a cabeça fora do carro para olhar o céu fechado de
+chuva.</p>
+<p align="justify">
+Depois
+continuou guiando mais lentamente. Não sei se sonhava em ser aviador
+ou pensava em outra coisa.</p>
+<p align="justify">
+— Ora,
+sim senhor...</p>
+<p align="justify">
+E,
+quando saltei e paguei a corrida, ele me disse um “boa noite” e
+um “muito obrigado ao senhor” tão sinceros, tão veementes, como
+se eu lhe tivesse feito um presente de rei.</p>
+<p align="right">
+BRAGA,
+Rubem. <i>Ai
+de ti, Copacabana. </i>Rio
+de Janeiro: Editora do Autor, 1960.</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">O
+fato que desencadeou a história foi</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193649+z4zZtL";s:7:"version";s:29:"localhost+180521193649+TGNEcp";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931409";s:12:"timemodified";s:10:"1526931409";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1570";s:10:"questionid";s:4:"1570";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6280;O:8:"stdClass":7:{s:2:"id";s:4:"6280";s:8:"question";s:4:"1570";s:6:"answer";s:83:"<p style="display:inline;">(A) a viagem a São Paulo.(A) a viagem a São Paulo.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6281;O:8:"stdClass":7:{s:2:"id";s:4:"6281";s:8:"question";s:4:"1570";s:6:"answer";s:61:"<p style="display:inline;">(B) o mau tempo em São Paulo.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6282;O:8:"stdClass":7:{s:2:"id";s:4:"6282";s:8:"question";s:4:"1570";s:6:"answer";s:62:"<p style="display:inline;">(C) o agradecimento do taxista.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6283;O:8:"stdClass":7:{s:2:"id";s:4:"6283";s:8:"question";s:4:"1570";s:6:"answer";s:66:"<p style="display:inline;">(D) a conversa ouvida pelo taxista.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

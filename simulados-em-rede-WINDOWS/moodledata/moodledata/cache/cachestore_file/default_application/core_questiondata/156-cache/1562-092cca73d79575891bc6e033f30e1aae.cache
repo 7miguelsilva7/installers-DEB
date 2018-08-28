@@ -1,0 +1,29 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1562";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D09E";s:12:"questiontext";s:999:"<p></p><p align="justify">
+(SAERO).
+Leia o texto abaixo.</p>
+<p align="center">
+<b>Nova
+lei ortográfica chega à escrita braile</b></p>
+<p align="justify">
+Todas
+as mudanças promovidas pelo acordo ortográfico serão adotadas pelo
+português convertido em braile, sistema criado pelo francês Louis
+Braille para pessoas com deficiência visual.</p>
+<p align="justify">
+O
+acordo influencia o braile, pois, nesse sistema, as palavras são
+escritas letra a letra, e cada vocábulo tem até seis pontos em
+relevo. Um cego treinado é capaz de detectar a ausência ou a
+presença do trema em determinadas palavras, assim como hífens,
+acentos e pontuações. Com isso, o Ministério da Educação já
+prevê a adaptação de livros didáticos em braile à nova grafia.</p>
+<p align="right">
+<i>Língua
+Portuguesa. </i>n.
+41. São Paulo: Segmento. mar. 2009. p. 9. 
+</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">A informação principal desse texto é</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193648+fwA3l9";s:7:"version";s:29:"localhost+180521193648+lM3Aka";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931408";s:12:"timemodified";s:10:"1526931408";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1562";s:10:"questionid";s:4:"1562";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6248;O:8:"stdClass":7:{s:2:"id";s:4:"6248";s:8:"question";s:4:"1562";s:6:"answer";s:94:"<p style="display:inline;"> A) o sistema braile adotará todas as mudanças ortográficas.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6249;O:8:"stdClass":7:{s:2:"id";s:4:"6249";s:8:"question";s:4:"1562";s:6:"answer";s:91:"<p style="display:inline;"> B) o sistema braile foi criado pelo francês Louis Braille.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6250;O:8:"stdClass":7:{s:2:"id";s:4:"6250";s:8:"question";s:4:"1562";s:6:"answer";s:87:"<p style="display:inline;"> C) o MEC está atento ao problema da leitura dos cegos.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6251;O:8:"stdClass":7:{s:2:"id";s:4:"6251";s:8:"question";s:4:"1562";s:6:"answer";s:86:"<p style="display:inline;"> D) o cego treinado pode detectar a presença do trema.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

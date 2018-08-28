@@ -1,0 +1,88 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1652";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D18E";s:12:"questiontext";s:2190:"<p></p><p></p><p>
+<b>(3ª
+P.D – SEDUC-GO). Leia o texto abaixo e responda. </b>
+</p>
+<p><b style="font-size: 1rem;">Leia
+o texto abaixo.</b><br></p>
+<p>
+<br>
+
+</p>
+<table width="680" cellpadding="7" cellspacing="0">
+	<colgroup><col width="664">
+	</colgroup><tbody><tr>
+		<td width="664" valign="top">
+			<p>
+			<b>Assume?
+			Não assume?</b></p>
+			<p>
+			<br>
+
+			</p>
+			<p align="justify">
+			<b>-</b>--
+			Só uma pergunta, V. Exa. vai assumir a pasta para a qual foi
+			nomeado?</p>
+			<p align="justify">
+			---
+			Não.</p>
+			<p align="justify">
+			---
+			Mas esse não é: não! Mesmo ou simplesmente: não?</p>
+			<p align="justify">
+			---
+			N..ão.</p>
+			<p align="justify">
+			---
+			Então quer dizer que V. Exa. não vai assumir coisa nenhuma, não
+			é assim?</p>
+			<p align="justify">
+			---
+			Não, não. Talvez assuma.</p>
+			<p align="justify">
+			---
+			E talvez não assuma.</p>
+			<p align="justify">
+			---
+			Posso assumir, está compreendendo? E ficar de ministro 45 dias.</p>
+			<p align="justify">
+			---
+			Servindo de lenço?</p>
+			<p align="justify">
+			---
+			Nem lenço, nem lourenço. Não sou lenço de ninguém. A menos
+			que…</p>
+			<p align="justify">
+			---
+			?</p>
+			<p align="justify">
+			<br>
+
+			</p>
+			<p align="justify">
+			--
+			Quer dizer, depende. Entretanto, contudo, todavia, como se diz…</p>
+			<p align="justify">
+			---
+			E quando se decide, Excelência?</p>
+			<p align="justify">
+			---
+			Eu é que sei? Quem é que sabe alguma coisa nesse momento,
+			menino? Acordo de manhã e digo pra mim mesmo, no espelho: você
+			não vai aceitar. E não aceito, pronto. Daí a pouco, telefonam
+			lá da Granja do Torto: tem de aceitar, ora essa! Aceito, que
+			remédio? Quando chega de tarde [...]</p>
+		</td>
+	</tr>
+</tbody></table>
+<p align="right">
+Carlos
+Drummond de Andrade. Cadeira de Balanço; p. 180. Editora Record: Rio
+de Janeiro. 1993. (PO8127MG)</p>
+<p>
+<br>
+
+</p>
+<p><b>A
+expressão destacada na frase “– Nem lenço, nem lourenço. Não
+sou lenço de ninguém. A menos que...” indica que o político</b></p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193656+TlfDlG";s:7:"version";s:29:"localhost+180521193656+OyaLjs";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931416";s:12:"timemodified";s:10:"1526931416";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1652";s:10:"questionid";s:4:"1652";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6609;O:8:"stdClass":7:{s:2:"id";s:4:"6609";s:8:"question";s:4:"1652";s:6:"answer";s:80:"<p style="display:inline;"> A) pode aceitar o cargo, sob certas condições.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6610;O:8:"stdClass":7:{s:2:"id";s:4:"6610";s:8:"question";s:4:"1652";s:6:"answer";s:86:"<p style="display:inline;"> B) foi interrompido e não conseguiu terminar a frase.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6611;O:8:"stdClass":7:{s:2:"id";s:4:"6611";s:8:"question";s:4:"1652";s:6:"answer";s:73:"<p style="display:inline;"> C) tomará a decisão por conta própria.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6612;O:8:"stdClass":7:{s:2:"id";s:4:"6612";s:8:"question";s:4:"1652";s:6:"answer";s:67:"<p style="display:inline;"> D) está despreparado para o cargo.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

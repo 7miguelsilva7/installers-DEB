@@ -1,0 +1,29 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1461";s:8:"category";s:2:"29";s:6:"parent";s:1:"0";s:4:"name";s:8:"MT-D27-J";s:12:"questiontext";s:504:"<p><p align="justify">
+Observe
+a tabela que mostra alguns dados, aproximados, sobre a Ponte
+Rio-Niterói, ponte que une a cidade do Rio de Janeiro à de Niterói
+e é uma das maiores pontes do mundo.</p>
+<p align="justify">
+<img src="@@PLUGINFILE@@/10.svg" alt="" width="600" height="256" role="presentation" class="img-responsive atto_image_button_text-bottom"><br>
+
+</p>
+<p align="center">
+</p>
+<p align="center">
+<br>
+
+</p>
+<p align="justify">
+Marque
+a afirmativa correta:</p><br></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521192857+9PPFVP";s:7:"version";s:29:"localhost+180521192857+gtAYcp";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526930937";s:12:"timemodified";s:10:"1526930937";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1461";s:10:"questionid";s:4:"1461";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:5844;O:8:"stdClass":7:{s:2:"id";s:4:"5844";s:8:"question";s:4:"1461";s:6:"answer";s:143:"<p style="display:inline;">
+(A)
+A extensão total da ponte é a soma da extensão sobre a terra com a
+extensão sobre o mar.</p><br></p></p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:5845;O:8:"stdClass":7:{s:2:"id";s:4:"5845";s:8:"question";s:4:"1461";s:6:"answer";s:130:"<p style="display:inline;">
+(B)
+A extensão da estrutura metálica da Ponte Rio-Niterói ultrapassa
+mil metros.</p><br></p></p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:5846;O:8:"stdClass":7:{s:2:"id";s:4:"5846";s:8:"question";s:4:"1461";s:6:"answer";s:125:"<p style="display:inline;">
+(C)
+A Ponte Rio-Niterói tem extensão menor sobre o mar do que sobre a
+terra.</p><br></p></p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:5847;O:8:"stdClass":7:{s:2:"id";s:4:"5847";s:8:"question";s:4:"1461";s:6:"answer";s:108:"<p style="display:inline;">
+(D)
+A largura total da ponte é maior que sua extensão total.</p><br></p></p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

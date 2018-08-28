@@ -1,0 +1,94 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1675";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D21B";s:12:"questiontext";s:2437:"<p></p><p>
+ Leia
+os textos para responder a questão abaixo:</p>
+<p>
+<b>Texto
+I</b></p>
+<p align="center">
+<b>Sem-proteção
+</b>
+</p>
+<p align="center">
+<b>Jovens
+enfrentam mal a acne, mostra pesquisa</b></p>
+<p align="center">
+<br>
+
+</p>
+<p align="justify">
+Transtorno
+presente na vida da grande maioria dos adolescentes e jovens, a acne
+ainda gera muita confusão entre eles, principalmente no que diz
+respeito ao melhor modo de se livrar dela. E o que mostra uma
+pesquisa realizada pelo projeto Companheiros Unidos contra a Acne
+(Cucas), uma parceria do laboratório Roche e da Sociedade Brasileira
+de Dermatologia (SBD): Foram entrevistados 9273 estudantes, entre 11
+e 19 anos, em colégios particulares de São Paulo, Rio de Janeiro,
+Minas Gerais, Pernambuco, Paraíba, Pará, Paraná, Alagoas, Ceará e
+Sergipe, dentre os quais 7623 (82%) disseram ter espinhas. O
+levantamento evidenciou que 64% desses entrevistados nunca foram ao
+médico em busca de tratamento para espinhas. "Apesar de não
+ser uma doença grave, a acne compromete a aparência e pode gerar
+muitas dificuldades ligadas à auto-estima e à sociabilidade",
+diz o dermatologista Samuel Henrique Mandelbaum, presidente da SBD de
+São Paulo. Outros 43% dos entrevistados disseram ter comprado
+produtos para a acne sem consultar o dermatologista - as pomadas,
+automedicação mais freqüente, além de não resolverem o problema,
+podem agravá-lo, já que possuem componentes oleosos que entopem os
+poros. (...) 
+</p>
+<p align="right">
+Fernanda
+Colavitti</p>
+<p>
+<b>Texto
+II</b></p>
+<p align="center">
+<b>Perda
+de Tempo</b></p>
+<p align="center">
+<br>
+
+</p>
+<p align="justify">
+Os
+métodos mais usados por adolescentes e jovens brasileiros não
+resolvem os problemas mais sérios de acne. 
+</p>
+<p align="justify">
+23%
+lavam o rosto várias vezes ao dia 
+</p>
+<p align="justify">
+21%
+usam pomadas e cremes convencionais 
+</p>
+<p align="justify">
+5%
+fazem limpeza de pele 
+</p>
+<p align="justify">
+3%
+usam hidratante 
+</p>
+<p align="justify">
+2%
+evitam simplesmente tocar no local 
+</p>
+<p align="justify">
+2%
+usam sabonete neutro 
+</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="right">
+(COLAVITTI,
+Fernanda – Revista Veja Outubro / 2001 – p. 138.)</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">Comparando os dois textos, percebe-se que eles são 
+</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193658+z0z6sf";s:7:"version";s:29:"localhost+180521193658+ENPJL8";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931418";s:12:"timemodified";s:10:"1526931418";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1675";s:10:"questionid";s:4:"1675";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6701;O:8:"stdClass":7:{s:2:"id";s:4:"6701";s:8:"question";s:4:"1675";s:6:"answer";s:47:"<p style="display:inline;">(A) semelhantes.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6702;O:8:"stdClass":7:{s:2:"id";s:4:"6702";s:8:"question";s:4:"1675";s:6:"answer";s:47:"<p style="display:inline;">(B) divergentes.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6703;O:8:"stdClass":7:{s:2:"id";s:4:"6703";s:8:"question";s:4:"1675";s:6:"answer";s:47:"<p style="display:inline;">(C) contrários.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6704;O:8:"stdClass":7:{s:2:"id";s:4:"6704";s:8:"question";s:4:"1675";s:6:"answer";s:50:"<p style="display:inline;">(D) complementares.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

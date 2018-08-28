@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="268.74634"
+   height="128.93228"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="bula.svg">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.979899"
+     inkscape:cx="178.43842"
+     inkscape:cy="118.03585"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="mm"
+     inkscape:window-width="1600"
+     inkscape:window-height="824"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     fit-margin-left="1"
+     fit-margin-top="1"
+     fit-margin-bottom="1"
+     fit-margin-right="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Camada 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-1.1902374,-923.30939)">
+    <rect
+       style="fill:none;fill-opacity:1;stroke:none"
+       id="rect2989"
+       width="269.71072"
+       height="129.29953"
+       x="0"
+       y="-0.36724338"
+       transform="translate(1.1902374,923.30939)" />
+    <text
+       xml:space="preserve"
+       style="font-size:14.41656113px;font-style:normal;font-weight:normal;line-height:152.99999714%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="4.5571618"
+       y="976.00226"
+       id="text2996"
+       sodipodi:linespacing="153%"
+       transform="scale(1.0387045,0.96273772)"><tspan
+         sodipodi:role="line"
+         id="tspan2998"
+         x="4.5571618"
+         y="976.00226"
+         style="line-height:152.99999714%">                 COMPOSIÇÃO</tspan><tspan
+         sodipodi:role="line"
+         x="4.5571618"
+         y="998.05957"
+         id="tspan3000"
+         style="line-height:152.99999714%">Sulfato ferroso .................. 400 mg</tspan><tspan
+         sodipodi:role="line"
+         x="4.5571618"
+         y="1020.1169"
+         id="tspan3002"
+         style="line-height:152.99999714%">Vitamina B1 ...................... 280 mg</tspan><tspan
+         sodipodi:role="line"
+         x="4.5571618"
+         y="1042.1743"
+         id="tspan3004"
+         style="line-height:152.99999714%">Vitamina A1 ...................... 280 mg</tspan><tspan
+         sodipodi:role="line"
+         x="4.5571618"
+         y="1064.2316"
+         id="tspan3006"
+         style="line-height:152.99999714%">Ácido fólico ....................... 0,2 mg</tspan><tspan
+         sodipodi:role="line"
+         x="4.5571618"
+         y="1086.2889"
+         id="tspan3008"
+         style="line-height:152.99999714%">Cálcio ............................... 150 mg</tspan></text>
+  </g>
+</svg>

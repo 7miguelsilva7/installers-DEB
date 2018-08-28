@@ -1,0 +1,27 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1620";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D15C";s:12:"questiontext";s:1012:"<p></p><p>
+Leia
+o texto para responder a questão abaixo:</p>
+<p align="center">
+<b>Os
+pancararés</b></p>
+<p align="justify">
+Conhecedores
+de cada canto da região em que viveram os cangaceiros, os
+pancararés, quando a volante passava, ajudavam a esconder Lampião e
+seu bando. Hoje, uma comunidade remanescente dos pancararés vive na
+Baixa do Chico, um pequeno povoado situado no interior do Raso da
+Catarina. Embora as condições de vida sejam bastante simples, os
+moradores parecem saudáveis. Vivem em casas rústicas de pau-a-pique
+e recebem água de um poço artesiano porque a região é árida e
+agreste. Dedicam-se a pequenas lavouras de milho e feijão e à
+criação de gado.</p>
+<p align="right">
+www.almg.gov.br/revistalegis/saofrancisco/população.</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">No trecho “...<b>quando
+a volante passava</b>,
+ajudavam a esconder Lampião e seu bando.”, a expressão destacada
+demonstra uma circunstância de</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193653+D1zvPV";s:7:"version";s:29:"localhost+180521193653+7Oy2dd";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931413";s:12:"timemodified";s:10:"1526931413";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1620";s:10:"questionid";s:4:"1620";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6480;O:8:"stdClass":7:{s:2:"id";s:4:"6480";s:8:"question";s:4:"1620";s:6:"answer";s:43:"<p style="display:inline;">(A) dúvida.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6481;O:8:"stdClass":7:{s:2:"id";s:4:"6481";s:8:"question";s:4:"1620";s:6:"answer";s:46:"<p style="display:inline;">(B) condição.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6482;O:8:"stdClass":7:{s:2:"id";s:4:"6482";s:8:"question";s:4:"1620";s:6:"answer";s:41:"<p style="display:inline;">(C) tempo.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6483;O:8:"stdClass":7:{s:2:"id";s:4:"6483";s:8:"question";s:4:"1620";s:6:"answer";s:48:"<p style="display:inline;">(D) comparação.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

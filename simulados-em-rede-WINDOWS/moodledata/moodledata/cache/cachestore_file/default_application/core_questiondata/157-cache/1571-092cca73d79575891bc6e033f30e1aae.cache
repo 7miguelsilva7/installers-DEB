@@ -1,0 +1,61 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1571";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D10D";s:12:"questiontext";s:1687:"<p></p><p align="justify">
+Leia
+o texto para responder a questão a seguir:</p>
+<p align="center">
+<b>Conversa
+fiada</b></p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">
+Era
+uma vez um homem muito velho que, por não ter muito o que fazer,
+ficava pescando num lago. 
+</p>
+<p align="justify">
+Era
+uma vez um menino muito novo que também não tinha muito o que fazer
+e ficava pescando no mesmo lago.</p>
+<p align="justify">
+Um
+dia, os dois se encontraram, lado a lado, na pescaria, e no mesmo
+momento, exatamente no mesmo instante, sentiram aquela puxadinha que
+indica que o peixe mordeu a isca. [...] Quando apareceram os
+respectivos peixes, porém, decepção: o peixe do menino era muito
+velho e o peixe do velho era muito novo!</p>
+<p align="justify">
+O
+velho disse para o menino:</p>
+<p align="justify">
+– Você
+não pode pescar esse peixe tão velho! Deixe que ele viva o pouco da
+vida que lhe resta.</p>
+<p align="justify">
+O
+menino respondeu:</p>
+<p align="justify">
+– E
+o que você vai fazer com este peixe tão novo? Ele é tão
+pequeno... deixe que ele viva mais um pouco!</p>
+<p align="justify">
+O
+velho e o menino olharam um para o outro e, sem perder tempo, jogaram
+os peixes no lago.</p>
+<p align="justify">
+Ficaram
+amigos e agora, quando não têm muito o que fazer, vão até o lago,
+cumprimentam os peixes e matam o tempo jogando conversa fora.</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="right">
+FRATE,
+Diléa. Histórias para Acordar. São Paulo: Companhia das Letrinhas,
+1996</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">O fato responsável pelo desenrolar da história é</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193649+VRrO8v";s:7:"version";s:29:"localhost+180521193649+8x9H9H";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931409";s:12:"timemodified";s:10:"1526931409";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1571";s:10:"questionid";s:4:"1571";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6284;O:8:"stdClass":7:{s:2:"id";s:4:"6284";s:8:"question";s:4:"1571";s:6:"answer";s:89:"<p style="display:inline;">(A) o encontro e a pescaria do menino com o velho no lago.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6285;O:8:"stdClass":7:{s:2:"id";s:4:"6285";s:8:"question";s:4:"1571";s:6:"answer";s:68:"<p style="display:inline;">(B) o peixe do velho ser muito velho.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6286;O:8:"stdClass":7:{s:2:"id";s:4:"6286";s:8:"question";s:4:"1571";s:6:"answer";s:72:"<p style="display:inline;">(C) o peixe do menino ser novo e pequeno.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6287;O:8:"stdClass":7:{s:2:"id";s:4:"6287";s:8:"question";s:4:"1571";s:6:"answer";s:64:"<p style="display:inline;">(D) o retorno dos peixes ao lago.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}

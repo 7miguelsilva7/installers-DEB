@@ -1,0 +1,459 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.0"
+   width="900.000000pt"
+   height="384.000000pt"
+   viewBox="0 0 900.000000 384.000000"
+   preserveAspectRatio="xMidYMid meet"
+   id="svg3747"
+   inkscape:version="0.48.4 r9939"
+   sodipodi:docname="5.svg">
+  <defs
+     id="defs3995" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1600"
+     inkscape:window-height="824"
+     id="namedview3993"
+     showgrid="false"
+     inkscape:zoom="0.816"
+     inkscape:cx="397.50295"
+     inkscape:cy="55.449911"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg3747" />
+  <metadata
+     id="metadata3749">
+Created by potrace 1.10, written by Peter Selinger 2001-2011
+<rdf:RDF>
+  <cc:Work
+     rdf:about="">
+    <dc:format>image/svg+xml</dc:format>
+    <dc:type
+       rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+  </cc:Work>
+</rdf:RDF>
+</metadata>
+  <g
+     transform="translate(0.000000,384.000000) scale(0.100000,-0.100000)"
+     fill="#000000"
+     stroke="none"
+     id="g3751">
+    <path
+       d="M5093 3742 l-3813 -2 -2 -191 -3 -192 -591 2 c-480 2 -593 0 -602 -11 -7 -10 -11 -467 -11 -1625 0 -1458 2 -1613 16 -1625 13 -11 796 -13 4401 -15 2412 -2 4399 1 4416 5 l31 8 3 1817 c2 1723 1 1817 -15 1824 -10 4 -1734 7 -3830 5z m-2288 -221 l0 -162 -739 0 c-406 0 -739 2 -740 3 -1 2 1 75 4 163 l5 160 725 5 c399 3 730 2 735 -2 6 -4 10 -71 10 -167z m1520 1 l0 -163 -740 0 -740 1 0 157 c0 87 3 163 6 168 5 7 257 8 741 5 l733 -5 0 -163z m1511 153 c3 -11 3 -87 2 -168 l-3 -148 -730 0 -730 0 2 158 c1 87 2 163 3 168 0 7 249 10 725 10 718 0 726 0 731 -20z m1519 11 c6 -2 10 -65 10 -165 l0 -161 -725 0 c-399 0 -729 0 -735 0 -10 0 -11 299 -2 324 3 8 208 10 723 8 396 -1 724 -4 729 -6z m1533 -161 l-3 -165 -732 0 c-403 0 -736 0 -740 0 -6 0 -9 309 -4 328 1 1 334 2 741 2 l740 0 -2 -165z m-7613 -602 l0 -378 -574 0 -573 0 0 374 c1 225 5 377 11 380 5 3 263 5 573 4 l563 -1 0 -379z m1527 2 l0 -380 -737 0 -736 0 0 375 c0 206 0 378 1 383 0 4 331 6 736 5 l736 -3 0 -380z m1528 0 l0 -385 -741 2 -741 3 0 375 c1 206 1 378 1 383 1 4 334 7 741 7 l740 0 0 -385z m1510 0 l0 -385 -731 2 -730 3 0 375 c0 206 0 378 0 383 1 4 330 7 731 7 l730 0 0 -385z m1522 0 l0 -380 -731 0 -732 0 0 375 c0 206 0 378 1 383 0 4 329 6 731 5 l732 -3 -1 -380z m1530 9 c2 -207 0 -380 -3 -385 -3 -5 -308 -8 -743 -7 l-737 3 0 375 c0 206 0 378 0 383 1 4 334 7 741 7 l740 0 2 -376z m-7618 -826 c1 -292 -2 -373 -12 -372 -6 1 -265 2 -574 2 l-563 2 2 366 c1 228 5 369 11 373 6 3 263 5 573 4 l563 -2 0 -373z m1530 2 l1 -370 -740 0 -740 0 2 365 c1 201 4 369 7 373 2 4 334 6 736 5 l732 -3 2 -370z m1524 0 l2 -370 -742 0 -743 0 2 372 c1 205 2 373 3 373 0 0 332 -1 738 -2 l737 -2 3 -371z m1510 0 c1 -203 -1 -370 -5 -370 -5 0 -334 0 -731 0 l-724 -1 1 371 c0 203 0 371 1 373 0 1 327 1 727 0 l728 -3 3 -370z m1526 0 l1 -370 -735 0 -735 0 2 365 c1 201 4 369 7 373 2 4 331 6 731 5 l727 -3 2 -370z m1525 361 c3 -5 5 -171 3 -370 l-2 -361 -743 0 -742 0 0 367 c0 203 3 370 7 373 12 9 1471 1 1477 -9z m-7614 -1150 l-1 -372 -568 0 c-313 1 -571 3 -573 5 -3 2 -5 169 -6 370 l-2 366 565 2 c311 2 569 3 575 2 6 0 10 -133 10 -373z m4560 -1 l0 -371 -728 0 -729 0 1 368 c0 203 0 370 0 373 1 3 328 4 728 3 l728 -3 0 -370z m-3030 0 c0 -203 -2 -370 -5 -370 -258 -2 -1464 1 -1467 3 -2 3 -5 169 -6 371 l-2 366 740 0 740 0 0 -370z m1525 0 c0 -289 -3 -370 -12 -370 -9 0 -1396 0 -1468 0 -3 0 -5 167 -5 370 l0 370 743 0 742 0 0 -370z m3035 0 c0 -203 -2 -370 -5 -370 -759 -1 -1454 0 -1457 3 -2 2 -5 169 -6 371 l-2 366 735 0 735 0 0 -370z m1527 8 c2 -230 -1 -365 -7 -372 -7 -8 -221 -10 -745 -8 l-735 2 0 370 0 370 742 0 743 0 2 -362z m-7619 -813 c-1 -203 -2 -372 -2 -375 -1 -5 -1132 -2 -1137 3 -3 3 -7 712 -5 740 1 4 259 6 574 5 l572 -3 -2 -370z m1529 1 c-1 -203 -3 -371 -5 -373 -5 -4 -1458 -5 -1463 -1 -2 3 -7 711 -5 741 1 4 332 6 737 5 l737 -3 -1 -369z m1528 5 c0 -227 -4 -372 -10 -376 -10 -6 -1461 -8 -1467 -2 -3 3 -6 710 -4 740 1 4 334 7 741 7 l740 0 0 -369z m1510 2 c0 -203 -4 -372 -8 -378 -4 -7 -259 -10 -730 -10 -635 0 -722 2 -722 15 0 8 0 175 -1 370 0 195 0 358 0 363 1 4 330 7 731 7 l730 0 0 -367z m1522 -7 c-1 -203 -3 -370 -5 -372 -2 -2 -330 -4 -728 -4 l-724 -1 -5 368 c-3 202 -4 371 -2 376 2 4 332 6 734 5 l731 -3 -1 -369z m1530 367 c2 -5 1 -173 -2 -376 l-5 -368 -734 1 c-404 0 -736 1 -738 4 -3 2 -6 704 -4 739 1 9 1479 9 1483 0z"
+       id="path3753" />
+    <path
+       d="M1729 3599 c-14 -27 4 -50 23 -31 19 19 38 14 38 -11 0 -15 -15 -37 -42 -61 -36 -32 -39 -39 -27 -52 19 -18 109 -8 109 12 0 8 -6 14 -14 14 -26 0 -27 19 -4 42 17 17 31 21 65 19 39 -2 43 0 43 21 0 47 -12 68 -36 68 -29 0 -40 -16 -24 -35 10 -12 9 -15 -5 -15 -9 0 -26 11 -37 25 -25 32 -72 34 -89 4z"
+       id="path3755" />
+    <path
+       d="M3247 3600 c-30 -36 -17 -53 23 -28 26 16 33 7 20 -28 -9 -23 -8 -31 4 -40 28 -20 19 -35 -18 -29 -21 4 -36 3 -41 -5 -11 -19 12 -34 51 -34 45 0 74 30 67 69 -5 24 -3 25 40 25 36 0 47 4 52 19 10 32 -11 71 -39 71 -30 0 -42 -16 -27 -34 9 -10 8 -15 -2 -19 -14 -5 -57 26 -57 42 0 19 -55 12 -73 -9z"
+       id="path3765" />
+    <path
+       d="M4895 3610 c-3 -5 -3 -15 0 -20 4 -6 1 -17 -5 -25 -18 -22 -3 -35 41 -35 36 0 39 2 39 28 0 15 -7 35 -14 45 -14 19 -51 23 -61 7z"
+       id="path3775" />
+    <path
+       d="M4807 3592 c-10 -10 -17 -23 -17 -29 0 -5 -9 -18 -20 -28 -29 -26 -27 -65 4 -65 13 0 29 -7 36 -15 17 -21 37 -19 50 5 7 14 8 26 0 39 -5 11 -10 40 -10 65 0 50 -15 60 -43 28z"
+       id="path3779" />
+    <path
+       d="M6293 3604 c-3 -9 -6 -32 -7 -52 -1 -37 4 -41 44 -31 10 3 15 -4 15 -21 0 -21 -5 -25 -30 -25 -19 0 -31 -6 -33 -16 -4 -21 22 -31 63 -23 64 12 66 92 2 122 -32 15 -27 32 9 32 15 0 24 6 24 15 0 22 -78 21 -87 -1z"
+       id="path3781" />
+    <path
+       d="M6415 3610 c-4 -7 -3 -16 3 -22 8 -8 6 -15 -4 -25 -20 -21 -8 -33 32 -33 40 0 52 18 38 59 -10 28 -56 42 -69 21z"
+       id="path3783" />
+    <path
+       d="M7817 3592 c-21 -22 -27 -38 -27 -73 0 -56 21 -79 74 -79 30 0 38 4 47 26 10 28 4 64 -15 77 -8 6 -8 10 2 14 17 7 15 19 -5 43 -24 27 -44 25 -76 -8z m63 -17 c0 -8 -6 -15 -14 -15 -17 0 -28 14 -19 24 12 12 33 6 33 -9z m-2 -72 c-3 -30 -25 -42 -34 -19 -9 22 2 46 21 46 12 0 15 -8 13 -27z"
+       id="path3793" />
+    <path
+       d="M7935 3610 c-4 -6 -2 -16 4 -23 7 -9 4 -16 -10 -25 -28 -18 -14 -32 31 -32 44 0 57 19 37 58 -13 28 -50 41 -62 22z"
+       id="path3795" />
+    <path
+       d="M368 3018 c-20 -16 -24 -36 -14 -65 14 -42 85 -21 86 25 0 13 -35 52 -48 52 -5 0 -15 -6 -24 -12z"
+       id="path3805" />
+    <path
+       d="M254 2996 c-27 -23 -28 -26 -12 -38 11 -8 18 -30 20 -63 3 -46 5 -50 31 -53 l28 -3 -3 88 c-3 100 -15 112 -64 69z"
+       id="path3807" />
+    <path
+       d="M240 2200 c-11 -11 -20 -25 -20 -30 0 -16 33 -26 38 -12 6 20 32 14 32 -7 0 -33 -11 -51 -42 -67 -42 -22 -36 -58 11 -62 70 -7 107 19 56 38 -27 10 -34 30 -11 30 7 0 16 9 19 19 4 16 11 18 50 14 42 -5 47 -3 58 21 10 22 9 29 -6 46 -21 24 -48 26 -65 5 -17 -20 -26 -19 -50 5 -11 11 -27 20 -35 20 -8 0 -24 -9 -35 -20z"
+       id="path3845" />
+    <path
+       d="M233 1398 c-16 -18 0 -43 22 -34 26 10 38 -4 20 -24 -14 -15 -14 -18 0 -30 19 -16 20 -50 1 -50 -8 0 -16 5 -18 12 -5 14 -38 4 -38 -12 0 -15 38 -50 55 -50 8 0 29 13 47 29 31 28 32 31 19 53 -8 12 -15 40 -16 61 -3 46 -4 46 -47 53 -22 4 -38 1 -45 -8z"
+       id="path3901" />
+    <path
+       d="M368 1403 c-29 -7 -32 -42 -7 -69 12 -13 26 -24 31 -24 13 0 48 39 48 53 -1 29 -36 49 -72 40z"
+       id="path3903" />
+    <path
+       d="M368 609 c-12 -6 -18 -22 -18 -43 0 -26 5 -35 22 -39 26 -7 68 17 68 38 0 16 -35 55 -47 55 -5 0 -16 -5 -25 -11z"
+       id="path3945" />
+    <path
+       d="M278 593 c-8 -10 -27 -39 -42 -65 -27 -46 -27 -47 -7 -57 11 -6 27 -11 36 -11 8 0 18 -7 21 -15 8 -20 31 -19 38 3 8 27 -8 155 -20 159 -6 2 -17 -4 -26 -14z"
+       id="path3947" />
+  </g>
+  <text
+     xml:space="preserve"
+     style="font-size:20.6216011px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="48.717705"
+     y="98.876732"
+     id="text4871"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4873"
+       x="48.717705"
+       y="98.876732">horário</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24.7671833px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="204.92227"
+     y="38.169327"
+     id="text4875"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4877"
+       x="204.92227"
+       y="38.169327">feira</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.6216011px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="49.046913"
+     y="179.62102"
+     id="text4871-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4873-6"
+       x="49.046913"
+       y="179.62102">horário</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.6216011px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="48.066521"
+     y="262.95435"
+     id="text4871-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4873-5"
+       x="48.066521"
+       y="262.95435">horário</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:20.6216011px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="47.548882"
+     y="341.38571"
+     id="text4871-35"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4873-62"
+       x="47.548882"
+       y="341.38571">horário</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24.7671833px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="367.24539"
+     y="37.607727"
+     id="text4875-9"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4877-1"
+       x="367.24539"
+       y="37.607727">feira</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24.7671833px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="514.56299"
+     y="38.58812"
+     id="text4875-2"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4877-7"
+       x="514.56299"
+       y="38.58812">feira</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24.7671833px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="664.3042"
+     y="38.948906"
+     id="text4875-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4877-9"
+       x="664.3042"
+       y="38.948906">feira</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:24.7671833px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="817.24536"
+     y="38.227333"
+     id="text4875-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4877-6"
+       x="817.24536"
+       y="38.227333">feira</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="151.48013"
+     y="100.96201"
+     id="text4966"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4968"
+       x="151.48013"
+       y="100.96201">Ciências</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="202.81544"
+     y="164.69275"
+     id="text4970"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4972"
+       x="202.81544"
+       y="164.69275"
+       style="text-align:center;text-anchor:middle">Estudos</tspan><tspan
+       sodipodi:role="line"
+       x="202.81544"
+       y="197.41675"
+       id="tspan4974"
+       style="text-align:center;text-anchor:middle">Sociais</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:25.05475044px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="148.34717"
+     y="250.75946"
+     id="text4976"
+     sodipodi:linespacing="125%"
+     transform="scale(0.95704844,1.0448792)"><tspan
+       sodipodi:role="line"
+       id="tspan4978"
+       x="148.34717"
+       y="250.75946">Matemática</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="294.42059"
+     y="98.317657"
+     id="text4980"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4982"
+       x="294.42059"
+       y="98.317657">Português</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="512.6839"
+     y="84.597435"
+     id="text4984"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4986"
+       x="516.31421"
+       y="84.597435"
+       style="text-align:center;text-anchor:middle">Educação </tspan><tspan
+       sodipodi:role="line"
+       x="512.6839"
+       y="117.32143"
+       id="tspan4988"
+       style="text-align:center;text-anchor:middle">Física</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="782.37506"
+     y="339.11591"
+     id="text4990"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4992"
+       x="782.37506"
+       y="339.11591">Artes</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="302.03479"
+     y="261.99725"
+     id="text4966-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4968-6"
+       x="302.03479"
+       y="261.99725">Ciências</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="306.93674"
+     y="343.36978"
+     id="text4966-2"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4968-61"
+       x="306.93674"
+       y="343.36978">Ciências</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="759.87793"
+     y="101.21294"
+     id="text4966-8"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4968-7"
+       x="759.87793"
+       y="101.21294">Ciências</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="760.85828"
+     y="183.56587"
+     id="text4966-9"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4968-2"
+       x="760.85828"
+       y="183.56587">Ciências</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="662.43195"
+     y="243.5083"
+     id="text4970-0"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4972-2"
+       x="662.43195"
+       y="243.5083"
+       style="text-align:center;text-anchor:middle">Estudos</tspan><tspan
+       sodipodi:role="line"
+       x="662.43195"
+       y="276.2323"
+       id="tspan4974-3"
+       style="text-align:center;text-anchor:middle">Sociais</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="662.43195"
+     y="325.13968"
+     id="text4970-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4972-5"
+       x="662.43195"
+       y="325.13968"
+       style="text-align:center;text-anchor:middle">Estudos</tspan><tspan
+       sodipodi:role="line"
+       x="662.43195"
+       y="357.86368"
+       id="tspan4974-9"
+       style="text-align:center;text-anchor:middle">Sociais</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:25.05475044px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="147.39894"
+     y="325.81281"
+     id="text4976-8"
+     sodipodi:linespacing="125%"
+     transform="scale(0.95704843,1.0448792)"><tspan
+       sodipodi:role="line"
+       id="tspan4978-9"
+       x="147.39894"
+       y="325.81281">Matemática</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:25.05475044px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="465.6077"
+     y="250.75017"
+     id="text4976-7"
+     sodipodi:linespacing="125%"
+     transform="scale(0.95704843,1.0448792)"><tspan
+       sodipodi:role="line"
+       id="tspan4978-3"
+       x="465.6077"
+       y="250.75017">Matemática</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:25.05475044px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="465.7142"
+     y="326.75107"
+     id="text4976-6"
+     sodipodi:linespacing="125%"
+     transform="scale(0.95704843,1.0448792)"><tspan
+       sodipodi:role="line"
+       id="tspan4978-1"
+       x="465.7142"
+       y="326.75107">Matemática</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="292.7467"
+     y="180.97096"
+     id="text4980-2"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4982-9"
+       x="292.7467"
+       y="180.97096">Português</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="597.64868"
+     y="98.618019"
+     id="text4980-3"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4982-1"
+       x="597.64868"
+       y="98.618019">Português</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="598.62903"
+     y="180.97096"
+     id="text4980-9"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4982-4"
+       x="598.62903"
+       y="180.97096">Português</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="509.83203"
+     y="166.0701"
+     id="text4984-7"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4986-8"
+       x="513.46234"
+       y="166.0701"
+       style="text-align:center;text-anchor:middle">Educação </tspan><tspan
+       sodipodi:role="line"
+       x="509.83203"
+       y="198.79408"
+       id="tspan4988-4"
+       style="text-align:center;text-anchor:middle">Física</tspan></text>
+  <text
+     xml:space="preserve"
+     style="font-size:26.17918777px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;text-align:start;line-height:125%;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;font-family:Arial;-inkscape-font-specification:Arial Bold"
+     x="783.45404"
+     y="259.52231"
+     id="text4990-5"
+     sodipodi:linespacing="125%"><tspan
+       sodipodi:role="line"
+       id="tspan4992-0"
+       x="783.45404"
+       y="259.52231">Artes</tspan></text>
+</svg>

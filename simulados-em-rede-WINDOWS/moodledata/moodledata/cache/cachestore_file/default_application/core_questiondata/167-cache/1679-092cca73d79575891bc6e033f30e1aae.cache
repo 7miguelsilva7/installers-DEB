@@ -1,0 +1,122 @@
+O:8:"stdClass":22:{s:2:"id";s:4:"1679";s:8:"category";s:2:"30";s:6:"parent";s:1:"0";s:4:"name";s:7:"PT-D21F";s:12:"questiontext";s:2354:"<p></p><p align="justify">
+(<b>Equipe
+PIP</b>).
+Leia o texto abaixo.</p>
+<p>
+<b>Texto
+1</b></p>
+<p align="center">
+<b>O
+açúcar</b></p>
+<p align="justify">
+O
+branco açúcar que adoçará meu café nesta manhã de Ipanema não
+foi produzido por mim nem surgiu dentro do açucareiro por milagre.
+Vejo-o puro e afável ao paladar como beijo de moça, água na pele,
+flor que se dissolve na boca. Mas este açúcar não foi feito por
+mim. 
+</p>
+<p align="justify">
+Este
+açúcar veio da mercearia da esquina e tampouco o fez o Oliveira,
+dono da mercearia. Este açúcar veio de uma usina de açúcar em
+Pernambuco ou no Estado do Rio e tampouco o fez o dono da usina. 
+</p>
+<p align="justify">
+Este
+açúcar era cana e veio dos canaviais extensos que não nascem por
+acaso no regaço do vale. 
+</p>
+<p align="justify">
+Em
+usinas escuras, homens de vida amarga e dura produziram este açúcar.
+
+</p>
+<p align="right">
+FERREIRA,
+Gullart. Toda Poesia. Rio de Janeiro</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="center">
+<b>O
+Trabalho e o Lavrador</b></p>
+<p align="justify">
+O
+que disse o pão ao padeiro? 
+</p>
+<p align="justify">
+Antes
+de pão, eu fui farinha, 
+</p>
+<p align="justify">
+Farinha
+que o moinho moía 
+</p>
+<p align="justify">
+Debaixo
+do olhar do moleiro. 
+</p>
+<p align="justify">
+O
+que disse a farinha ao moleiro? 
+</p>
+<p align="justify">
+Um
+dia fui grão de trigo 
+</p>
+<p align="justify">
+Que
+o lavrador ia colhendo 
+</p>
+<p align="justify">
+E
+empilhando no celeiro. 
+</p>
+<p align="justify">
+O
+que disse o grão ao lavrador? 
+</p>
+<p align="justify">
+Antes
+de trigo, fui semente, 
+</p>
+<p align="justify">
+Que
+tuas mãos semearam 
+</p>
+<p align="justify">
+Até
+que me fizesse em flor. 
+</p>
+<p align="justify">
+O
+que disse o lavrador às suas mãos? 
+</p>
+<p align="justify">
+Com
+vocês, lavro essa terra, 
+</p>
+<p align="justify">
+Semeio
+o trigo, colho o grão, 
+</p>
+<p align="justify">
+Moo
+a farinha e faço o pão. 
+</p>
+<p align="justify">
+E a
+isso tudo eu chamo trabalho. 
+</p>
+<p align="right">
+CAPARELLI,
+Sérgio. Poemas para crianças. Porto Alegre: L&amp;P, 2008. Adaptado
+Reforma Ortográfica.</p>
+<p align="justify">
+<br>
+
+</p>
+<p align="justify">Os textos 1 e 2 têm em comum o fato de: 
+</p><br><p></p>";s:18:"questiontextformat";s:1:"1";s:15:"generalfeedback";s:0:"";s:21:"generalfeedbackformat";s:1:"1";s:11:"defaultmark";d:1;s:7:"penalty";d:0.3333333;s:5:"qtype";s:11:"multichoice";s:6:"length";s:1:"1";s:5:"stamp";s:29:"localhost+180521193658+Nnly7U";s:7:"version";s:29:"localhost+180521193659+2CLjTx";s:6:"hidden";s:1:"0";s:11:"timecreated";s:10:"1526931418";s:12:"timemodified";s:10:"1526931418";s:9:"createdby";s:1:"2";s:10:"modifiedby";s:1:"2";s:9:"contextid";s:1:"1";s:7:"options";O:8:"stdClass":14:{s:2:"id";s:4:"1679";s:10:"questionid";s:4:"1679";s:6:"layout";s:1:"0";s:6:"single";s:1:"1";s:14:"shuffleanswers";s:1:"0";s:15:"correctfeedback";s:27:"Sua resposta está correta.";s:21:"correctfeedbackformat";s:1:"1";s:24:"partiallycorrectfeedback";s:40:"Sua resposta está parcialmente correta.";s:30:"partiallycorrectfeedbackformat";s:1:"1";s:17:"incorrectfeedback";s:29:"Sua resposta está incorreta.";s:23:"incorrectfeedbackformat";s:1:"1";s:15:"answernumbering";s:4:"none";s:14:"shownumcorrect";s:1:"1";s:7:"answers";a:4:{i:6717;O:8:"stdClass":7:{s:2:"id";s:4:"6717";s:8:"question";s:4:"1679";s:6:"answer";s:101:"<p style="display:inline;"> A) contarem a história de um pão que foi produzido por um lavrador.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6718;O:8:"stdClass":7:{s:2:"id";s:4:"6718";s:8:"question";s:4:"1679";s:6:"answer";s:99:"<p style="display:inline;"> B) compararem os sentimentos que envolvem os trabalhadores urbanos.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6719;O:8:"stdClass":7:{s:2:"id";s:4:"6719";s:8:"question";s:4:"1679";s:6:"answer";s:97:"<p style="display:inline;"> C) denunciarem as más condições de trabalho do homem do campo.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"0.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}i:6720;O:8:"stdClass":7:{s:2:"id";s:4:"6720";s:8:"question";s:4:"1679";s:6:"answer";s:100:"<p style="display:inline;"> D) retratarem os processos envolvidos na fabricação de um produto.</p>";s:12:"answerformat";s:1:"1";s:8:"fraction";s:9:"1.0000000";s:8:"feedback";s:0:"";s:14:"feedbackformat";s:1:"1";}}}s:5:"hints";a:0:{}}
