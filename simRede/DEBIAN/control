@@ -6,8 +6,5 @@ Maintainer: Miguel Silva
 Priority: standard
 Architecture: all
 Pre-Depends: dpkg
-Depends: xterm, zenity, git, unrar, zip, p7zip, unzip, chromium-browser
+Depends: xterm, zenity
 Description: Projeto de Simulados em rede local idealizado e desenvolvido por Marcos José Chagas e Miguel Silva, utilizando o software livre moodle
-
-
-
