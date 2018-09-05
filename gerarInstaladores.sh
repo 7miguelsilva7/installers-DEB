@@ -24,9 +24,9 @@ read num
 
 if [ $num == 1 ];
 then
-cd /opt/lampp/htdocs/installers-DEB/simRede/opt/lampp/htdocs/simrede/
+cd /opt/lampp/htdocs/installers/simRede/opt/lampp/htdocs/simrede/
 bash resetGit
-cd /opt/lampp/htdocs/installers-DEB/
+cd /opt/lampp/htdocs/installers/
 dpkg-deb -b -Z gzip simRede 0-instaladores/simRede-$date.deb
 fi
 
