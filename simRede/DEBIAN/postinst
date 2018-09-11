@@ -73,6 +73,4 @@ chmod +x /etc/rc.local
 zenity --info --text="Projeto instalado! \n
 Execute o seguinte comando \n bash ~/criarBD.sh \n para a criação das tabelas do banco de dados \n em caso de problemas reinicie o sistema e execute o comando acima novamente"
 
-sudo reboot
-
 fi
