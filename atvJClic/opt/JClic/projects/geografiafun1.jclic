@@ -29,8 +29,8 @@
     <window bgColor="0x97B8C7" border="true" />
    </settings>
    <menuElement icon="/opt/JClic/icons/jclic.png" path="disciplinasfun1.jclic" />
-   <menuElement caption="Mapas Brasil" icon="/opt/JClic/icons/geografia24.png" path="/opt/atvjclic/fundamental1/geografia/geografia_mapas.jclic.zip" description="" />
-   <menuElement caption="Biomas Brasileiro" icon="/opt/JClic/icons/geografia24.png" path="/opt/atvjclic/fundamental1/geografia/avaliacao_de_geofrafia___os_biomas_brasileiros.jclic.zip" description="" />
+   <menuElement caption="Mapas Brasil" icon="/opt/JClic/icons/geografia24.png" path="/opt/atvjclic/fundamental1/geografia/geografia_mapas.jclic.zip" description="Teste" />
+   <menuElement caption="Biomas Brasileiro" icon="/opt/JClic/icons/geografia24.png" path="/opt/atvjclic/fundamental1/geografia/avaliacao_de_geofrafia___os_biomas_brasileiros.jclic.zip" description="Teste 2" />
   </activity>
  </activities>
  <mediaBag>

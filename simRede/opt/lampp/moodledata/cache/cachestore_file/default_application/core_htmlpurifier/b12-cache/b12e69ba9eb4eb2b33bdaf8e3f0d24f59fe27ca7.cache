@@ -1,7 +1,0 @@
-s:653:"<p>Esta configuração possui 3 opções:</p>
-
-<ul><li>Nenhum grupo - Não há grupos, todos fazem parte de uma grande comunidade</li>
-<li>Grupos separados - Cada membro de grupo pode ver apenas seu próprio grupo, os outros são invisíveis</li>
-<li>Grupos visíveis - Cada membro do grupo trabalha no seu próprio grupo mas pode também ver outros grupos</li>
-</ul><p>O tipo de grupo definido no nível do curso é o padrão para todas as atividades do curso. Cada atividade que suporta grupos pode também definir seu próprio tipo de grupo mas, se o tipo de grupo é forçado no nível do curso, o tipo de grupo para cada atividade é ignorado.</p>
-";

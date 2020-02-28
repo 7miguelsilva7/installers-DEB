@@ -1,5 +1,0 @@
-#!/bin/sh
-bash opt/lampp/htdocs/simrede/resetGit
-tar zcvf arquivo.tar.gz opt/ tmp/ usr/
-cat head-install-moodle arquivo.tar.gz > install-SimRede.sh
-chmod +x install-SimRede.sh
