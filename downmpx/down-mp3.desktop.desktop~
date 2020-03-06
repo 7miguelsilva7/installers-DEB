@@ -1,0 +1,9 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Down MP3
+Exec=bash /opt/downMP3/downMP3.sh
+Icon=/usr/share/pixmaps/youtube-dlg.png
+Categories=Network;
+Comment=Download mp3 do youtube
+Name[pt_BR]=down-mp3.desktop

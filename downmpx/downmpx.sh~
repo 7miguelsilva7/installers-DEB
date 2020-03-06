@@ -1,0 +1,13 @@
+ans=$(zenity  --list  --text "Escolha o formato?" --radiolist  --column "Pick" --column "Opinion" TRUE Video FALSE Audio); 
+
+if [ "$ans" = "Audio e Video" ] ; then
+               bash /opt/downAV.sh
+fi
+
+if [ "$ans" = Audio ] ; then
+               bash /opt/downAudio.sh
+fi
+
+if [ "$ans" = Video ] ; then
+               bash /opt/downVideo.sh
+fi
